@@ -1,5 +1,6 @@
 /* Import Bootstrap styles */
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
   /* Use Poppins as the default font */
    * {
     font-family: 'Poppins', sans-serif;
@@ -27,24 +28,28 @@
    
   }
   .above-header{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
+   position: static;
     /* background-color: rgb(52, 52, 52); */
-    background-color: rgb(58, 58, 58);
+    background-color: palevioletred;
+    z-index: 3000;
     
   }
-
+   
+  .banner-static{
+    background-color: black;
+    top: 12em;
+  }
 
  
   .above-header.description{
-    margin-left: 33px;
+  
     /* color: silver; */
     color: white;
+   
       
     }
 
-nav {
+.nav-static {
     background-color: darkmagenta; 
     display: flex;
     
@@ -52,13 +57,21 @@ nav {
 
     
   }
-  .navbar-toggle {
-    display: none; /* Hide the toggle button by default */
+  .navbar.navbar-dark.bg-purple.fixed-top{
+    
+    background-color: purple;
+  }
+
+  .brand-container{
+
+   margin-right: 80em;
+
   }
   
   .navbar-brand {
     color: white;
-    font-size: 1.5em;
+    font-family: 'Audiowide', cursive;
+    font-size: 18px;
   }
   
   
@@ -111,7 +124,28 @@ nav {
   .navbar.responsive .nav-links li {
     text-align: center; /* Center the navigation links */
   }
-
+  .offcanvas-title{
+    width: 120px;
+    height: 50px;
+    background-color:black; 
+  
+    border-color:white;
+    color: white
+  }
+  .offcanvas-title:hover{
+  
+    border-color: blueviolet;
+  }
+  .dropdown-item{
+    color: white;
+  }
+  .dropdown-item:hover{
+    color: midnightblue;
+  }
+  .offcanvas.offcanvas-end.text-bg-dark{
+    width: 200px;
+    height: 400px;
+  }
  
 
   .sub-nav {
@@ -148,16 +182,14 @@ nav {
 
  }
  .content-cache00{
-   display: flex;
-   flex: 1;
-   margin-right: 10em;
+ 
+   margin-right: 1em;
  }
 
- .content-cache01{
+ /* .content-cache01{
    display: flex;
    flex: 2;
-   flex-direction: row;
-   margin-right: 8em;
+   margin-left: 12em;
    height: 200px;
    align-items: center;
    border-top-color: white;
@@ -166,17 +198,18 @@ nav {
  }
  .img-cache01{
   width: 300px;
-  margin-left: 5em;
- }
+ 
+ 
+ } */
 
- .banner-title{
-   margin-top: 5px;
-   flex: 2;
-   margin-left: -15em;
+ /* .banner-title{
+   margin-right: 2em;
    text-align: center;
-   font-size: 33px;
+   font-size: 30px;
+
+ 
    
- }
+ } */
 .wp-block-column{
   display: flex;
   flex-direction: row;
@@ -651,33 +684,10 @@ nav {
     .body {
       grid-template-columns: none;
     }
-    nav .nav-links {
-      display: none; /* Hide the navigation links by default */
-    }
-    .navbar-toggle {
-      display: block; /* Show the toggle button */
-    }
-    .navbar.responsive .nav-links {
-      display: block; /* Show the navigation links as a block element */
-    }
-    .navbar.responsive .nav-links li {
-      text-align: center; /* Center the navigation links */
-    }
-    .sub-nav-links {
-      display: block; /* Change the display of the sub-nav links to a block element */
-    }
-    .sub-nav-links a {
-      display: inline-block; /* Change the display of the sub-nav links to an inline-block element */
-    }
-    .search-form {
-      display: block; /* Change the display of the search form to a block element */
-    }
-    .search-form input {
-      width: calc(100% - 3em); /* Make the input field fill the remaining space except for the margin of the search button */
-    }
-    .search-form button {
-      display: inline-block; /* Change the display of the search button to an inline-block element */
-      margin: 0; /* Remove the margin from the search button */
+    .nav-static,
+    .sub-nav,
+    .sub-nav-links{
+      display: none;
     }
     .card-container {
       margin: 0 10px;
@@ -694,12 +704,23 @@ nav {
     }
   }
   @media screen and (max-width: 600px) {
+    .nav-static,
+    .sub-nav,
+    .sub-nav-links{
+      display: none;
+    }
     .card-container {
       margin: 0 5px;
     }
   }
 
   @media screen and (max-width: 400px) {
+    .nav-static,
+    .sub-nav
+    .sub-nav-links{
+      display: none;
+    }
+  
     .card-container {
       margin: 0 2px;
     }
@@ -709,40 +730,23 @@ nav {
     .wrapper {
       display: block;
     }
+    .nav-static,
+    .sub-nav , 
+    .sub-nav-links{
+      display: none;
+    }
+    
+  
     .body {
       grid-template-columns: none;
     }
-    nav .nav-links {
-      display: none; /* Hide the navigation links by default */
+    .nav-static,
+    .sub-nav,
+    .sub-nav-links{
+      display: none;
     }
-    .navbar-toggle {
-      display: block; /* Show the toggle button */
-    }
-    .navbar.responsive .nav-links {
-      display: block; /* Show the navigation links as a block element */
-    }
-    .navbar.responsive .nav-links li {
-      text-align: center; /* Center the navigation links */
-    }
-    .sub-nav-links {
-      display: block; /* Change the display of the sub-nav links to a block element */
-    }
-    .sub-nav-links a {
-      display: inline-block; /* Change the display of the sub-nav links to an inline-block element */
-    }
-    .search-form {
-      display: block; /* Change the display of the search form to a block element */
-    }
-    .search-form input {
-      width: calc(100% - 3em); /* Make the input field fill the remaining space except for the margin of the search button */
-    }
-    .search-form button {
-      display: inline-block; /* Change the display of the search button to an inline-block element */
-      margin: 0; /* Remove the margin from the search button */
-    }
-    .card-container {
-      margin: 0 2px;
-    }
+
+   
   }
   
 
