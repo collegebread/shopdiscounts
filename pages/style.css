@@ -247,11 +247,34 @@ nav {
 }
 
 .show-all-container {
-  text-align: center;
+
+  font-size: 12px;
 }
 
 .list-item {
   display: none;
+}
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
+.min-price-input,
+.max-price-input {
+  width: 70px;
+  height: 30px;
+  margin: 0 3px;
+  padding: 0 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.dash {
+  margin: 0 0.2em;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .secondary-sidebar {
