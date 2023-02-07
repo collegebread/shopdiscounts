@@ -198,16 +198,14 @@ nav {
 }
 .sort-results{
   flex: 1;
-  margin-left:180px ;
   margin-top: 12px;
   font-weight: bolder;
  
 
 }
  .sort-by-btn {
-  width: 33em;
+  width: 360px;
   flex: 2;
-  margin-left: 230px;
   background-color: white;
   color: silver;
   padding: 10px 10px;
@@ -220,7 +218,7 @@ nav {
 }
 
 .sort-by-btn i {
-  margin-left: 275px;
+  margin-left: 285px;
   transition: all 0.3s ease;
 }
 
@@ -615,7 +613,7 @@ nav {
     position: relative;
     display: flex;
     top: 5em;
-    margin-left: 45em;
+    margin-left: 800px;
     justify-content: center;
     align-items: center;
    
@@ -643,8 +641,8 @@ nav {
   
   .prev-page-btn:hover,
   .next-page-btn:hover {
-    background-color: white;
-    color: black;
+    background-color: silver;
+    color: white;
   }
   
   .footer {
@@ -729,6 +727,75 @@ nav {
       display: none;
     }
   }
+  .sort-container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  
+    
+  }
+  .sort-results{
+    flex: 1;
+    font-weight: bolder;
+   
+  
+  }
+   .sort-by-btn {
+    flex: 2;
+    margin-left: 800px;
+    background-color: white;
+    color: silver;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: solid;
+    border-color: #eee;
+   
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .sort-by-btn i {
+    margin-left: 250px;
+    transition: all 0.3s ease;
+  }
+
+
+  .card-container {
+    margin: 0 10px;
+  }
+  .scroll-right {
+    margin-left: 33px; /* adjust the position of the element for screens with a width of 800px or less */
+ }
+ .pagination-container {
+  position: relative;
+  display: flex;
+  top: 5em;
+  margin-left: 400px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.prev-page-btn,
+.next-page-btn {
+  height: 40px;
+  background-color: white;
+  border: none;
+  color: silver;
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  padding: 10px 15px;
+  font-size: 1.0em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.prev-page-btn i,
+.next-page-btn i {
+  margin-right: 10px;
+}
+  
 
   
   
@@ -770,12 +837,79 @@ nav {
       display: inline-block; /* Change the display of the search button to an inline-block element */
       margin: 0; /* Remove the margin from the search button */
     }
+
+    .sort-container{
+ 
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+     
+      
+    }
+    .sort-data{
+      flex: 1;
+      top: 12px;
+
+     
+    
+    }
+     .sort-by-btn {
+      width: 222px;
+      flex: 2;
+      margin-left: 50px;
+      background-color: white;
+      color: silver;
+      padding: 10px 10px;
+      font-size: 16px;
+      border: solid;
+      border-color: #eee;
+     
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .sort-by-btn i {
+      margin-left: 100px;
+      transition: all 0.3s ease;
+    }
+
+
     .card-container {
       margin: 0 10px;
     }
     .scroll-right {
       margin-left: 33px; /* adjust the position of the element for screens with a width of 800px or less */
    }
+   .pagination-container {
+    position: relative;
+    display: flex;
+    top: 5em;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .prev-page-btn,
+  .next-page-btn {
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: silver;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    padding: 10px 15px;
+    font-size: 1.0em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .prev-page-btn i,
+  .next-page-btn i {
+    margin-right: 10px;
+  }
+  
   
     .footer {
       flex-direction: column;
