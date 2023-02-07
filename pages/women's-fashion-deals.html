@@ -12,6 +12,22 @@
 </head>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<input type="number" id="min-price" class="min-price-input" placeholder="$0" min="0" required pattern="^\d*[1-9]\d*$">
+<div class="error-message" id="min-price-error"></div>
+
+<script>
+  const minPriceInput = document.getElementById("min-price");
+  const minPriceError = document.getElementById("min-price-error");
+  minPriceInput.addEventListener("input", function() {
+    if (this.validity.valid) {
+      this.style.borderColor = "";
+      minPriceError.innerHTML = "";
+    } else {
+      this.style.borderColor = "red";
+      minPriceError.innerHTML = "Please enter a number greater than or equal to 0.";
+    }
+  });
+</script>
 <body>
      <div class="wrapper">
     <!-- Above header -->
@@ -98,63 +114,62 @@
                   
                   <hr class="section-divider"/>
                   <!-- Add organized interactive coupon cards for the body here -->
+                
+                  <div class="sort-container">
+                    <h6 class="sort-results">Showing:</h6>
+                    <button class="sort-by-btn">Sort by: <i class="fas fas fa-chevron-right"></i></button>
+                    <!-- Add your coupon cards here -->
+                  </div>
                   
-             
                   <div class="primary-sidebar">
                     <div class="block-i">
-                      <h3 class="label">Shop deals for</h3>
+                      <h3 class="label">Shop deals by</h3>
                       <hr/>
-                      <h6>Top Catagories</h6>
+                      <h6>Store</h6>
                       <ul>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Clothing">
-                            <a href="#">Dresses</a>
+                            <a href="#">Adidas</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Shoes">
-                            <a href="#">Bottoms</a>
+                            <a href="#">Banana Republic</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#">Tops</a>
+                            <a href="#">Khol's</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">Shoes</a>
+                            <a href="#">Gap</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">Accessories</a>
+                            <a href="#">H&M</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">Denim</a>
+                            <a href="#">Levi's</a>
                           </label>
                         </li>
-                      </ul>
-                    </div>
-                    <div class="block-ii">
-                      <h3 class="label">Filter results by</h3>
-                      <hr>
-                      <h6>Brands</h6>
-                      <ul>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
-                          <label for="Accessories">
-                            <a href="#" class="list-item">Adidas</a>
+                          <label for="Home & Living">
+                            <a href="#">Macy's</a>
                           </label>
                         </li>
+                        <li>
                         <li>
                         <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
@@ -165,18 +180,6 @@
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
                             <a href="#" class="list-item">Forever 21</a>
-                          </label>
-                        </li>
-                        <li>
-                          <input type="checkbox" id="Accessories" name="Accessories">
-                          <label for="Accessories">
-                            <a href="#" class="list-item">Gap</a>
-                          </label>
-                        </li>
-                        <li>
-                          <input type="checkbox" id="Accessories" name="Accessories">
-                          <label for="Accessories">
-                            <a href="#" class="list-item">H&M</a>
                           </label>
                         </li>
                         <li>
@@ -210,9 +213,6 @@
                           </label>
                         </li>
                       </ul>
-                      
-                      
-                      
                       <div class="show-all-container">
                         <a href="#" class="show-all">Show All</a>
                       </div>
@@ -221,18 +221,22 @@
                     
                     
                     <div class="block-iii">
-                      <h2 class="label">Filter by Price</h2>
+                      <h3 class="label">Filter results by</h3>
+                      <hr>
+                      <h6>Price</h6>
                       <div class="price-container">
-                        <input type="number" id="min-price" class="min-price-input" placeholder="$0" min="0>
+                        <input type="number" id="min-price" class="min-price-input" placeholder="$0" min="0" required pattern="^\d*[1-9]\d*$">
+                        <div class="error-message" id="min-price-error"></div>
                         <label class="dash">to</label>
                         <input type="number" id="max-price" class="max-price-input" placeholder="$Max">
+                       
                       </div>
+                      <h6>Discount</h6>
                       </div>
                         </div> 
                         <div class="card-stack">
-                         
-                          
                           <div class="card-row">
+                            <h3 class="card-row-title" id="card-row-title-1">Top Coupons for Women's Fashion</h3>
                             <button class="scroll-left" tabindex="0" aria-label="Scroll left"><i class="fas fa-arrow-left"></i></button>
                             <div class="card-container" aria-labelledby="card-title-1 card-description-1">
                               <div class="card-image">
@@ -520,6 +524,14 @@
                           </div>
                           </div>
                           </div>
+                          <div class="pagination-container">
+                            <button class="prev-page-btn">
+                              <i class="fas fa-chevron-left"></i> Prev
+                            </button>
+                            <button class="next-page-btn">
+                              Next <i class="fas fa-chevron-right"></i>
+                            </button>
+                          </div>                          
                           </div>
                          
                  

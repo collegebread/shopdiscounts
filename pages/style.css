@@ -188,13 +188,49 @@ nav {
  
  
  } */
+.sort-container{
+ 
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 7em;
+  
+}
+.sort-results{
+  flex: 1;
+  margin-left:180px ;
+  margin-top: 12px;
+  font-weight: bolder;
+ 
+
+}
+ .sort-by-btn {
+  width: 33em;
+  flex: 2;
+  margin-left: 230px;
+  background-color: white;
+  color: silver;
+  padding: 10px 10px;
+  font-size: 16px;
+  border: solid;
+  border-color: #eee;
+ 
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sort-by-btn i {
+  margin-left: 275px;
+  transition: all 0.3s ease;
+}
+
 
 .primary-sidebar {
   display: flex;
   float: left;
   position: absolute;
   flex-direction: column;
-  top: 20em;
+  top: 25em;
   left: 0;
   border-style: solid;
   border-width: 1px;
@@ -212,7 +248,7 @@ nav {
 .primary-sidebar .block-iv {
   width: 200px;
   background-color: #ffffff;
- margin-top: 2em;
+ margin-top: 1em;
   padding: 20px;
  
 }
@@ -259,6 +295,9 @@ nav {
   align-items: center;
 }
 
+
+
+
 .min-price-input,
 .max-price-input {
   width: 70px;
@@ -270,6 +309,16 @@ nav {
 }
 .dash {
   margin: 0 0.2em;
+}
+.min-price-input {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 .label {
@@ -424,12 +473,13 @@ nav {
  
 
   .card-container {
-   
+   position: relative;
     display: inline-block;
     justify-content: center;
      align-items: center;
     width: 230px;
     height: 360px;
+    top: 3em;
     justify-content: center; /* Add a left and right margin of 10 pixels */
     padding: 1.5em;
     background-color: white;
@@ -457,7 +507,7 @@ nav {
     font-weight: bold; /* Make the text bold */
     text-transform: uppercase; /* Convert the text to uppercase */
     color: #333; /* Set the text color to a dark grey */
-    margin-top: 1em; /* Add a bottom margin of 1em */
+    margin-top: 5em; /* Add a bottom margin of 1em */
     margin-left: 3em; /* Add a bottom margin of 1em */
     margin-bottom: 1em;
  
@@ -559,6 +609,42 @@ nav {
   .thumbs-up-btn:hover,
   .comment-btn:hover {
     color: #2d3436;
+  }
+
+  .pagination-container {
+    position: relative;
+    display: flex;
+    top: 5em;
+    margin-left: 45em;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .prev-page-btn,
+  .next-page-btn {
+    height: 40px;
+    background-color: white;
+    border: none;
+    color: silver;
+    border-style: solid;
+    border-width: 1px;
+    border-color: silver;
+    padding: 10px 15px;
+    font-size: 1.0em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .prev-page-btn i,
+  .next-page-btn i {
+    margin-right: 10px;
+  }
+  
+  .prev-page-btn:hover,
+  .next-page-btn:hover {
+    background-color: white;
+    color: black;
   }
   
   .footer {
