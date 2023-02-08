@@ -156,6 +156,7 @@ nav {
 }
 
 .ad-banner{
+
   display: flex;
   flex-direction: row;
   height: 250px;
@@ -173,17 +174,17 @@ nav {
  } */
 
  .content-cache01{
-   display: flex;
-   flex-direction: row;
+  
    
  }
  .banner-title{
-  flex: 1;
-  margin-top: 53px;
+  margin-top: 173px;
+  margin-left: 77px;
  }
  .img-cache01{
-  flex: 2;
+  margin-top: 0;
   width: 300px;
+  
   
  
  
