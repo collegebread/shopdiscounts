@@ -48,7 +48,7 @@
 
 
 .navbar {
-    background-color: darkmagenta; 
+  background-color: blueviolet;
     display: flex;
   
     justify-content: space-between;
@@ -97,8 +97,8 @@
   }
   
   .nav-links li a:hover {
-    /* background-color: #333; */
-    background-color: rgb(120, 108, 213);
+     background-color: #333;
+    /* background-color: rgb(120, 108, 213); */
   }
   
   .nav-links li a i {
@@ -148,22 +148,26 @@
   }
  
 
-  .sub-nav {
-    background-color:  #00F2F3;
-    color: #333;
+  .subnav-bar {
+    background-color:  darkmagenta;
+  
   }
   
-  .sub-nav-links, .sub-nav-links a {
+  .subnav-list {
     display:flex;
     color: black;
     justify-content: space-evenly;
     padding: 2px 0; /* Add padding to the top and bottom of the other links */
     text-decoration: none;
-    color: blue;
+    color: rgb(243, 243, 243)
 
 }
+.subnav-link a,.subnav-link a:hover{
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+ }
 
-.sub-nav-links .inactive {
+.subnav-link .inactive {
   pointer-events: none;
   color: black;
 }
@@ -175,6 +179,7 @@
    background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127));
   /* background-color: darkmagenta; */
    /* background-color: #fcf2f8; */
+  
   justify-content: center;
   align-items: center;
 

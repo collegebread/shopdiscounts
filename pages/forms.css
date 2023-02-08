@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 a{ 
     color: dimgray;
  }    
@@ -7,29 +8,86 @@ a{
  justify-content: center;
  font-family: sans-serif;
  /* background: linear-gradient(to right,purple, midnightblue); */
-  background-color: rgb(68, 189, 157);
+  /* background-color: rgb(68, 189, 157); */
+  background-color: #ccc;
 }
-.signup-form {
-  display: inline-block;
-  width: 400px;
-  height: 600px;
+.import-form{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: auto;
   margin: 25px 25px;
   padding: 12px;
+  border-radius: 24px;
+  background-color: white;
+  /* background-color: rgb(68, 189, 157); */
+
+
+}
+.top-header{
+  flex: 1;
+  width: 600px;
+ height: 600px;
+ padding: 12px;
+ border-radius: 24px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127)); */
+ background-color:blueviolet;
+}
+
+.top-brand{
+  margin-top: 18px;
+  text-decoration: none;
+  margin-left: 12px;
+  font-family: 'Audiowide', cursive;
+  font-size: 18px;
+  color: white;
+  border-color: blueviolet;
+}
+
+.top-cta{
+  justify-content: center;
+  margin-top: 94px;
+  margin-left: 12px;
+  color: white;
+}
+.ad-banner{
+  display: flex;
+  flex-direction: row;
+  border-radius: 18px;
+  background-color: rgb(37, 37, 37);
+
+}
+.import-cache010{
+  margin-left: 12px;
+  margin-top: 12px;
+  font-size: 18px;
+  color: silver;
+}
+
+.signup-form {
+
+  flex: 2;
+  width: 400px;
+  height: 600px;
+
+  padding: 12px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 24px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .login-form{
   display: inline-block;
+  flex: 2;
   width: 400px;
   height: 600px;
-  margin: 25px 25px;
+
   padding: 12px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 24px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
 
 }
 

@@ -44,7 +44,7 @@
     }
 
 nav {
-    background-color: darkmagenta; 
+  background-color: blueviolet;
     display: flex;
     
     justify-content: space-between;
