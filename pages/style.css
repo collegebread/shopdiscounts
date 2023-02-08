@@ -159,7 +159,7 @@ nav {
   display: flex;
   flex-direction: row;
   height: 250px;
-   background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127));
+   background: linear-gradient(to right, rgb(255, 255, 255), rgb(142, 255, 234));
   /* background-color: darkmagenta; */
    /* background-color: #fcf2f8; */
   justify-content: center;
