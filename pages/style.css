@@ -1,5 +1,6 @@
 /* Import Bootstrap styles */
 /* Import Bootstrap styles */
+
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
   /* Use Poppins as the default font */
@@ -11,6 +12,7 @@
   a {
     text-decoration: none;
   }
+  
 
   /* Use consistent positive color patterns throughout */
   
@@ -50,6 +52,10 @@
     justify-content: space-between;
 
     
+  }
+  .navbar.navbar-dark.bg-purple.fixed-top{
+    display: none;
+    background-color: blueviolet;
   }
   .navbar-toggle {
     display: none; /* Hide the toggle button by default */
@@ -196,25 +202,22 @@ color: black;
    margin-right: 1em;
  }
 
-
-.sort-container{
- 
+ .sort-container{
   position: absolute;
   display: flex;
   flex-direction: row;
-  left: 7em;
+
   
 }
 .sort-results{
   flex: 1;
-  margin-top: 12px;
   font-weight: bolder;
  
 
 }
  .sort-by-btn {
-  width: 360px;
   flex: 2;
+  margin-left: 800px;
   background-color: white;
   color: silver;
   padding: 10px 10px;
@@ -227,7 +230,7 @@ color: black;
 }
 
 .sort-by-btn i {
-  margin-left: 285px;
+  margin-left: 250px;
   transition: all 0.3s ease;
 }
 
@@ -494,10 +497,12 @@ color: black;
     border-radius: 5px;
     flex-wrap: nowrap;
     overflow:visible;
+      margin: 0 10px;
+    }
    
 
  
-  }
+  
   .card-row {
     display: inline-block;
     width: auto;
@@ -695,86 +700,11 @@ color: black;
     color: #fff;
   }
 
-  @media (max-width: 992px) {
-    .navbar.container-fluid {
-      display: flex;
-      align-items: center;
-    }
-    .navbar.navbar-dark.bg-purple.fixed-top{
-      display: hidden;
-    }
-    .navbar-brand {
-      flex: 1;
-    }
-    .search-form {
-      flex: 2;
-    }
-    .navbar-toggle {
-      display: none;
-    }
-    .nav-links {
-      flex: 3;
-      display: flex;
-      justify-content: flex-end;
-    }
-    .scroll-right,
-    .scroll-left{
-     display: none;
-     
-    }
-    
-    .secondary-sidebar {
-      position: absolute;
-      width: 200px; /* Take up the full width of the screen */
-      float: right; /* Don't float the element */
-      top: 500px;
-    }
-    .bloc-i{
-    display: none;
-    }
-    .bloc-ii{
-     display: none;
-    }
-    .bloc-iii{
-      display: none;
-    }
-  }
-  .sort-container{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-  
-    
-  }
-  .sort-results{
-    flex: 1;
-    font-weight: bolder;
-   
-  
-  }
-   .sort-by-btn {
-    flex: 2;
-    margin-left: 800px;
-    background-color: white;
-    color: silver;
-    padding: 10px 10px;
-    font-size: 16px;
-    border: solid;
-    border-color: #eee;
-   
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .sort-by-btn i {
-    margin-left: 250px;
-    transition: all 0.3s ease;
-  }
 
 
-  .card-container {
-    margin: 0 10px;
-  }
+
+
+
   .scroll-right {
     margin-left: 33px; /* adjust the position of the element for screens with a width of 800px or less */
  }
@@ -821,33 +751,12 @@ color: black;
     .body {
       grid-template-columns: none;
     }
-    nav .nav-links {
-      display: none; /* Hide the navigation links by default */
+    .navbar.container-fluid{
+      display: none;
     }
-    .navbar-toggle {
-      display: block; /* Show the toggle button */
-    }
-    .navbar.responsive .nav-links {
-      display: block; /* Show the navigation links as a block element */
-    }
-    .navbar.responsive .nav-links li {
-      text-align: center; /* Center the navigation links */
-    }
-    .sub-nav-links {
-      display: block; /* Change the display of the sub-nav links to a block element */
-    }
-    .sub-nav-links a {
-      display: inline-block; /* Change the display of the sub-nav links to an inline-block element */
-    }
-    .search-form {
-      display: block; /* Change the display of the search form to a block element */
-    }
-    .search-form input {
-      width: calc(100% - 3em); /* Make the input field fill the remaining space except for the margin of the search button */
-    }
-    .search-form button {
-      display: inline-block; /* Change the display of the search button to an inline-block element */
-      margin: 0; /* Remove the margin from the search button */
+
+      .subnav-link{
+      display: none;
     }
 
     .sort-container{
