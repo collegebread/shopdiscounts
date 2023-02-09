@@ -123,7 +123,11 @@
   }
   
   #button-green a {
+    background-color: rgb(120, 108, 213);
+  }
+  #button-green a:hover {
     background-color: #00ff00;
+    color: rgb(255, 255, 255);
   }
   
   .navbar.responsive .nav-links {
