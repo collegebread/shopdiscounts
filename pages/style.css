@@ -24,7 +24,7 @@
   .wrapper {
     padding-right: 8px; /* 3 */
     padding-left: 8px; /* 3 */
-    background-color: #dddddd;
+    background-color: #f9f9f9;
    
   }
   .above-header{
@@ -43,7 +43,7 @@
       
     }
 
-nav {
+.navbar.container-fluid {
   background-color: blueviolet;
     display: flex;
     
@@ -63,7 +63,7 @@ nav {
     margin-left: 1em;
     color: white;
     font-family: 'Audiowide', cursive;
-    font-size: 24px;
+    font-size: 18px;
   }
   .offcanvas-title{
     width: 120px;
@@ -150,16 +150,36 @@ nav {
 
 }
 
-.sub-nav-links .inactive {
-  pointer-events: none;
+.subnav-bar {
+  background-color:  darkmagenta;
+
+}
+
+.subnav-list {
+  display:flex;
   color: black;
+  justify-content: space-evenly;
+  padding: 2px 0; /* Add padding to the top and bottom of the other links */
+  text-decoration: none;
+  color: rgb(243, 243, 243)
+
+}
+.subnav-link a,.subnav-link a:hover{
+text-decoration: none;
+color: rgb(221, 221, 221);
+}
+
+.subnav-link .inactive {
+pointer-events: none;
+color: black;
 }
 
 .ad-banner{
   display: flex;
   flex-direction: row;
+ 
   height: 250px;
-  background: linear-gradient(to right,rgb(82, 3, 122),white,white, rgb(255, 202, 202));
+  background: linear-gradient(to right,rgb(82, 3, 122),white,white, rgb(20, 198, 127));
    /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127)); */
   /* background-color: darkmagenta; */
    /* background-color: #fcf2f8; */
@@ -213,7 +233,7 @@ nav {
   float: left;
   position: absolute;
   flex-direction: column;
-  top: 25em;
+  top: 33em;
   left: 0;
   border-style: solid;
   border-width: 1px;
@@ -672,9 +692,12 @@ nav {
   }
 
   @media (max-width: 992px) {
-    .navbar {
+    .navbar.container-fluid {
       display: flex;
       align-items: center;
+    }
+    .navbar.navbar-dark.bg-purple.fixed-top{
+      display: hidden;
     }
     .navbar-brand {
       flex: 1;

@@ -12,8 +12,6 @@
 </head>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-<input type="number" id="min-price" class="min-price-input" placeholder="$0" min="0" required pattern="^\d*[1-9]\d*$">
-<div class="error-message" id="min-price-error"></div>
 
 <script>
   const minPriceInput = document.getElementById("min-price");
@@ -29,7 +27,7 @@
   });
 </script>
 <body>
-     <div class="wrapper">
+    <div class="wrapper">
     <!-- Above header -->
     <header class="above-header">
       <!-- Add content for the above header here -->
@@ -37,10 +35,39 @@
         <h4 class="above-header description">Act fast and save big on your favorite brands with our coupons and promo codes</h4>
       </div>  -->
       </header>
+
     <!-- Main header -->
     <header class="main-header">
+  
+      <nav class="navbar container-fluid">
+        <a href="../index.html" class="navbar-brand">Dealhunter</a>
+        <form class="search-form" aria-label="Search Coupons, Deals, and More">
+          <input type="text" placeholder="Search Coupons, Deals, and More">
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+        <ul class="nav-links" aria-labelledby="navbar-brand">
+          <li class="button-blue"><a href="#"><i class="fas fa-puzzle-piece"></i> Add to Browser</a></li>
+          <li id="button-green"><a href="#"><i class="fas fa-share-alt"></i> Share a Coupon</a></li>
+          <li><a href="#"><i class="fas fa-bell"></i> Alerts</a></li>
+          <li><a href="pages/login.html">Login</a></li>
+          <li><a href="pages/sign-up.html"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+        </ul>
+      </nav>
+    
+      <div class="subnav-bar">
+        <ul class="subnav-list" aria-labelledby="sub-nav-header">
+          <li class="subnav-link"><a class="inactive" href="#">Trending</a></li>
+          <li class="subnav-link"><a href="#">Top Coupons</a></li>
+          <li class="subnav-link"><a href="pages/women's-fashion-deals.html">Clothes & Fashion</a></li>
+          <li class="subnav-link"><a href="#">Beauty and Health</a></li>
+          <li class="subnav-link"><a href="#">Grocery</a></li>
+          <li class="subnav-link"><a href="#">Video Games</a></li>
+          <li class="subnav-link"><a href="#">Tech</a></li>
+          <li class="subnav-link"><a href="#">Babies and Kids</a></li>
+        </ul>
+      </nav>
       <!-- Add content for the main header here -->
-     <nav  class="navbar navbar-dark bg-purple fixed-top">
+     <!-- <nav  class="navbar navbar-dark bg-purple fixed-top">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span> </button>
@@ -89,10 +116,9 @@
           
         </div>
       </div>
-    </nav> 
-    </header>
+    </nav>  -->
+ 
     
-      </div>
          <div class="ad-banner">
      <div class="content-cache00">
       <img style="width: 300px; height: 400px; margin-left: 2em;" src="undraw_gift_re_qr17.svg">
@@ -525,8 +551,8 @@
                   </div>
                           </div>
                           </div>
-                          </div>
-                          </div>
+                          
+                         
                           <div class="pagination-container">
                             <button class="prev-page-btn">
                               <i class="fas fa-chevron-left"></i> Prev
