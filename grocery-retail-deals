@@ -106,7 +106,7 @@
         <ul class="subnav-list" aria-labelledby="sub-nav-header">
           <li class="subnav-link"><a class="inactive" href="#">Trending</a></li>
           <li class="subnav-link"><a href="#">Top Coupons</a></li>
-          <li class="subnav-link"><a href="women's-fashion-deals.html">Clothes & Fashion</a></li>
+          <li class="subnav-link"><a href="pages/women's-fashion-deals.html">Clothes & Fashion</a></li>
           <li class="subnav-link"><a href="#">Beauty and Health</a></li>
           <li class="subnav-link"><a href="#">Grocery</a></li>
           <li class="subnav-link"><a href="#">Video Games</a></li>
@@ -150,27 +150,6 @@
                   
                   <div class="primary-sidebar">
                     <div class="block-i">
-                      <h3 class="label">Show results for </h3>
-                      <hr/>
-                      <h6>Category</h6>
-                      <ul>
-                        <li>
-                          <input type="checkbox" id="Accessories" name="Accessories">
-                          <label for="Clothing">
-                            <a href="#">Women</a>
-                          </label>
-                        </li>
-                        <li>
-                          <input type="checkbox" id="Accessories" name="Accessories">
-                          <label for="Shoes">
-                            <a href="#">Men</a>
-                          </label>
-                        </li>
-                      </ul>
-                     
-                      <hr class="divider"/>
-                    </div>
-                    <div class="block-ii">
                       <h3 class="label">Shop deals by</h3>
                       <hr/>
                       <h6>Store</h6>
@@ -178,86 +157,86 @@
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Clothing">
-                            <a href="#">Adidas</a>
+                            <a href="#">Aldi</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Shoes">
-                            <a href="#">Banana Republic</a>
+                            <a href="#">Costco</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#">Khol's</a>
+                            <a href="#">BJ's</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">Gap</a>
+                            <a href="#">Fresh Market</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">H&M</a>
+                            <a href="#">Kroger</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">Levi's</a>
+                            <a href="#">Publix</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Home & Living">
-                            <a href="#">Express</a>
+                            <a href="#">Sprout's</a>
                           </label>
                         </li>
                         <li>
                         <li>
                         <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">American Eagle</a>
+                            <a href="#" class="list-item">Sam's Club</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">Forever 21</a>
+                            <a href="#" class="list-item">Target</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">Hermes</a>
+                            <a href="#" class="list-item">Walmart</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">Michael Kors</a>
+                            <a href="#" class="list-item">Trader Joe's</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">Nike</a>
+                            <a href="#" class="list-item">Family Dollar</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">Under Armour</a>
+                            <a href="#" class="list-item">Food Lion</a>
                           </label>
                         </li>
                         <li>
                           <input type="checkbox" id="Accessories" name="Accessories">
                           <label for="Accessories">
-                            <a href="#" class="list-item">Zara</a>
+                            <a href="#" class="list-item">KMart</a>
                           </label>
                         </li>
                       </ul>
