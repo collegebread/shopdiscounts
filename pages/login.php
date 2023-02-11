@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +27,7 @@
     <div class="login-form">
         <h1>Welcome Back</h1>
         <p>Log In to your account below</p>
-        <form>
+        <form action="login_action.php" method="post">
             <div class="form-section">
             <label class="email-input" for="email">Email address</label>
             <input type="text" id="email" name="username"> 
@@ -44,10 +47,4 @@
               <hr>  
             
             </div>   
-            <button type="button" class="google-btn"> <img style="width: 20px;height:20px; margin-right: 53px; background-color: white;" src="images/logo-google.png" >Sign in with Google</button>
-            <button style="background-color: black;" type="button" class="google-btn"><img style="width: 20px;height:20px; margin-right: 28px; background-color: white;" src="images/apple-logo-svgrepo-com.svg" >Sign in with with Apple</button>
-            <p>Need an account? <a href="sign-up.html">SIGN UP</a></p>
-        </div>
-        </form>
-</body>
-</html>
+            <button type="

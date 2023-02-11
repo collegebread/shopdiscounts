@@ -101,44 +101,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-<script>
-    var listItems = document.querySelectorAll('.list-item');
-    var showAllLink = document.querySelector('.show-all');
-    
-    for (var i = 5; i < listItems.length; i++) {
-      listItems[i].style.display = "none";
-    }
-  
-    showAllLink.addEventListener('click', function() {
-      for (var i = 0; i < listItems.length; i++) {
-        listItems[i].style.display = "block";
-      }
-      showAllLink.style.display = "none";
-    });
-  </script>
-  <script type="text/javascript" src="Server Backup\Wordpress\js"></script>
-  <!--expands show-all -->
-  <script> var showAll = document.querySelector('.show-all');
-  var listItems = document.querySelectorAll('.list-item');
-  
-  showAll.addEventListener('click', function(e) {
-    e.preventDefault();
-    for (var i = 0; i < listItems.length; i++) {
-      listItems[i].style.display = 'block';
-    }
-    showAll.style.display = 'none';
-  }); </script>
 
-    <!--totals list items -->
-<script>
-  var listItems = document.querySelectorAll('.list-item');
-  var showAllLink = document.querySelector('.show-all');
-  var count = 0;
-  
-  for (var i = 0; i < listItems.length; i++) {
-      count++;
-  }
-  showAllLink.innerHTML = "Show All (" + count + ")";
+ <script type="text/javascript" src="Server Backup\Wordpress\js"></script>
 
 </script>
 </head>

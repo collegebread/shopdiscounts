@@ -29,3 +29,39 @@ scrollLeftBtn.addEventListener('click', () => {
 scrollRightBtn.addEventListener('click', () => {
   cardRow.scrollLeft += 300;
 });
+var listItems = document.querySelectorAll('.list-item');
+var showAllLink = document.querySelector('.show-all');
+
+for (var i = 5; i < listItems.length; i++) {
+  listItems[i].style.display = "none";
+}
+
+showAllLink.addEventListener('click', function() {
+  for (var i = 0; i < listItems.length; i++) {
+    listItems[i].style.display = "block";
+  }
+  showAllLink.style.display = "none";
+});
+
+
+//--expands show-all -->
+var showAll = document.querySelector('.show-all');
+var listItems = document.querySelectorAll('.list-item');
+
+showAll.addEventListener('click', function(e) {
+e.preventDefault();
+for (var i = 0; i < listItems.length; i++) {
+  listItems[i].style.display = 'block';
+}
+showAll.style.display = 'none';
+}); 
+
+//totals list items 
+var listItems = document.querySelectorAll('.list-item');
+var showAllLink = document.querySelector('.show-all');
+var count = 0;
+
+for (var i = 0; i < listItems.length; i++) {
+  count++;
+}
+showAllLink.innerHTML = "Show All (" + count + ")";
