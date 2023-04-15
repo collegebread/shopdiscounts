@@ -49,7 +49,7 @@
 
 
 .navbar {
-  background-color: blueviolet;
+  background-color: rgb(245, 245, 245);
     display: flex;
   
     justify-content: space-between;
@@ -70,7 +70,7 @@
   .navbar .navbar-brand,
   .navbar .navbar-brand:hover {
     margin-left: 1em;
-    color: white;
+    color: blueviolet;
     font-family: 'Audiowide', cursive;
     font-size: 18px;
   }
@@ -93,12 +93,12 @@
     padding: 8px 8px;
     border-radius: 4px;
     font-size: 12px;
-    color: #fff;
+    color: rgb(72, 72, 72);
     text-decoration: none;
   }
   
   .nav-links li a:hover {
-     background-color: #333;
+     background-color: blueviolet;
     /* background-color: rgb(120, 108, 213); */
   }
   
@@ -159,14 +159,15 @@
   
   .subnav-list {
     display:flex;
-    color: white;
+    color: rgb(72, 72, 72);
     justify-content: space-evenly;
     padding: 2px 0; /* Add padding to the top and bottom of the other links */
     text-decoration: none;
+
 }
 .subnav-link a,.subnav-link a:hover{
   text-decoration: none;
-  color: white
+  color: rgb(72, 72, 72);
  }
 
 .subnav-link .inactive {
@@ -178,9 +179,8 @@
   display: flex;
   flex-direction: row;
   height: 250px;
-  background: linear-gradient(to right,rgb(82, 3, 122),white,white, rgb(20, 198, 127));
-   /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127)); */
-  /* background-color: darkmagenta; */
+  background-color: white;
+   background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127));
    /* background-color: #fcf2f8; */
   
   justify-content: center;
@@ -392,7 +392,7 @@
       width: 48em;
       height: 2.5em;
       border-radius: 8px;
-      background-color: white;
+      background-color: gainsboro;
     }
     
     .search-form input {

@@ -190,7 +190,8 @@ color: black;
   flex-direction: row;
  
   height: 250px;
-  background: linear-gradient(to right,rgb(82, 3, 122),white,white, rgb(20, 198, 127));
+  /* background: linear-gradient(to right,rgb(82, 3, 122),white,white, rgb(20, 198, 127)); */
+  background-color: plum;
    /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127)); */
   /* background-color: darkmagenta; */
    /* background-color: #fcf2f8; */
