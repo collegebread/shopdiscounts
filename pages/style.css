@@ -2,7 +2,7 @@
 /* Import Bootstrap styles */
 
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital@1&display=swap');
   /* Use Poppins as the default font */
    * {
     font-family: 'Poppins', sans-serif;
@@ -69,7 +69,7 @@
   .navbar .navbar-brand:hover {
     margin-left: 1em;
     color: white;
-    font-family: 'Audiowide', cursive;
+    font-family: 'MuseoModerno', cursive;
     font-size: 18px;
   }
   .offcanvas-title{

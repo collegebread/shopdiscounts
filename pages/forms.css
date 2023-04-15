@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital@1&display=swap');
 a{ 
     color: dimgray;
  }    
@@ -39,7 +39,7 @@ a{
   margin-top: 18px;
   text-decoration: none;
   margin-left: 12px;
-  font-family: 'Audiowide', cursive;
+  font-family: 'MuseoModerno', cursive;
   font-size: 18px;
   color: white;
   border-color: blueviolet;

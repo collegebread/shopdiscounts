@@ -1,6 +1,6 @@
 /* Import Bootstrap styles */
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital@1&display=swap');
   /* Use Poppins as the default font */
    * {
     font-family: 'Poppins', sans-serif;
@@ -71,8 +71,8 @@
   .navbar .navbar-brand:hover {
     margin-left: 1em;
     color: blueviolet;
-    font-family: 'Audiowide', cursive;
-    font-size: 18px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 36px;
   }
   
   
@@ -90,6 +90,7 @@
   
   .nav-links li a {
     display: flex;
+    margin-top: 1em;
     padding: 8px 8px;
     border-radius: 4px;
     font-size: 12px;

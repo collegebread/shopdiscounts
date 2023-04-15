@@ -88,7 +88,7 @@
     <header class="main-header">
   
       <nav class="navbar container-fluid">
-        <a href="../index.html" class="navbar-brand">Dealhunter</a>
+        <a href="../index.html" class="navbar-brand">Dabbl</a>
         <form class="search-form" aria-label="Search Coupons, Deals, and More">
           <input type="text" placeholder="Search Coupons, Deals, and More">
           <button type="submit"><i class="fas fa-search"></i></button>
