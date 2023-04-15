@@ -58,7 +58,7 @@
   }
   .navbar.navbar-dark.bg-purple.fixed-top{
     
-    background-color: purple;
+    background-color: blueviolet;
   }
 
   .brand-container{
@@ -150,22 +150,23 @@
  
 
   .subnav-bar {
-    background-color:  darkmagenta;
+    position: relative;
+    width: 100%;
+    height: auto;
+   
   
   }
   
   .subnav-list {
     display:flex;
-    color: black;
+    color: white;
     justify-content: space-evenly;
     padding: 2px 0; /* Add padding to the top and bottom of the other links */
     text-decoration: none;
-    color: rgb(243, 243, 243)
-
 }
 .subnav-link a,.subnav-link a:hover{
   text-decoration: none;
-  color: rgb(221, 221, 221);
+  color: white
  }
 
 .subnav-link .inactive {
