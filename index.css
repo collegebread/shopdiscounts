@@ -390,14 +390,14 @@
   
     .search-form {
       display: flex;
-      width: 33em;
+      width: 15em;
       height: 2.5em;
       border-radius: 8px;
       background-color: gainsboro;
     }
     
     .search-form input {
-      width: 45em;
+      width: auto;
       border: none;
       background-color: transparent;
       color: gray;
