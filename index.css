@@ -390,6 +390,7 @@
   
     .search-form {
       display: flex;
+      float: left;
       width: 100%;
       max-width: 400px; /* Adjust the maximum width based on your preference */
       height: 2.5em;
