@@ -557,51 +557,7 @@
     color: #fff;
   }
 
-  /* @media (max-width: 992px) {
-    .navbar {
-      display: flex;
-      align-items: center;
-    }
-    .navbar-brand {
-      flex: 1;
-    }
-    .search-form {
-      flex: 2;
-    }
-    .navbar-toggle {
-      display: none;
-    }
-    .nav-links {
-      flex: 3;
-      display: flex;
-      justify-content: flex-end;
-    }
-    .scroll-right,
-    .scroll-left{
-     display: none;
-     
-    }
-    
-    .secondary-sidebar {
-      position: absolute;
-      width: 200px; /* Take up the full width of the screen */
-      /* float: right;  */
-      /* top: 500px; */
-    /* }
-    .bloc-i{
-    display: none;
-    }
-    .bloc-ii{
-     display: none;
-    }
-    .bloc-iii{
-      display: none;
-    }
-  }  */
-
-  
-  
-  /* Use media queries to make the footer responsive on different screen sizes */
+ /* Use media queries to make the footer responsive on different screen sizes */
   @media (max-width: 768px) {
 
     body,
