@@ -58,6 +58,7 @@
     }
     
     .search-container {
+      float: left;
       flex-grow: 1;
       display: flex;
       justify-content: center;
