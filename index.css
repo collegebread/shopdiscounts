@@ -43,89 +43,80 @@
      color: silver;
        
      }
-   
-
- 
-
-     Copy code
      .navbar {
-       background-color: rgb(245, 245, 245);
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       padding: 0 20px; /* Add padding to the navbar */
-     }
-     
-     .navbar .navbar-brand {
-       margin-left: 1em;
-       color: rgb(80, 73, 166);
-       font-family: 'MuseoModerno', cursive;
-       font-size: 36px;
-     }
-     
-     .search-container {
-       flex-grow: 1;
-       display: flex;
-       justify-content: center;
-     }
-     
-     .search-form {
-       display: flex;
-       width: 100%;
-       max-width: 400px;
-       height: 2.5em;
-       border-radius: 8px;
-       background-color: gainsboro;
-       align-items: center; /* Align form items vertically */
-     }
-     
-     .search-form input {
-       flex-grow: 1;
-       border: none;
-       background-color: transparent;
-       color: gray;
-       outline: none;
-       margin: 0; /* Remove default input margin */
-     }
-     
-     .search-form button {
-       border: none;
-       background-color: transparent;
-       color: black;
-       font-size: 1em;
-       margin-right: 1em;
-     }
-     
-     .nav-links {
-       display: flex;
-       align-items: center;
-       list-style: none;
-       margin: 0; /* Remove default margin */
-       padding: 0; /* Remove default padding */
-     }
-     
-     .nav-links li {
-       margin-left: 1em;
-     }
-     
-     .nav-links li a {
-       display: flex;
-       align-items: center; /* Align link items vertically */
-       padding: 8px 8px;
-       border-radius: 4px;
-       font-size: 12px;
-       color: rgb(72, 72, 72);
-       text-decoration: none;
-     }
-     
-     .nav-links li a:hover {
-       background-color: blueviolet;
-     }
-     
-     .nav-links li a i {
-       margin-right: 5px;
-       font-size: 18px;
-     }
+      background-color: rgb(245, 245, 245);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px; /* Add padding to the navbar */
+    }
+    
+    .navbar .navbar-brand {
+      margin-left: 1em;
+      color: rgb(80, 73, 166);
+      font-family: 'MuseoModerno', cursive;
+      font-size: 36px;
+    }
+    
+    .search-container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .search-form {
+      display: flex;
+      width: 100%;
+      max-width: 400px;
+      height: 2.5em;
+      border-radius: 8px;
+      background-color: gainsboro;
+    }
+    
+    .search-form input {
+      flex-grow: 1;
+      border: none;
+      background-color: transparent;
+      color: gray;
+      outline: none;
+    }
+    
+    .search-form button {
+      border: none;
+      background-color: transparent;
+      color: black;
+      font-size: 1em;
+      margin-right: 1em;
+    }
+    
+    .nav-links {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      flex-wrap: wrap; /* Allow the nav links to wrap within the container */
+    }
+    
+    .nav-links li {
+      margin-left: 1em;
+    }
+    
+    .nav-links li a {
+      display: flex;
+      padding: 8px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: rgb(72, 72, 72);
+      text-decoration: none;
+    }
+    
+    .nav-links li a:hover {
+      background-color: blueviolet;
+    }
+    
+    .nav-links li a i {
+      margin-right: 5px;
+      font-size: 18px;
+    }
     
     .subnav-bar {
       width: 100%;
@@ -620,21 +611,10 @@
     .body {
       grid-template-columns: none;
     }
-    /* Media Query for devices with smaller screens */
-@media screen and (max-width: 768px) {
+    .nav-links {
+      flex-wrap: nowrap; /* Prevent the nav links fro
   .search-container {
     justify-content: center;
-  }
-  
-  .nav-links {
-    display: none; /* Hide nav links */
-    flex-direction: column; /* Change flex direction to column */
-    align-items: center; /* Align items vertically */
-    position: absolute;
-    top: 4em; /* Add space between nav and links */
-    left: 0;
-    right: 0;
-    background-color: rgb(245, 245, 245);
   }
   
   .nav-links li {
