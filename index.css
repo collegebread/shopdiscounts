@@ -47,134 +47,109 @@
 
  
 
-
-.navbar {
-  background-color: rgb(245, 245, 245);
-    display: flex;
-  
-    justify-content: space-between;
-
+     .navbar {
+      background-color: rgb(245, 245, 245);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px; /* Add padding to the navbar */
+    }
     
-  }
-  .navbar.navbar-dark.bg-purple.fixed-top{
+    .navbar .navbar-brand,
+    .navbar .navbar-brand:hover {
+      margin-left: 1em;
+      color: blueviolet;
+      font-family: 'MuseoModerno', cursive;
+      font-size: 36px;
+    }
     
-    background-color: blueviolet;
-  }
-
-  .brand-container{
-
-   margin-right: 12em;
-
-  }
-  
-  .navbar .navbar-brand,
-  .navbar .navbar-brand:hover {
-    margin-left: 1em;
-    color: blueviolet;
-    font-family: 'MuseoModerno', cursive;
-    font-size: 36px;
-  }
-  
-  
-  .nav-links {
-    display: flex;
-    align-items: center;
+    .search-container {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
     
-  }
-  
-  .nav-links li {
-    margin-left: 1em;
-   
-   
-  }
-  
-  .nav-links li a {
-    display: flex;
-    margin-top: 1em;
-    padding: 8px 8px;
-    border-radius: 4px;
-    font-size: 12px;
-    color: rgb(72, 72, 72);
-    text-decoration: none;
-  }
-  
-  .nav-links li a:hover {
-     background-color: blueviolet;
-    /* background-color: rgb(120, 108, 213); */
-  }
-  
-  .nav-links li a i {
-    margin-right: 5px;
-    font-size: 18px;
-  }
-  .nav-links li.button-red a {
-    background-color: #ff0000;
-  }
-  
-  #button-green a {
-    background-color: rgb(120, 108, 213);
+    .search-form {
+      display: flex;
+      width: 100%;
+      max-width: 400px;
+      height: 2.5em;
+      border-radius: 8px;
+      background-color: gainsboro;
+    }
     
-    color: rgb(255, 255, 255);
-  }
-  #button-green a:hover {
-   
-    color: rgb(255, 255, 255);
-  }
-  .navbar.responsive .nav-links {
-    display: block; /* Show the navigation links as a block element */
-  }
-  .navbar.responsive .nav-links li {
-    text-align: center; /* Center the navigation links */
-  }
-  .offcanvas-title{
-    width: 120px;
-    height: 50px;
-    background-color:black; 
-  
-    border-color:white;
-    color: white
-  }
-  .offcanvas-title:hover{
-  
-    border-color: blueviolet;
-  }
-  .dropdown-item{
-    color: white;
-  }
-  .dropdown-item:hover{
-    color: midnightblue;
-  }
-  .offcanvas.offcanvas-end.text-bg-dark{
-    width: 200px;
-    height: 400px;
-  }
- 
-
-  .subnav-bar {
-    position: relative;
-    width: 100%;
-    height: auto;
-   
-  
-  }
-  
-  .subnav-list {
-    display:flex;
-    color: rgb(72, 72, 72);
-    justify-content: space-evenly;
-    padding: 2px 0; /* Add padding to the top and bottom of the other links */
-    text-decoration: none;
-
-}
-.subnav-link a,.subnav-link a:hover{
-  text-decoration: none;
-  color: rgb(72, 72, 72);
- }
-
-.subnav-link .inactive {
-  pointer-events: none;
-  color: black;
-}
+    .search-form input {
+      flex-grow: 1;
+      border: none;
+      background-color: transparent;
+      color: gray;
+      outline: none;
+    }
+    
+    .search-form button {
+      border: none;
+      background-color: transparent;
+      color: black;
+      font-size: 1em;
+      margin-right: 1em;
+    }
+    
+    .nav-links {
+      display: flex;
+      align-items: center;
+      list-style: none;
+    }
+    
+    .nav-links li {
+      margin-left: 1em;
+    }
+    
+    .nav-links li a {
+      display: flex;
+      padding: 8px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: rgb(72, 72, 72);
+      text-decoration: none;
+    }
+    
+    .nav-links li a:hover {
+      background-color: blueviolet;
+    }
+    
+    .nav-links li a i {
+      margin-right: 5px;
+      font-size: 18px;
+    }
+    
+    .subnav-bar {
+      width: 100%;
+      overflow-x: auto;
+    }
+    
+    .subnav-list {
+      display: flex;
+      color: rgb(72, 72, 72);
+      padding: 2px 0;
+      list-style: none;
+      margin: 0;
+    }
+    
+    .subnav-link {
+      flex: 1;
+      text-align: center;
+    }
+    
+    .subnav-link a,
+    .subnav-link a:hover {
+      text-decoration: none;
+      color: rgb(72, 72, 72);
+    }
+    
+    .subnav-link .inactive {
+      pointer-events: none;
+      color: black;
+    }
 
 .ad-banner{
   display: flex;
@@ -386,32 +361,6 @@
     /* Style the table rows on hover */
     tr:hover {
       background-color: #eee;
-    }
-  
-    .search-form {
-      display: flex;
-      float: left;
-      width: 100%;
-      max-width: 400px; /* Adjust the maximum width based on your preference */
-      height: 2.5em;
-      border-radius: 8px;
-      background-color: gainsboro;
-    }
-    
-    .search-form input {
-      flex-grow: 1; /* Make the input field fill the remaining space */
-      border: none;
-      background-color: transparent;
-      color: gray;
-      outline: none;
-    }
-    
-    .search-form button {
-      border: none;
-      background-color: transparent;
-      color: black;
-      font-size: 1em;
-      margin-right: 1em;
     }
 
   .card-container {
