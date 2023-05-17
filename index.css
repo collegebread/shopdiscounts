@@ -58,7 +58,7 @@
     .navbar .navbar-brand,
     .navbar .navbar-brand:hover {
       margin-left: 1em;
-      color: blueviolet;
+      color: rgb(80, 73, 166);
       font-family: 'MuseoModerno', cursive;
       font-size: 36px;
     }
