@@ -126,12 +126,12 @@
       top: 1px;
     }
     
-    .subnav-bar {
+    .subnav {
       width: 100%;
       
     }
     
-    .subnav-list {
+    .subnav-menu {
       display: flex;
       color: rgb(72, 72, 72);
       padding: 2px 0;
@@ -139,18 +139,18 @@
       margin: 0;
     }
     
-    .subnav-link {
+    .subnav-item {
       flex: 1;
       text-align: center;
     }
     
-    .subnav-link a,
+    .subnav-item a,
     .subnav-link a:hover {
       text-decoration: none;
       color: rgb(72, 72, 72);
     }
     
-    .subnav-link.inactive {
+    .subnav-item.inactive {
       pointer-events: none;
       color: black;
     }
