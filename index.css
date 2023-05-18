@@ -103,10 +103,13 @@
     .nav-menu li {
       margin-left: 1em;
     }
-    .nav-object {
-     color:#6c5ce7 ;
-     background-color:rgb(46, 46, 46) ;
-     border-radius: 33px;
+    .nav-object{
+      background-color:rgb(46, 46, 46) ;
+      border-style: solid;
+       border-radius: 133px;
+    } 
+    .fas.fa-bell,.fas.fa-share-alt,.fas.fa-puzzle-piece {
+     color:white;
     }
     
     .nav-menu li a {
