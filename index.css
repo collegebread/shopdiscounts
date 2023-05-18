@@ -608,11 +608,9 @@
       margin-left: 33px; /* adjust the position of the element for screens with a width of 800px or less */
    }
   
-    .footer {
-      flex-direction: column;
-    }
     .footer > div {
       width: 100%;
+      flex-direction: column;
     }
   
     .nav-static,
