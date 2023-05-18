@@ -530,9 +530,9 @@
   
   .footer {
     display: flex;
+    flex-direction: row;
     position: relative;
     top: 10em;
-  
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #333;
