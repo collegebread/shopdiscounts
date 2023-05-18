@@ -53,11 +53,12 @@
     .nav.brand-container {
      width: auto;
     }
-    .logo{
+    .logo, .logo:hover{
       margin-left: 1em;
       color: rgb(112, 99, 255);
       font-family: 'MuseoModerno', cursive;
       font-size: 36px;
+      text-decoration: none;
       
     }
     
