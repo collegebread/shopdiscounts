@@ -105,7 +105,8 @@
     }
     .nav-object {
      color:#6c5ce7 ;
-      background-color:rgb(43, 43, 43) ;
+     background-color:rgb(46, 46, 46) ;
+     border-radius: 33px;
     }
     
     .nav-menu li a {
