@@ -108,6 +108,10 @@
       border-style: solid;
        border-radius: 133px;
     } 
+
+    .nav-link{
+      font-size: 24px;
+    }
     .fas.fa-bell,.fas.fa-share-alt,.fas.fa-puzzle-piece {
      color:darkgray;
     }
