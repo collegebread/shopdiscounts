@@ -152,7 +152,7 @@
       color: rgb(72, 72, 72);
     }
     
-    .subnav-link .inactive {
+    .subnav-link.inactive {
       pointer-events: none;
       color: black;
     }
