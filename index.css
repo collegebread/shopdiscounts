@@ -101,6 +101,9 @@
     .nav-links li {
       margin-left: 1em;
     }
+    .nav-links.fas.fa-bell{
+      background-color: rgb(67, 70, 73);
+    }
     
     .nav-links li a {
       position: relative; /* Add relative positioning */
@@ -115,12 +118,6 @@
     .nav-links li a i {
       margin-right: 5px;
       font-size: 24px;
-    }
-    
-
-    
-    /* Adjust the icon position for better alignment */
-    .nav-links li a i {
       position: relative;
       top: 1px;
     }
