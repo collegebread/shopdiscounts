@@ -160,8 +160,8 @@
   flex-direction: row;
   height: 250px;
 
-   background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127)); 
-   /* background-color: gray; */
+   /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127));  */
+   background-color: rgb(112, 99, 255);
   
    justify-content: center;
   align-items: center;
