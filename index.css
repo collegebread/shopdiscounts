@@ -50,12 +50,15 @@
       padding: 0 20px; /* Add padding to the navbar */
     }
     
-    /* .nav.brand-container {
+    .nav.brand-container {
+     width: auto;
+    }
+    .brand-container.logo{
       margin-left: 1em;
       color: rgb(112, 99, 255);
       font-family: 'MuseoModerno', cursive;
       font-size: 36px;
-    } */
+    }
     
     .search-container {
       flex-grow: 1;
