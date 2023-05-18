@@ -43,14 +43,14 @@
      color: silver;
        
      }
-     .navbar {
+     .nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 0 20px; /* Add padding to the navbar */
     }
     
-    .navbar .navbar-brand {
+    .nav.brand-container {
       margin-left: 1em;
       color: rgb(112, 99, 255);
       font-family: 'MuseoModerno', cursive;
