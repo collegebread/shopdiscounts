@@ -113,13 +113,13 @@
       font-size: 24px;
     }
     .fas.fa-bell {
-     color:darkgray;
+     color:orange;
     }
     .fas.fa-share-alt{
-      color: orange;
+      color: rgb(112, 99, 255);
     }
     .fas.fa-puzzle-piece{
-      color: white;
+      color: darkgray;
     }
     
     .nav-menu li a {
