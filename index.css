@@ -58,7 +58,7 @@
       color: rgb(112, 99, 255);
       font-family: 'MuseoModerno', cursive;
       font-size: 36px;
-      text-decoration: none;
+      
     }
     
     .search-container {
@@ -102,13 +102,10 @@
     .nav-links li {
       margin-left: 1em;
     }
-    .nav-links.fas.fa-share-alt{
+    .nav-links.fas.fa-share-alt,
+    .nav-links.fas.fa-bell {
       border-radius: 33px;
-      background-color:#6c5ce7;
-    }
-    .nav-links.fas.fa-bell{
-      border-radius: 33px;
-      background-color: rgb(67, 70, 73);
+      background-color: #6c5ce7;
     }
     
     .nav-links li a {
