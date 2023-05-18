@@ -1,6 +1,4 @@
 /* Import Bootstrap styles */
-/* Import Bootstrap styles */
-
 @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital@1&display=swap');
   /* Use Poppins as the default font */
@@ -107,7 +105,8 @@
     }
     .nav-object {
      color:#6c5ce7 ;
-      background-color:rgb(43, 43, 43) ;
+     background-color:rgb(46, 46, 46) ;
+     border-radius: 33px;
     }
     
     .nav-menu li a {
@@ -183,22 +182,17 @@
   
 }
 
-
-
-
 .primary-sidebar {
   display: flex;
-  float: left;
-  position: absolute;
+  flex: 1;
+  position: absolute; /* this makes sure that sidebar won't overlap other elements */
   flex-direction: column;
-  top: 33em;
-  left: 0;
-  border-style: solid;
-  border-width: 1px;
-  border-color: gainsboro;
- 
+  top: 30em;
+  left: 3em;
+  padding: 20px;
+  overflow-x: hidden;
+  background-color: white;
   z-index: 0;
-
  
  
 }
@@ -207,10 +201,11 @@
 .primary-sidebar .block-ii,
 .primary-sidebar .block-iii,
 .primary-sidebar .block-iv {
-  width: 200px;
+
+  width: 180px;
   background-color: #ffffff;
- margin-top: 1em;
-  padding: 20px;
+ 
+  z-index: 0; /* this makes sure that sidebar will be on top of other elements */
  
 }
 
@@ -242,54 +237,24 @@
   text-decoration: none;
   padding: 10px 0;
 }
-
 .show-all-container {
-
-  font-size: 12px;
+  text-align: center;
+ 
+}
+.show-all{
+ 
+  font-size: 14px;
+  color: #333;
 }
 
 .list-item {
   display: none;
 }
-.price-container {
-  display: flex;
-  align-items: center;
-}
-
-
-
-
-.min-price-input,
-.max-price-input {
-  width: 70px;
-  height: 30px;
-  margin: 0 3px;
-  padding: 0 10px;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
-.dash {
-  margin: 0 0.2em;
-}
-.min-price-input {
-  border: 1px solid black;
-  padding: 5px;
-}
-
-.error-message {
-  color: red;
-  font-size: 14px;
-  margin-top: 5px;
-}
-
-.label {
-  font-weight: bold;
-  margin-right: 10px;
-}
 
 .secondary-sidebar {
   /* Add some padding and a background color to the aside */
   position: absolute;
+  flex: 3;
   top: 30em;
   float: right;
   display: flex;
@@ -347,7 +312,7 @@
 .bloc-ii {
   position: sticky;
   width: 200px;
-  height: 420px;
+  height: 480px;
   top: 0px; /* 30px from the bottom of the viewport */
   right: 0;
   overflow: hidden;
@@ -405,80 +370,49 @@
     tr:hover {
       background-color: #eee;
     }
-  
-    .search-form {
-      display: flex;
-      width: 48em;
-      height: 2.5em;
-      border-radius: 8px;
-      background-color: white;
-    }
-    
-    .search-form input {
-      width: 45em;
-      border: none;
-      background-color: transparent;
-      color: gray;
-      flex-grow: 1; /* Make the input field fill the remaining space */
-      outline: none;
-    }
-    
-    .search-form button {
-      border: none;
-      background-color: transparent;
-      color: black;
-      font-size: 1em;
-      margin-right: 3em;
-     
-    }
- 
 
   .card-container {
-   position: relative;
     display: inline-block;
-    justify-content: center;
-     align-items: center;
+    flex: 2;
+    align-items: center;
     width: 230px;
     height: 360px;
-    top: 3em;
-    justify-content: center; /* Add a left and right margin of 10 pixels */
+    margin: 0 1.5em 2em 2em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     flex-wrap: nowrap;
     overflow:visible;
-      margin: 0 10px;
-    }
+    z-index: 10;
    
 
  
-  
+  }
   .card-row {
     display: inline-block;
     width: auto;
-    margin-left: 18em;
-   
+    justify-content: center; /* this centers the row of cards horizontally */
+    align-items: center; /* this centers the row of cards vertically */
     flex-wrap: wrap;
-    margin-top: 5px; /* Add a top and bottom margin of 20 pixels */
-   
-    scroll-snap-type: x mandatory;
-   
+    margin: 1.5em 0 0 .5em; /* Add a top and bottom margin of 20 pixels */
+    scroll-snap-align: end; /* this ensures the scroll snaps to the end of the last card */
+    scroll-snap-type: x mandatory; /* this makes the scroll snap horizontally to the card end */
   }
   .card-row-title {
     font-size: 1.5em; /* Set the font size to 1.5 times the default size */
     font-weight: bold; /* Make the text bold */
     text-transform: uppercase; /* Convert the text to uppercase */
     color: #333; /* Set the text color to a dark grey */
-    margin-top: 5em; /* Add a bottom margin of 1em */
-    margin-left: 3em; /* Add a bottom margin of 1em */
-    margin-bottom: 1em;
+    margin: 3.5em 0 0 4em; /* Add a bottom margin of 1em */
+   
  
   }
 
   .card {
     width: 250px;
     height: 400px;
+   
   }
   .ad-card-image{
 
@@ -487,18 +421,36 @@
     align-content: center;
   
   }
+  /* .card-content{
+    margin: 12px;
+  
+    border-radius: 4px;
+    background-color: lightgray;
+    opacity: .8;
+  }
+  .card-title{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card-description{
+    font-size: 18px;
+    color: rgb(60, 137, 60);
+  } */
 
   .scroll-left {
     visibility: hidden;
   }
   
   .scroll-right {
-    position: absolute;
+    position: relative;
     top: 33em;
     visibility: visible;
     opacity: .5;
     width: 20px;
     height: 90px;
+    top: 50%; 
+    right: 0; 
+    transform: translateY(-50%); 
     border-style: solid;
     border-width: 3px;
     border-color: rgb(205, 205, 205);
@@ -542,7 +494,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:5px 63px 0px ;
+    margin:0 0 0 2em 3.5em ;
     cursor: pointer;
   }
   
@@ -561,7 +513,8 @@
     color: #333;
   }
   
-  .comment-btn {
+  .comment-btn,
+  .share-btn {
     background: none;
     border: none;
     border-color: #6c5ce7;
@@ -570,51 +523,16 @@
   }
   
   .thumbs-up-btn:hover,
-  .comment-btn:hover {
+  .comment-btn:hover,
+  .share-btn:hover {
     color: #2d3436;
-  }
-
-  .pagination-container {
-    position: relative;
-    display: flex;
-    top: 5em;
-    margin-left: 800px;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  
-  .prev-page-btn,
-  .next-page-btn {
-    height: 40px;
-    background-color: white;
-    border: none;
-    color: silver;
-    border-style: solid;
-    border-width: 1px;
-    border-color: silver;
-    padding: 10px 15px;
-    font-size: 1.0em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .prev-page-btn i,
-  .next-page-btn i {
-    margin-right: 10px;
-  }
-  
-  .prev-page-btn:hover,
-  .next-page-btn:hover {
-    background-color: silver;
-    color: white;
   }
   
   .footer {
     display: flex;
+    flex-direction: row;
     position: relative;
     top: 10em;
-  
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #333;
@@ -651,49 +569,8 @@
     color: #fff;
   }
 
-
-
-
-
-
-  .scroll-right {
-    margin-left: 33px; /* adjust the position of the element for screens with a width of 800px or less */
- }
- .pagination-container {
-  position: relative;
-  display: flex;
-  top: 5em;
-  margin-left: 400px;
-  justify-content: center;
-  align-items: center;
- 
-}
-
-.prev-page-btn,
-.next-page-btn {
-  height: 40px;
-  background-color: white;
-  border: none;
-  color: silver;
-  border-style: solid;
-  border-width: 1px;
-  border-color: silver;
-  padding: 10px 15px;
-  font-size: 1.0em;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.prev-page-btn i,
-.next-page-btn i {
-  margin-right: 10px;
-}
-  
-
-  
-  
-  /* Use media queries to make the footer responsive on different screen sizes */
-  @media (max-width: 767px) {
+ /* Use media queries to make the footer responsive on different screen sizes */
+  @media (max-width: 768px) {
 
     body,
     .wrapper {
@@ -702,145 +579,80 @@
     .body {
       grid-template-columns: none;
     }
-    .navbar.container-fluid{
-      display: none;
-    }
-
-      .subnav-link{
-      display: none;
-    }
-
-    .sort-container{
- 
-      position: absolute;
-      display: flex;
-      flex-direction: row;
-     
-      
-    }
-    .sort-data{
-      flex: 1;
-      top: 12px;
-
-     
+    .nav-links {
+      flex-wrap: nowrap; /* Prevent the nav links fro
+  .search-container {
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin: 1em 0; /* Add space between nav links */
+  }
+  
+  .nav-links li a {
+    padding: 12px 8px; /* Increase padding for better touch experience */
+    font-size: 16px; /* Increase font size for better readability */
+  }
+  
+  .navbar .menu-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}
     
-    }
-     .sort-by-btn {
-      width: 222px;
-      flex: 2;
-      margin-left: 50px;
-      background-color: white;
-      color: silver;
-      padding: 10px 10px;
-      font-size: 16px;
-      border: solid;
-      border-color: #eee;
-     
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    
-    .sort-by-btn i {
-      margin-left: 100px;
-      transition: all 0.3s ease;
-    }
-
-
     .card-container {
       margin: 0 10px;
     }
     .scroll-right {
       margin-left: 33px; /* adjust the position of the element for screens with a width of 800px or less */
    }
-   .pagination-container {
-    position: relative;
-    display: flex;
-    top: 5em;
-    margin-left: 400px;
-    justify-content: center;
-    align-items: center;
-   
-  }
   
-  .prev-page-btn,
-  .next-page-btn {
-    height: 40px;
-    background-color: white;
-    border: none;
-    color: silver;
-    border-style: solid;
-    border-width: 1px;
-    border-color: silver;
-    padding: 10px 15px;
-    font-size: 1.0em;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .prev-page-btn i,
-  .next-page-btn i {
-    margin-right: 10px;
-  }
-  
-  
-    .footer {
-      flex-direction: column;
-    }
     .footer > div {
       width: 100%;
+      flex-direction: column;
     }
-  }
-  @media screen and (max-width: 600px) {
+  
+    .nav-static,
+    .sub-nav,
+    .sub-nav-links{
+      display: none;
+    }
     .card-container {
       margin: 0 5px;
     }
-  }
 
-  @media screen and (max-width: 400px) {
+  
     .card-container {
       margin: 0 2px;
     }
-  }
-  @media (max-width: 375px) {
-    body,
-    .wrapper {
-      display: block;
-    }
-    .body {
-      grid-template-columns: none;
-    }
-    nav .nav-links {
-      display: none; /* Hide the navigation links by default */
-    }
-    .navbar-toggle {
-      display: block; /* Show the toggle button */
-    }
-    .navbar.responsive .nav-links {
-      display: block; /* Show the navigation links as a block element */
-    }
-    .navbar.responsive .nav-links li {
-      text-align: center; /* Center the navigation links */
-    }
-    .sub-nav-links {
-      display: block; /* Change the display of the sub-nav links to a block element */
-    }
-    .sub-nav-links a {
-      display: inline-block; /* Change the display of the sub-nav links to an inline-block element */
-    }
-    .search-form {
-      display: block; /* Change the display of the search form to a block element */
-    }
-    .search-form input {
-      width: calc(100% - 3em); /* Make the input field fill the remaining space except for the margin of the search button */
-    }
-    .search-form button {
-      display: inline-block; /* Change the display of the search button to an inline-block element */
-      margin: 0; /* Remove the margin from the search button */
-    }
-    .card-container {
-      margin: 0 2px;
-    }
-  }
+
+
+    
+  
+
+    
+
+   
+  
+  
+
+
+  
+
+
+    
+  
+
+    
+
+   
+  
+  
+
+
+  
+
   
 
 
