@@ -30,77 +30,38 @@
     <div class="wrapper">
     <!-- Above header -->
     <header class="above-header">
-      <nav  class="navbar navbar-dark bg-purple fixed-top">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span> </button>
-            <div class="brand-container">
-              <a class="navbar-brand" href="../index.html">Dabbl</a>
-              
-            </div> 
-          <div class="offcanvas offcanvas-end text-bg-dark" data-bs-scroll="true"  tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <button  class="offcanvas-title" id="offcanvasDarkNavbarLabel"><i class = "fas fa-heart"></i><a style=" text-decoration: none; color:white" href="login.html">  <span style="margin-left:8px;">Log in </span> </a></button>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div style="background-color: rgb(38, 38, 38); height: 30px;" class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Add to Browser</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Share a Coupon</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categories
-                  </a>
-                  <ul style="background-color: rgb(38, 38, 38); border-style: none;" class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Top Coupons</a></li>
-                    <li><a class="dropdown-item" href="#">Clothes & Fashion</a></li>
-                    <li><a class="dropdown-item" href="#">Beauty & Health</a></li>
-                    <li><a class="dropdown-item" href="#">Grocery</a></li>
-                    <li><a class="dropdown-item" href="#">Video Games</a></li>
-                    <li><a class="dropdown-item" href="#">Tech</a></li>
-                    <li><a class="dropdown-item" href="#">Babies and Kids</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a style="background-color:white;color:midnightblue" class="dropdown-item" href="sign-up.html"><i class = "fas fa-user-plus"></i>Sign up</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-             
-            </div>
-            
-          </div>
-        </div>
-      </nav> 
-      
-      </header>
-      
-
-    <!-- Main header -->
-    <header class="main-header">
-  
-      <nav class="navbar container-fluid">
-        <a href="../index.html" class="navbar-brand">Dealhunter</a>
-        <form class="search-form" aria-label="Search Coupons, Deals, and More">
-          <input type="text" placeholder="Search Coupons, Deals, and More">
-          <button type="submit"><i class="fas fa-search"></i></button>
-        </form>
-        <ul class="nav-links" aria-labelledby="navbar-brand">
-          <li class="button-blue"><a href="#"><i class="fas fa-puzzle-piece"></i> Add to Browser</a></li>
-          <li id="button-green"><a href="#"><i class="fas fa-share-alt"></i> Share a Coupon</a></li>
-          <li><a href="#"><i class="fas fa-bell"></i> Alerts</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="sign-up.html"><i class="fas fa-user-plus"></i> Sign Up</a></li>
-        </ul>
-      </nav>
+     <!-- Main header -->
+  <header class="main-header">
+    <!-- Add content for the main header here -->
+     <nav class="nav">
+      <div class="brand-container">
+    <a href="index.html" class="logo">Dabbl</a> </div>
+    <div class="search-container">
+    <form class="search-form" aria-label="Search Coupons, Deals, and More">
+      <input type="text" placeholder="Search Coupons, Deals, and More">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+    </div>
+    <ul class="nav-menu" aria-labelledby="navbar-brand">
+      <li class="nav-object"><a href="#"><i class="fas fa-puzzle-piece"></i></a></li>
+      <li class="nav-object"><a href="#"><i class="fas fa-share-alt"></i></a></li>
+      <li class="nav-object"><a href="#"><i class="fas fa-bell"></i></a></li>
+      <li class="nav-link"><a href="pages/login.html">Login </a></li>
+      <li class="nav-link"><a href="pages/sign-up.html"> Sign Up</a></li>
+    </ul>
+    <hr style="width: 100%;" background-color="black">
+  <div class="subnav">
+    <ul class="subnav-menu" aria-labelledby="sub-nav-header">
+      <li class="subnav-link"><a class="inactive" href="#">Trending</a></li>
+      <li class="subnav-link"><a href="#">Top Coupons</a></li>
+      <li class="subnav-link"><a href="#">Shoes </a></li>
+      <li class="subnav-link"><a href="pages/women's-fashion-deals.html">Women's Clothes</a></li>
+      <li class="subnav-link"><a href="#">Men's Clothes</a></li>
+      <li class="subnav-link"><a href="#">Video Games</a></li>
+      <li class="subnav-link"><a href="#">Electronics</a></li>
+      <li class="subnav-link"><a href="#">Babies and Kids</a></li>
+    </ul>
+  </nav>
     
       <div class="subnav-bar">
         <ul class="subnav-list" aria-labelledby="sub-nav-header">
