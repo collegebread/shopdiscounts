@@ -606,7 +606,7 @@
     .body {
       grid-template-columns: none;
     }
-    .nav-links {
+    .nav-object,.nav-link {
       flex-wrap: nowrap; /* Prevent the nav links fro
   .search-container {
     justify-content: center;
