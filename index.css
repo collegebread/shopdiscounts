@@ -107,11 +107,12 @@
     .nav-object{
       background-color:rgb(46, 46, 46) ;
       border-style: solid;
-       border-radius: 133px;
+      border-radius: 133px;
     } 
 
-    .nav-link a{
+    .nav-link{
       font-size: 36px;
+      font-weight: bolder;
     }
     .fas.fa-bell {
      color:orange;
