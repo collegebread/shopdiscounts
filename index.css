@@ -548,7 +548,6 @@
     flex-direction: row;
     position: relative;
     top: 10em;
-    left: 10em;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #333;
@@ -559,13 +558,13 @@
   
   .footer h3 {
     font-size: 24px;
-    margin-left:8em
+    margin-left:5em
    
   }
   
   .footer ul {
     list-style: none;
-    margin: 8em;
+    margin-left: 5em;
     padding: 0;
    
   }
@@ -591,11 +590,11 @@
   }
   .footer-legal{
     flex: 2;
-    margin-left: 2em;
+    margin-left: .5em;
   }
   .footer-more{
     flex: 3;
-    margin-left: 2em;
+    margin-left: .5em;
   }
   .footer-follow{
     flex: 4;
