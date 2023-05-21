@@ -611,16 +611,16 @@
       grid-template-columns: none;
     }
     .nav-object,.nav-link {
-      flex-wrap: nowrap; /* Prevent the nav links fro
+      flex-wrap: nowrap; /* Prevent the nav links from */
   .search-container {
     justify-content: center;
   }
   
-  .nav-links li {
-    margin: 1em 0; /* Add space between nav links */
+  .nav-link li {
+   margin: 1em 0; /*Add space between nav links */
   }
   
-  .nav-links li a {
+  .nav-link li a {
     padding: 12px 8px; /* Increase padding for better touch experience */
     font-size: 16px; /* Increase font size for better readability */
   }
@@ -668,5 +668,5 @@
   
   
 
-
+  }
   
