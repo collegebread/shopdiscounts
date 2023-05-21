@@ -558,13 +558,13 @@
   
   .footer h3 {
     font-size: 24px;
-    margin-left:5em
+    margin-left:12em
    
   }
   
   .footer ul {
     list-style: none;
-    margin: 0;
+    margin: 12em;
     padding: 0;
    
   }
