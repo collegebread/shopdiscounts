@@ -1,4 +1,5 @@
-<header class="above-header">
+  <!-- Above header -->
+  <header class="above-header">
     <!-- Add content for the above header here -->
 <!--    
       <h4 class="above-header description">Act fast and save big on your favorite brands with our coupons and promo codes</h4>
@@ -32,8 +33,8 @@
       <li class="subnav-link"><a href="#">Shoes </a></li>
       <li class="subnav-link"><a href="pages/women's-fashion-deals.html">Women's Fashion</a></li>
       <li class="subnav-link"><a href="#">Men's Fashion</a></li>
-      <li class="subnav-link"><a href="#">Electronics</a></li>
       <li class="subnav-link"><a href="#">Video Games</a></li>
+      <li class="subnav-link"><a href="#">Electronics</a></li>
       <li class="subnav-link"><a href="#">Babies and Kids</a></li>
     </ul>
   </nav>
