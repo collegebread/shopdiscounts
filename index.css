@@ -593,6 +593,7 @@
   footer .footer-copyright {
     text-align: center;
     font-size: 12px;
+    color: #666;
   }
 
  /* Use media queries to make the footer responsive on different screen sizes */
