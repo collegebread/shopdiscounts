@@ -574,11 +574,12 @@
   footer li a{
     margin-bottom: .2em;
     color: white;
+    text-decoration: none;
   }
   
   .social li {
     display: inline-block;
-    margin-right: 1em;
+    margin-left: 1em;
   }
   
   .social a {
