@@ -543,7 +543,7 @@
     color: #2d3436;
   }
   
-  .footer {
+  footer {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -556,13 +556,13 @@
     z-index: 10000;
   }
   
-  .footer-header {
+  footer h3 {
     font-size: 24px;
     margin-left:2em
    
   }
   
-  .footer ul {
+  footer ul {
     list-style: none;
     margin-left: 3.5em;
     text-align: center;
@@ -570,7 +570,7 @@
    
   }
   
-  .footer li a{
+  footer li a{
     margin-bottom: 10px;
     text-decoration: none;
     color: white;
