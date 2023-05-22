@@ -553,6 +553,7 @@
     background-color: #333;
     color: rgb(112, 112, 112);
     padding: 35px;
+    text-decoration: none;
     z-index: 10000;
   }
   
@@ -572,7 +573,7 @@
   
   footer li a{
     margin-bottom: 10px;
-    text-decoration: none;
+    
     color: white;
   }
   
