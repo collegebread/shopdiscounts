@@ -544,58 +544,55 @@
     color: #2d3436;
   }
   
-  .footer {
+  footer {
     display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 10em;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #333;
-    color: rgb(112, 112, 112);
     padding: 35px;
     z-index: 10000;
   }
   
-  .footer h3 {
+  footer h3 {
     font-size: 24px;
-    margin-left:.5em
-   
-  }
-  
-  .footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   
-  }
-  
-  .footer li a{
+    text-align: center;
     margin-bottom: 10px;
+    color: rgb(112, 112, 112);
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  footer li {
+    margin-bottom: 10px;
+  }
+  
+  footer li a,footer li a:hover {
     text-decoration: none;
     color: white;
   }
   
-  .social-links li {
+  .social-links {
     display: inline-block;
+    justify-content: center;
+  }
+  
+  .social-links li {
     margin-right: 10px;
   }
   
-  .social-links a {
+  footer .footer-line {
+    border: none;
+    border-top: 1px solid #666;
+    margin: 20px 0;
+  }
+  
+  footer .footer-copyright {
+    text-align: center;
     font-size: 12px;
-    color: #fff;
-  }
-  .footer-about{
-    flex: 1;
-  }
-  .footer-legal{
-    flex: 2;
-  }
-  .footer-more{
-    flex: 3;
-  }
-  .footer-follow{
-    flex: 4;
   }
 
  /* Use media queries to make the footer responsive on different screen sizes */
