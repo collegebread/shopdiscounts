@@ -586,6 +586,18 @@
     margin-right: 10px;
   }
   
+  .social-links a {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ff8b6f;
+  }
+  
   footer .footer-line {
     border: none;
     border-top: 1px solid #666;
