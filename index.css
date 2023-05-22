@@ -585,7 +585,7 @@
     font-size: 12px;
     color: #fff;
   }
-  .footer-about{
+  /* .footer-about{
     flex: 1;
   
   }
@@ -599,7 +599,7 @@
   }
   .footer-follow{
     flex: 4;
-  }
+  } */
 
  /* Use media queries to make the footer responsive on different screen sizes */
   @media (max-width: 768px) {
