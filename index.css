@@ -573,18 +573,18 @@
     color: white;
   }
   
+  .social-links {
+    display: flex;
+    justify-content: center;
+  }
+  
   .social-links li {
-    display: inline-block;
     margin-right: 10px;
   }
   
   .social-links a {
     font-size: 12px;
     color: #fff;
-  }
-  
-  .social-links a:hover {
-    color: #ff8b6f;
   }
   
   footer hr {
