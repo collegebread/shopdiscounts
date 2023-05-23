@@ -621,10 +621,10 @@
   
   footer li a {
     text-decoration: none; */
-    color: white;
-  }
+    /* color: white; */
   
-  .social-links {
+  
+  /* .social-links {
     display: flex;
     justify-content: center;
   }
@@ -642,7 +642,7 @@
   footer .footer-copyright {
     text-align: center;
     font-size: 12px;
-  }
+  } */
 
   /* footer {
     display: flex;
