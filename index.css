@@ -598,7 +598,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #333;
-    padding: 25px;
+    padding: 35px;
     z-index: 10000;
   }
   
@@ -606,7 +606,6 @@
     font-size: 24px;
     text-align: center;
     margin-bottom: 10px;
-    margin-left: 24px;
     color: rgb(112, 112, 112);
   }
   
@@ -626,11 +625,8 @@
   }
   
   .social-links {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    display: inline-block;
+    justify-content: center;
   }
   
   .social-links li {
@@ -646,8 +642,8 @@
   footer .footer-copyright {
     text-align: center;
     font-size: 12px;
-    color: #666;
   }
+
 
  /* Use media queries to make the footer responsive on different screen sizes */
   @media (max-width: 768px) {
