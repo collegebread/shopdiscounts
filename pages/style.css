@@ -205,7 +205,7 @@
   flex-direction: column;
   top: 20em;
   left: 1em;
-  padding: 5px;
+  padding: 12px;
   overflow-x: hidden;
   background-color: white;
   z-index: 0;
@@ -218,7 +218,7 @@
 .primary-sidebar .block-iii,
 .primary-sidebar .block-iv {
 
-  width: 80px;
+  width: 100px;
   background-color: #ffffff;
  
   z-index: 0; /* this makes sure that sidebar will be on top of other elements */
@@ -300,7 +300,7 @@
     align-items: center;
     width: 230px;
     height: 360px;
-    margin: 0 1.5em 2em 32em; /* Add a top, right, bottom and left margin of 2em */
+    margin: 0 1.5em 2em 2em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
