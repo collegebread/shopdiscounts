@@ -623,13 +623,12 @@
     text-decoration: none;
     color: white;
   }
-  
-  .social-links {
+  .social{
     display: inline-block;
     justify-content: center;
   }
   
-  .social-links li {
+  .social li {
     margin-right: 10px;
   }
   
