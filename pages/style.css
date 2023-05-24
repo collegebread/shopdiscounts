@@ -218,7 +218,7 @@
 .primary-sidebar .block-iii,
 .primary-sidebar .block-iv {
 
-  width: 180px;
+  width: 80px;
   background-color: #ffffff;
  
   z-index: 0; /* this makes sure that sidebar will be on top of other elements */
