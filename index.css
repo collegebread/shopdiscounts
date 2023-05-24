@@ -624,6 +624,7 @@
     color: white;
   }
   .social {
+    display: inline-block;
     text-align: center;
   }
   
