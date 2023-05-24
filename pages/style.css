@@ -197,6 +197,37 @@
   flex-direction: row;
   
 }
+.left-container {
+  flex-basis: 50%;
+}
+
+.right-container {
+  flex-basis: 50%;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.results-list {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.sort-container {
+  margin-top: 20px;
+}
+
+.sort-dropdown {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 200px;
+}
 
 .primary-sidebar {
   display: flex;
