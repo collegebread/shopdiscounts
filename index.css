@@ -623,14 +623,30 @@
     text-decoration: none;
     color: white;
   }
-  .social{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .social {
+    text-align: center;
   }
   
-  .social li {
+  .social h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-links li {
     margin-right: 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
   }
   
   footer .footer-line {
