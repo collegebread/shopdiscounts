@@ -575,7 +575,6 @@
     color: white;
   }
   .social {
-    display: inline-block;
     text-align: center;
   }
   
@@ -586,6 +585,7 @@
   
   .social-links {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     list-style: none;
     padding: 0;
