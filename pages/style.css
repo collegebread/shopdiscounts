@@ -393,7 +393,7 @@
     align-items: center;
     width: 230px;
     height: 360px;
-    margin: 0 1.5em 2em 5em; /* Add a top, right, bottom and left margin of 2em */
+    margin: 0 1.5em 2em 12em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -411,7 +411,7 @@
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
     flex-wrap: wrap;
-    margin: 1.5em 0 0 .5em; /* Add a top and bottom margin of 20 pixels */
+    margin: 1.5em 0 0 .1em; /* Add a top and bottom margin of 20 pixels */
     scroll-snap-align: end; /* this ensures the scroll snaps to the end of the last card */
     scroll-snap-type: x mandatory; /* this makes the scroll snap horizontally to the card end */
   }
