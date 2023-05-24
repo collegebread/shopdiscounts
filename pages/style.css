@@ -300,7 +300,7 @@
     align-items: center;
     width: 230px;
     height: 360px;
-    margin: 0 1.5em 2em 12em; /* Add a top, right, bottom and left margin of 2em */
+    margin: 0 1.5em 2em 32em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
