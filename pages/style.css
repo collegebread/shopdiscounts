@@ -239,7 +239,7 @@
   flex: 1;
   position: absolute; /* this makes sure that sidebar won't overlap other elements */
   flex-direction: column;
-  top: 10em;
+  top: 25em;
   left: 1em;
   padding: 12px;
   overflow-x: hidden;
