@@ -199,3 +199,77 @@ hr {
   margin-top: 0;
 
 }
+@media (max-width: 768px) {
+  body {
+    /* Adjust the body styles for smaller screens */
+    display: block;
+  }
+
+  .import-form {
+    /* Adjust the import form styles for smaller screens */
+    flex-direction: column;
+    width: 100%;
+    margin: 25px 0;
+  }
+
+  .top-header {
+    /* Adjust the top header styles for smaller screens */
+    width: 100%;
+    height: auto;
+  }
+
+  .top-brand {
+    /* Adjust the top brand styles for smaller screens */
+    margin-left: 0;
+  }
+
+  .top-cta {
+    /* Adjust the top CTA styles for smaller screens */
+    margin-top: 0;
+  }
+
+  .ad-banner {
+    /* Adjust the ad banner styles for smaller screens */
+    flex-direction: column;
+  }
+
+  .import-cache010 {
+    /* Adjust the import cache010 styles for smaller screens */
+    margin-left: 0;
+  }
+
+  .signup-form,
+  .login-form {
+    /* Adjust the signup and login form styles for smaller screens */
+    width: 100%;
+    height: auto;
+  }
+
+  /* Add additional styles for form inputs and buttons */
+
+  input,
+  button,
+  .google-btn {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* Add additional styles for other elements */
+
+  .email-input,
+  .password-input {
+    margin-right: 0;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 0;
+  }
+
+  .password-container {
+    margin-bottom: 15px;
+  }
+
+  .forgot-password {
+    margin-left: 0;
+  }
+}
