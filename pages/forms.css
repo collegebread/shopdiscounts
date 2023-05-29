@@ -77,12 +77,10 @@ a{
 .login-form{
   display: inline-block;
   flex: 2;
-  width: 400px;
-  height: 600px;
-
+  width: auto;
+  height: auto;
   padding: 12px;
   text-align: center;
-  border-radius: 24px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
 
