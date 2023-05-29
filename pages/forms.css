@@ -53,8 +53,6 @@ a{
   color: white;
 }
 .cta-bubble{
-  display: flex;
-  flex-direction: row;
   border-radius: 18px;
   background-color: rgb(37, 37, 37);
 
