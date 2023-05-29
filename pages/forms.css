@@ -13,9 +13,9 @@ a{
 }
 .import-cache{
   display: flex;
-  flex-direction: row;
-  width: auto;
-  height: auto;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
   margin: 25px 25px;
   padding: 12px;
   border-radius: 12px;
