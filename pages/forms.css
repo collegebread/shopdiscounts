@@ -11,8 +11,8 @@ a{
 .import-cache{
   display: flex;
   flex-direction: row;
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 80%;
   margin: auto auto;
   padding: 12px;
   border-radius: 8px;
