@@ -32,7 +32,7 @@ a{
  background-color: #6c5ce7;;
 }
 
-.cta-banner{
+.cta-header{
   margin-top: 18px;
   text-decoration: none;
   margin-left: 12px;
@@ -42,7 +42,7 @@ a{
   border-color: #6c5ce7;
 }
 
-.cta-header{
+.cta-banner{
   justify-content: center;
   margin-top: 94px;
   margin-left: 12px;
