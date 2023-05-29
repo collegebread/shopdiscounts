@@ -14,9 +14,8 @@ a{
 .import-cache{
   display: flex;
   flex-direction: row;
-  width: auto;
+  width: 1080px;
   height: auto;
-  top: 5em;
   margin: 25px 25px;
   padding: 12px;
   border-radius: 8px;
@@ -31,7 +30,7 @@ a{
   width: auto;
  height: auto;
  padding: 8px;
- border-radius: 24px;
+ border-radius: 8px;
  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
  /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127)); */
  background-color: #6c5ce7;
