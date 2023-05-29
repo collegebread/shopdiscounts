@@ -180,7 +180,7 @@ input[type="checkbox"] {
 hr {
   border: none;
   border-top: 2px solid silver;
-  width: 50%;
+  width: 5em;
   height: 1px;
   text-align: center;
 }
