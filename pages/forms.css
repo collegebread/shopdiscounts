@@ -13,8 +13,8 @@ a{
 }
 .import-cache{
   display: flex;
-  flex-direction: column;
-  width: 500px;
+  flex-direction: row;
+  width: auto;
   height: 500px;
   margin: 25px 25px;
   padding: 12px;
