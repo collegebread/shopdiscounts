@@ -16,10 +16,10 @@ a{
   flex-direction: row;
   width: auto;
   height: auto;
-  top: 15em;
+  top: 5em;
   margin: 25px 25px;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 8px;
   /* background-color: white; */
   /* background-color: rgb(68, 189, 157); */
   background-color: #6c5ce7;
