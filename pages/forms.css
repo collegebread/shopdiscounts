@@ -8,7 +8,7 @@ a{
   /* background-color: rgb(68, 189, 157); */
   /* background-color: #ccc; */
 }
-.import-form{
+.import-cache{
   display: flex;
   flex-direction: row;
   width: auto;
@@ -21,7 +21,7 @@ a{
 
 
 }
-.ad-banner{
+.ad-section{
   flex: 1;
   width: auto;
  height: auto;
@@ -32,7 +32,7 @@ a{
  background-color: #6c5ce7;;
 }
 
-.top-brand{
+.cta-banner{
   margin-top: 18px;
   text-decoration: none;
   margin-left: 12px;
@@ -42,20 +42,20 @@ a{
   border-color: #6c5ce7;
 }
 
-.top-cta{
+.cta-header{
   justify-content: center;
   margin-top: 94px;
   margin-left: 12px;
   color: white;
 }
-.ad-banner{
+.cta-bubble{
   display: flex;
   flex-direction: row;
   border-radius: 18px;
   background-color: rgb(37, 37, 37);
 
 }
-.import-cache010{
+.cta-text{
   margin-left: 12px;
   margin-top: 12px;
   font-size: 18px;
