@@ -15,7 +15,7 @@ a{
   display: flex;
   flex-direction: row;
   width: auto;
-  height: auto;
+  height: 800px;
   margin: 25px 25px;
   padding: 12px;
   border-radius: 12px;
