@@ -55,6 +55,7 @@ a{
 }
 
 .signup-form {
+  position: relative;
   flex: 2;
   width: 50%;
   height: auto;
@@ -65,6 +66,7 @@ a{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 .login-form{
+  position: relative;
   display: inline-block;
   flex: 2;
   width: 50%;
