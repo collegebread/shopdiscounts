@@ -23,16 +23,16 @@ a{
 
 }
 .ad-section{
-  flex: 1;
+ flex: 1;
  border-radius: 8px;
  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
  background-color: #6c5ce7;
 }
 
 .cta-header{
-  margin-top: 18px;
+
   text-decoration: none;
-  margin-left: 12px;
+ 
   font-family: 'MuseoModerno', cursive;
   font-size: 18px;
   color: white;
@@ -41,7 +41,7 @@ a{
 
 .cta-banner{
   justify-content: center;
-  margin-top: 94px;
+  
   margin-left: 12px;
   color: white;
 }
