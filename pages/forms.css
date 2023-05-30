@@ -62,7 +62,7 @@ a{
   flex: 2;
   width: auto;
   height: auto;
-  padding: 12px;
+  padding: 2px;
   text-align: center;
   border-radius: 24px;
   background-color: rgb(255, 255, 255);
@@ -73,10 +73,11 @@ a{
   flex: 2;
   width: auto;
   height: auto;
-  padding: 12px;
+  padding: 2px;
+  justify-content: right;
   text-align: center;
-  /* background-color: rgb(255, 255, 255);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) */
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) 
 
 }
 
