@@ -59,7 +59,7 @@ a{
 
 .signup-form {
   flex: 2;
-  width: auto;
+  width: 50%;
   height: auto;
   padding: 2px;
   text-align: center;
