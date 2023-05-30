@@ -68,7 +68,7 @@ a{
 .login-form{
   display: inline-block;
   flex: 2;
-  width: 50%;
+  width: 25%;
   height: auto;
   padding: 2px;
   border-radius: 12px;
