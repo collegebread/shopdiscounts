@@ -70,7 +70,7 @@ a{
 .login-form{
   display: inline-block;
   flex: 2;
-  width: auto;
+  width: 50%;
   height: auto;
   padding: 2px;
   justify-content: right;
