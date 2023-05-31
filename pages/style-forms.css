@@ -1,6 +1,6 @@
 body {
+    background-color: #f4f7f9;
     font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
   }
@@ -12,83 +12,61 @@ body {
     height: 100vh;
   }
   
-  .left-section {
-    width: 400px;
+  .content {
+    max-width: 400px;
+    width: 90%;
     padding: 40px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    width: 150px;
-    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   }
   
   h1 {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
   }
   
   form {
     margin-bottom: 20px;
   }
   
-  label {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
   input[type="email"],
   input[type="password"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 12px;
+    margin-bottom: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 16px;
   }
   
-  button {
+  button[type="submit"] {
     width: 100%;
     padding: 12px;
-    background-color: #1a73e8;
     border: none;
     border-radius: 4px;
-    color: #fff;
     font-size: 16px;
     font-weight: bold;
+    color: #fff;
+    background-color: #07c;
     cursor: pointer;
   }
   
-  .signup-link {
-    font-size: 14px;
-  }
-  
-  .signup-link a {
-    color: #1a73e8;
-    text-decoration: none;
-  }
-  
-  .right-section {
-    width: 400px;
-    padding: 40px;
-    background-color: #1a73e8;
-    color: #fff;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+  button[type="submit"]:hover {
+    background-color: #069;
   }
   
   p {
-    font-size: 16px;
-    margin-bottom: 20px;
+    text-align: center;
   }
   
-  .image {
-    width: 250px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  a {
+    color: #07c;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
