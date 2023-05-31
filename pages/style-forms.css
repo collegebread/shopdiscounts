@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
   }
@@ -13,102 +13,82 @@ body {
   }
   
   .left-section {
-    flex: 1;
+    width: 400px;
+    padding: 40px;
     background-color: #fff;
-    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .logo img {
-    width: 100px;
-    height: 100px;
+  .logo {
+    width: 150px;
+    margin-bottom: 20px;
   }
   
   h1 {
     font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   form {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   label {
-    display: block;
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: 5px;
   }
   
-  input[type="text"],
+  input[type="email"],
   input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 14px;
   }
   
-  button[type="submit"] {
+  button {
     width: 100%;
     padding: 12px;
+    background-color: #1a73e8;
     border: none;
     border-radius: 4px;
-    background-color: #0d82d0;
     color: #fff;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
   }
   
-  .remember-me {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  .signup-link {
+    font-size: 14px;
   }
   
-  input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  .bottom-links a {
-    color: #0d82d0;
+  .signup-link a {
+    color: #1a73e8;
     text-decoration: none;
-    margin-right: 10px;
   }
   
   .right-section {
-    flex: 1;
-    background-color: #0d82d0;
+    width: 400px;
+    padding: 40px;
+    background-color: #1a73e8;
     color: #fff;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .right-content {
     text-align: center;
   }
   
   h2 {
-    font-size: 30px;
+    font-size: 32px;
     margin-bottom: 20px;
   }
   
   p {
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
   }
   
-  .signup-link {
-    display: inline-block;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 4px;
-    background-color: #fff;
-    color: #0d82d0;
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
+  .image {
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
   }
