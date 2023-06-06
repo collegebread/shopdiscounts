@@ -201,21 +201,24 @@
   flex-direction: row;
   
 }
-.sort-data {
+.sort{
+  display: flex;
+}
+.sort .data {
   display: flex;
   align-items: center;
 }
 
-.sort-results {
+.sort .label {
   margin-right: 20px;
 }
 
-.results-container {
+.results{
   display: flex;
   align-items: center;
 }
 
-.results-list {
+.results .list {
   list-style-type: decimal;
   padding: 0;
   margin: 0;
