@@ -400,8 +400,7 @@
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    flex-wrap: nowrap;
-    overflow:visible;
+    overflow: visible;
     z-index: 10;
    
 
@@ -412,7 +411,6 @@
     width: auto;
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
-    flex-wrap: nowrap;
     margin: 1.5em 0 0 .5em; /* Add a top and bottom margin of 20 pixels */
     scroll-snap-align: end; /* this ensures the scroll snaps to the end of the last card */
     scroll-snap-type: x mandatory; /* this makes the scroll snap horizontally to the card end */
@@ -430,6 +428,7 @@
   .card {
     width: 200px;
     height: 500px;
+    flex-wrap: nowrap;
    
   }
   .ad-card-image{
