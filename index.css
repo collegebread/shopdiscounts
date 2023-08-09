@@ -385,6 +385,9 @@
     tr:hover {
       background-color: #eee;
     }
+    .card-stack{
+      margin-left: 33px;
+    }
 
   .card-container {
     display: inline-block;
