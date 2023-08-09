@@ -438,8 +438,8 @@
     align-content: center;
   
   }
-  .card-content{
-    border-radius: 4px;
+  .card-body{
+   margin-top: 4px;
   }
   .card-title{
     font-size: 12px;
