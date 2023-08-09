@@ -396,7 +396,7 @@
     width: 200px;
     height: 300px;
     margin: 0 .5em .5em .5em; /* Add a top, right, bottom and left margin of 2em */
-    padding: 1.5em;
+    padding: 1em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
