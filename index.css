@@ -386,16 +386,16 @@
       background-color: #eee;
     }
     .card-stack{
-      margin-left: 33px;
+      margin-left: 1.5em;
     }
 
   .card-container {
-    display: inline-block;
+    display: block;
     flex: 2;
     align-items: center;
     width: 200px;
     height: 300px;
-    margin: 0 1.5em 2em 2em; /* Add a top, right, bottom and left margin of 2em */
+    margin: 0 1em 1em 1em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
