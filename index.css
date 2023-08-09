@@ -390,7 +390,7 @@
     }
 
   .card-container {
-    display: block;
+    display: inline-table;
     flex: 2;
     align-items: center;
     width: 200px;
