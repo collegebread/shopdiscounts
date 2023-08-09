@@ -25,7 +25,7 @@
     padding-left: 8px; /* 3 */
     /* background-color: #fcf2f8; */
     /* background-color: #f7f7f7; */
-    background-color: rgb(100, 100, 100);
+    background-color: #f9f9f9;
    
   }
   /* .above-header{
@@ -387,17 +387,17 @@
     }
     .card-stack{
       margin-left: 1.5em;
-      background-color: rgb(144, 144, 144);
     }
 
   .card-container {
-    display: inline-block;
+    display: block;
     flex: 2;
     align-items: center;
     width: 200px;
     height: 300px;
-    margin: 0 .5em .5em .5em; /* Add a top, right, bottom and left margin of 2em */
-    padding: 1em;
+    margin: 0 1em 1em 1em; /* Add a top, right, bottom and left margin of 2em */
+    padding: 1.5em;
+    background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     z-index: 10;
@@ -410,14 +410,14 @@
     width: auto;
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
-    margin: 1em 0 0 .2em; /* Add a top and bottom margin of 20 pixels */
+    margin: 1em 0 0 .5em; /* Add a top and bottom margin of 20 pixels */
   }
   .card-row-title {
     font-size: 1.5em; /* Set the font size to 1.5 times the default size */
     font-weight: bold; /* Make the text bold */
     text-transform: uppercase; /* Convert the text to uppercase */
     color: #333; /* Set the text color to a dark grey */
-    margin: 1.5em 0 0 1.5em; /* Add a bottom margin of 1em */
+    margin: 3.5em 0 0 4em; /* Add a bottom margin of 1em */
    
  
   }
@@ -426,7 +426,6 @@
     width: 200px;
     height: 400px;
     flex-wrap: nowrap;
-    margin: 0 0 1.5em 0;
    
   }
   .ad-card-image{
