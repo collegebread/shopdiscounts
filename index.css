@@ -393,14 +393,13 @@
     display: inline-block;
     flex: 2;
     align-items: center;
-    width: 230px;
-    height: 360px;
+    width: 200px;
+    height: 300px;
     margin: 0 1.5em 2em 2em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    overflow: visible;
     z-index: 10;
    
 
@@ -411,9 +410,7 @@
     width: auto;
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
-    margin: 1.5em 0 0 .5em; /* Add a top and bottom margin of 20 pixels */
-    scroll-snap-align: end; /* this ensures the scroll snaps to the end of the last card */
-    scroll-snap-type: x mandatory; /* this makes the scroll snap horizontally to the card end */
+    margin: 1em 0 0 .5em; /* Add a top and bottom margin of 20 pixels */
   }
   .card-row-title {
     font-size: 1.5em; /* Set the font size to 1.5 times the default size */
@@ -427,19 +424,19 @@
 
   .card {
     width: 200px;
-    height: 500px;
+    height: 400px;
     flex-wrap: nowrap;
    
   }
   .ad-card-image{
 
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     align-content: center;
   
   }
   .card-body{
-   margin-top: 4px;
+   margin-top: 12px;
   }
   .card-title{
     font-size: 12px;
