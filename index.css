@@ -439,12 +439,12 @@
    margin-top: 12px;
   }
   .card-title{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bolder;
   }
   .card-description{
-    font-size: 12px;
-    line-break: auto;
+    font-size: 8px;
+   
   }
 
   .scroll-left {
