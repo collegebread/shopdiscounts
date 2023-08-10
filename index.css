@@ -408,6 +408,7 @@
     /* this centers the row of cards vertically */
     margin: 2em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
     flex-wrap: nowrap;
+    overflow-x: hidden;
    
   }
   .card-row-title {
