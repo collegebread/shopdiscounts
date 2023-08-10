@@ -389,8 +389,8 @@
 
   .card-container {
     display: inline-block;
-    max-width: 230px;
-    max-height: 360px;
+    max-width: 400px;
+    max-height: 400px;
     margin: 0 1em 1em .5em; /* Add a top, right, bottom and left margin of 2em */
     padding: .5em;
     background-color: white;
