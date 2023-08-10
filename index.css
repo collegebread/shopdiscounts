@@ -387,6 +387,7 @@
     }
     .card-stack{
       margin-left: 5em;
+      align-items: center;
     }
 
   .card-container {
@@ -395,7 +396,7 @@
     align-items: center;
     width: 230px;
     height: 360px;
-    margin: 0 1em 1em 1em; /* Add a top, right, bottom and left margin of 2em */
+    margin: 0 1em 1em .5em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -412,6 +413,7 @@
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
     margin: 1em 0 0 0em; /* Add a top and bottom margin of 20 pixels */
+    flex-wrap: nowrap;
   }
   .card-row-title {
     font-size: 1.5em; /* Set the font size to 1.5 times the default size */
@@ -426,7 +428,7 @@
   .card {
     width: 200px;
     height: 200px;
-    flex-wrap: nowrap;
+   
    
   }
   .ad-card-image{
