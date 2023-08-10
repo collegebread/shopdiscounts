@@ -429,7 +429,7 @@
   }
   .ad-card-image{
     width: 100%;
-    max-height: 70%; /* Adjust this value to maintain the aspect ratio */
+    max-height: 20%; /* Adjust this value to maintain the aspect ratio */
     object-fit: contain;
     display: block;
     margin: 0 auto;
