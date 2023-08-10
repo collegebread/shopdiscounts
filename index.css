@@ -428,8 +428,8 @@
   }
   .ad-card-image{
     width: 100px;
-    height: 100px;
-    align-self: center;
+    height: 200px;
+    justify-items: center;
   
   }
   .card-body{
