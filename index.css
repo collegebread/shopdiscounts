@@ -422,14 +422,14 @@
 
   .card {
     width: 100px;
-    height: 100px;
+    height: 200px;
    
    
   }
   .ad-card-image{
     width: 100px;
-    height: 200px;
-    justify-items: center;
+    height: 100px;
+    align-items: center;
   
   }
   .card-body{
