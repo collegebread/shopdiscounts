@@ -648,7 +648,7 @@
     .card-container {
       flex-direction: column; /* Change the direction to vertical */
       align-items: center; /* Center the cards vertically */
-      margin: 0 1.5em 2em 1.5em; /* Adjust the margin to center the cards horizontally */
+      margin: .5em 0em 1em 1.5em; /* Adjust the margin to center the cards horizontally */
     }
     .card-row {
       margin: 1.5em 0; /* Adjust the margin to center the cards vertically */
