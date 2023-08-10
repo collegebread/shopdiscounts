@@ -42,7 +42,6 @@
       justify-content: space-between;
       align-items: center;
       padding: 0 20px; /* Add padding to the navbar */
-      z-index: 1000;
     }
     
     .nav.brand-container {
@@ -58,7 +57,6 @@
     }
     
     .search-container {
-      
       flex-grow: 1;
       display: flex;
       justify-content: center;
@@ -111,9 +109,7 @@
       font-weight: bolder;
     }
     .fa-solid.fa-mobile {
-      font-size: 33px;
-      background-color: #6c5ce7;
-      color:orange;
+     color:orange;
     
     }
     .fas.fa-share-alt{
@@ -429,21 +425,18 @@
    
    
   }
-
   .ad-card-image{
-    width: auto;
+    width: 100px;
     height: 100px;
     display: block;
     object-fit: contain;
     align-items: center;
     margin: auto;
-    background-color: #666;
- 
+    
   
   }
   .card-body{
    margin-top: 12px;
-   fill: #f1f1f1;
   }
   .card-title{
     font-size: 12px;
