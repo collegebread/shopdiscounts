@@ -57,7 +57,7 @@
     }
     
     .search-container {
-      position: fixed;
+      position: sticky;
       flex-grow: 1;
       display: flex;
       justify-content: center;
