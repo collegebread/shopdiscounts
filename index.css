@@ -431,7 +431,7 @@
     width: 100px;
     height: 100px;
     display: block;
-    object-fit: fill;
+    object-fit: contain;
     align-items: center;
   
   }
