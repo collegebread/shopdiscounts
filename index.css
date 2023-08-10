@@ -433,6 +433,7 @@
     object-fit: contain;
     align-items: center;
     margin: auto;
+    background-color: #666;
     
   
   }
