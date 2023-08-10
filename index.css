@@ -431,12 +431,13 @@
   }
 
   .ad-card-image{
-    width: 100px;
+    width: auto;
     height: 100px;
     display: block;
     object-fit: contain;
     align-items: center;
     margin: auto;
+    background-color: #666;
  
   
   }
