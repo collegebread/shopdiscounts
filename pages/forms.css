@@ -196,7 +196,7 @@ hr {
 }
 
 @media (max-width: 768px)  {
-  .import-form{
+  .top-header{
     display: none;
     
   }
