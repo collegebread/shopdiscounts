@@ -394,10 +394,9 @@
 
   .card-container {
     display: inline-block;
-    flex: 2;
     align-items: center;
-    width: 230px;
-    height: 360px;
+    max-width: 230px;
+    max-height: 360px;
     margin: 0 1em 1em .5em; /* Add a top, right, bottom and left margin of 2em */
     padding: 1.5em;
     background-color: white;
@@ -411,7 +410,8 @@
   }
   .card-row {
     display: inline-block;
-    width: auto;
+    max-width: 400px;
+    max-height: 400px;
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
     margin: 2em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
@@ -438,7 +438,7 @@
 
     width: 100px;
     height: 100px;
-   margin: 0 0 0 33px;
+     margin: 0 0 0 33px;
   
   }
   .card-body{
