@@ -389,77 +389,64 @@
       margin-left: 1.5em;
     }
 
-  /* .card-container styles */
-.card-container {
-  display: inline-block;
-  width: 230px;
-  height: 360px;
-  margin: 0 1em 1em 1em;
-  padding: 1.5em;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  overflow: hidden; /* Use 'hidden' to prevent content overflow */
-  z-index: 10;
-}
+  .card-container {
+    display: inline-block;
+    flex: 2;
+    align-items: center;
+    width: 230px;
+    height: 360px;
+    margin: 0 1em 1em 1em; /* Add a top, right, bottom and left margin of 2em */
+    padding: 1.5em;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: visible;
+    z-index: 10;
+   
 
-/* .card-row styles */
-.card-row {
-  display: flex; /* Use flex to create a row of cards */
-  justify-content: center;
-  align-items: center;
-  margin: 1em 0; /* Adjust margin as needed */
-}
+ 
+  }
+  .card-row {
+    display: inline-block;
+    width: auto;
+    justify-content: center; /* this centers the row of cards horizontally */
+    align-items: center; /* this centers the row of cards vertically */
+    margin: 1em 0 0 0em; /* Add a top and bottom margin of 20 pixels */
+  }
+  .card-row-title {
+    font-size: 1.5em; /* Set the font size to 1.5 times the default size */
+    font-weight: bold; /* Make the text bold */
+    text-transform: uppercase; /* Convert the text to uppercase */
+    color: #333; /* Set the text color to a dark grey */
+    margin: 3.5em 0 0 4em; /* Add a bottom margin of 1em */
+   
+ 
+  }
 
-/* .card-row-title styles */
-.card-row-title {
-  font-size: 1.5em;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #333;
-  margin: 0.5em 0 0.5em 0;
-}
+  .card {
+    width: 200px;
+    height: 200px;
+    flex-wrap: nowrap;
+   
+  }
+  .ad-card-image{
 
-/* .card styles */
-.card {
-  width: 200px;
-  height: 200px;
-  display: flex; /* Use flex to align card content */
-  flex-direction: column; /* Align content vertically */
-  justify-content: space-between; /* Space out the content within the card */
-  margin: 0 0.5em; /* Adjust margin between cards */
-  padding: 1em; /* Add padding within the card */
-  background-color: #f9f9f9; /* Set a background color for the card */
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* .ad-card-image styles */
-.ad-card-image {
-  width: 100px;
-  height: 100px;
-  align-self: center; /* Center the image within the card */
-}
-
-/* .card-body styles */
-.card-body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 12px;
-}
-
-/* .card-title styles */
-.card-title {
-  font-size: 12px;
-  font-weight: bold;
-}
-
-/* .card-description styles */
-.card-description {
-  font-size: 8px;
-  color: #555; /* Set a slightly darker color for description */
-}
+    width: 100px;
+    height: 100px;
+    left: 33px;
+    align-items: center;
+  
+  }
+  .card-body{
+   margin-top: 12px;
+  }
+  .card-title{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .card-description{
+    font-size: 8px;
+  }
 
   .scroll-left {
     visibility: hidden;
