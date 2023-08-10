@@ -408,7 +408,6 @@
     /* this centers the row of cards vertically */
     margin: 2em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
     flex-wrap: nowrap;
-    overflow-x: hidden;
    
   }
   .card-row-title {
@@ -428,11 +427,11 @@
    
   }
   .ad-card-image{
-    width: 100%;
-    max-height: 20%; /* Adjust this value to maintain the aspect ratio */
-    object-fit: contain;
+    width: 100px;
+    height: 100px;
     display: block;
-    margin: 0 auto;
+    object-fit: fill;
+    align-items: center;
   
   }
   .card-body{
