@@ -389,7 +389,7 @@
 
   .card-container {
     display: inline-block;
-    width: 400px;
+    width: 600px;
     margin: 0 1em 1em .5em; /* Add a top, right, bottom and left margin of 2em */
     padding: .5em;
     background-color: white;
