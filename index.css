@@ -662,8 +662,12 @@
       margin-bottom: 1.5em; /* Add some spacing between the cards */
     }
     .ad-card-image {
-      width: 100%; /* Make the image occupy the full width */
-      height: auto; /* Allow the height to adjust based on content */
+      width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: contain;
+    align-items: center;
+    margin: auto;
     }
     .scroll-right {
       display: hidden;
