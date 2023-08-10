@@ -412,8 +412,8 @@
     display: inline-block;
     max-width: 400px;
     max-height: 400px;
-    justify-content: center; /* this centers the row of cards horizontally */
-    align-items: center; /* this centers the row of cards vertically */
+    /* this centers the row of cards horizontally */
+    /* this centers the row of cards vertically */
     margin: 2em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
     flex-wrap: nowrap;
    
