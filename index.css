@@ -437,6 +437,7 @@
   }
   .card-body{
    margin-top: 12px;
+   fill: #f1f1f1;
   }
   .card-title{
     font-size: 12px;
