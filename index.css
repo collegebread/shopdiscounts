@@ -393,8 +393,7 @@
     }
 
   .card-container {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     flex: 2;
     align-items: center;
     width: 230px;
