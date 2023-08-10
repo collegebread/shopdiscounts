@@ -426,13 +426,7 @@
    
    
   }
-  .card-image{
-    width: 100%;
-    height: 200%;
-    background-color: #f1f1f1;
-    z-index: 1;
 
-  }
   .ad-card-image{
     width: 100px;
     height: 100px;
@@ -440,7 +434,7 @@
     object-fit: contain;
     align-items: center;
     margin: auto;
-    z-index: 2;
+  
  
     
   
