@@ -401,7 +401,7 @@
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    overflow: visible;
+   
 
    
 
@@ -414,7 +414,7 @@
     align-items: center; /* this centers the row of cards vertically */
     margin: 2em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
     flex-wrap: nowrap;
-    overflow:scroll;
+   
   }
   .card-row-title {
     font-size: 1.5em; /* Set the font size to 1.5 times the default size */
