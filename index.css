@@ -438,7 +438,7 @@
 
     width: 100px;
     height: 100px;
-    align-items: center;
+   margin: 0 0 0 33px;
   
   }
   .card-body{
