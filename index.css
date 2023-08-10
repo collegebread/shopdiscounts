@@ -427,9 +427,11 @@
    
   }
   .ad-card-image{
-    width: 100px;
-    height: 100px;
-    align-items: center;
+    width: 100%;
+    max-height: 70%; /* Adjust this value to maintain the aspect ratio */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
   
   }
   .card-body{
