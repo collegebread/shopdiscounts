@@ -386,6 +386,8 @@
       background-color: #eee;
     }
     .card-stack{
+      display: flex;
+      flex-direction: row;
       margin:1em 0 0 5em;
       align-items: center;
     }
