@@ -433,6 +433,7 @@
     display: block;
     object-fit: contain;
     align-items: center;
+    margin: auto;
   
   }
   .card-body{
