@@ -447,6 +447,7 @@
   }
   .card-description{
     font-size: 12px;
+    line-break: auto;
   }
 
   .scroll-left {
