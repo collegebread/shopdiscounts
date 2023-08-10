@@ -412,7 +412,7 @@
     width: auto;
     justify-content: center; /* this centers the row of cards horizontally */
     align-items: center; /* this centers the row of cards vertically */
-    margin: 1em 0 0 0em; /* Add a top and bottom margin of 20 pixels */
+    margin: 1em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
     flex-wrap: nowrap;
   }
   .card-row-title {
