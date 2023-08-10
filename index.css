@@ -398,7 +398,7 @@
     max-width: 230px;
     max-height: 360px;
     margin: 0 1em 1em .5em; /* Add a top, right, bottom and left margin of 2em */
-    padding: 1.5em;
+    padding: .5em;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
