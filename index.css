@@ -385,70 +385,59 @@
     tr:hover {
       background-color: #eee;
     }
-    .card-stack{
-      margin-left: 5em;
+    .card-stack {
+      display: flex;
+      flex-direction: column;
       align-items: center;
+      margin-left: 5em;
     }
-
-  .card-container {
-    display: inline-block;
-    flex: 2;
-    align-items: center;
-    width: 230px;
-    height: 360px;
-    margin: 0 1em 1em .5em; /* Add a top, right, bottom and left margin of 2em */
-    padding: 1.5em;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-   
-
-   
-
- 
-  }
-  .card-row {
-    display: inline-block;
-    width: auto;
-    justify-content: center; /* this centers the row of cards horizontally */
-    align-items: center; /* this centers the row of cards vertically */
-    margin: 2em 0 0 2em; /* Add a top and bottom margin of 20 pixels */
-    flex-wrap: nowrap;
-   
-  }
-  .card-row-title {
-    font-size: 1.5em; /* Set the font size to 1.5 times the default size */
-    font-weight: bold; /* Make the text bold */
-    text-transform: uppercase; /* Convert the text to uppercase */
-    color: #333; /* Set the text color to a dark grey */
-    margin: .5em 0 0 2em; /* Add a bottom margin of 1em */
-   
- 
-  }
-
-  .card {
-    width: 100px;
-    height: 100px;
-   
-   
-  }
-  .ad-card-image{
-
-    width: 100px;
-    height: 100px;
-    align-items: center;
-  
-  }
-  .card-body{
-   margin-top: 12px;
-  }
-  .card-title{
-    font-size: 12px;
-    font-weight: bold;
-  }
-  .card-description{
-    font-size: 8px;
-  }
+    
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 230px;
+      height: 360px;
+      margin: 0 1em 1em 0.5em;
+      padding: 1.5em;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    
+    .card-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2em 0;
+      flex-wrap: nowrap;
+    }
+    
+    .card-row-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #333;
+      margin: 0.5em 0 0 2em;
+    }
+    
+    .ad-card-image {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .card-body {
+      margin-top: 12px;
+    }
+    
+    .card-title {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    
+    .card-description {
+      font-size: 8px;
+    }
 
   .scroll-left {
     visibility: hidden;
