@@ -112,7 +112,8 @@
     }
     .fa-solid.fa-mobile {
       font-size: 33px;
-     color:orange;
+      background-color: #6c5ce7;
+      color:orange;
     
     }
     .fas.fa-share-alt{
