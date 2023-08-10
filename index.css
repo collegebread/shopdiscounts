@@ -377,10 +377,7 @@
       text-align: left;
     }
 
-    /* Style the table rows on hover */
-    tr:hover {
-      background-color: #eee;
-    }
+   
     .card-stack{
       flex: 2;
       margin:1em 0 0 2em;
