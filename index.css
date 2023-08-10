@@ -601,10 +601,10 @@
     color: #ffffff;
   }
   
-  footer,.copyright {
+  footer .copyright {
     text-align: center;
     font-size: 12px;
-    color: #ffffff;
+    color: rgb(112, 112, 112);
    
    
   }
