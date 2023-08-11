@@ -136,6 +136,14 @@
       font-size: 33px;
       margin: 0 0 12px 0;
       align-content: center;
+      background-color: rgb(46, 46, 46);
+      border-style: solid;
+      border-radius: 50px; /* Adjust the border radius as needed */
+      margin: 0 0.5rem;
+      padding: 0.5rem;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s ease-in-out;
       
     }
     .fas.fa-share-alt{
