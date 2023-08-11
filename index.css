@@ -429,12 +429,12 @@
 
   .ad-card-image{
     width: 100px;
-    height: 100px;
+    height: auto;
     display: block;
     object-fit: contain;
     align-items: center;
     margin: auto;
-  
+    background-color: #f1f1f1;
  
     
   
