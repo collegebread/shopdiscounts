@@ -684,7 +684,7 @@
       margin: .5em 0em 1em 1.5em; /* Adjust the margin to center the cards horizontally */
     }
     .card-row {
-      margin: 1.5em 0; /* Adjust the margin to center the cards vertically */
+      margin: 1.5em 0 .5em 0; /* Adjust the margin to center the cards vertically */
     }
     .card-row-title {
       margin: 2em 0 0 0; /* Adjust the margin to center the title horizontally */
@@ -692,7 +692,7 @@
     .card {
       width: 100%; /* Make the cards occupy the full width */
       height: auto; /* Allow the height to adjust based on content */
-      margin-bottom: 1.5em; /* Add some spacing between the cards */
+      margin:.5em 0 0 0; /* Add some spacing between the cards */
     }
     .ad-card-image {
       width: 100px;
