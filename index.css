@@ -24,9 +24,10 @@
   }
   .above-header{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(52, 52, 52);
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      padding: 0 20px; /* Add padding to the navbar */
      
    }
  
