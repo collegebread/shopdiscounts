@@ -106,6 +106,7 @@
       border-radius: 50px; /* Adjust the border radius as needed */
       margin: 0 0.5rem;
       padding: 0.5rem;
+      align-items: center;
       transition: background-color 0.3s ease-in-out;
     }
     
