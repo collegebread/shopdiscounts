@@ -546,7 +546,7 @@
   }
   
   .refresh-btn {
-    font-size: 5em;
+    font-size: 33px;
     align-content: center;
     border: none;
     margin: 0 0 0 10em;
@@ -555,7 +555,7 @@
   }
   
   .refresh-btn i {
-    font-size: 5em;
+    font-size: 33px;
     color: #333;
     align-content: center;
     margin: auto;
