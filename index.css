@@ -134,16 +134,22 @@
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 23px;
+      margin: 0 0 12px 0;
+      align-content: center;
       
     }
     .fas.fa-share-alt{
       color: rgb(112, 99, 255);
       font-size: 23px;
+      margin: 0 0 12px 0;
+      align-content: center;
      
     }
     .fas.fa-puzzle-piece{
       color: darkgray;
       font-size: 23px;
+      margin: 0 0 12px 0;
+      align-content: center;
      
     }
     
