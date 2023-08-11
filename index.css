@@ -105,12 +105,14 @@
       margin-left: 1em;
     }
     .nav-object {
-      background-color: rgb(46, 46, 46);
+      width: auto;
+      height: auto;
       border-style: solid;
       border-width: 75px;
       border-radius: 50px; /* Adjust the border radius as needed */
       margin: 0 0.5rem;
       padding: 0.5rem;
+      background-color: rgb(46, 46, 46);
       justify-content: center;
       align-items: center;
       transition: background-color 0.3s ease-in-out;
