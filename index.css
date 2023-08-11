@@ -555,6 +555,7 @@
   .refresh-btn i {
     font-size: 24px;
     color: #666;
+    align-content: center;
   }
   
   .refresh-btn:hover i {
