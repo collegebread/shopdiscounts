@@ -108,10 +108,9 @@
       font-size: 36px;
       font-weight: bolder;
     }
-    .fa-solid.fa-mobile {
-     color:orange;
-     font-size: 23px;
-    
+    fa-solid.fa-mobile-alt {
+      color: orange;
+      font-size: 23px;
     }
     .fas.fa-share-alt{
       color: rgb(112, 99, 255);
