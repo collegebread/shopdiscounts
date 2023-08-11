@@ -22,13 +22,13 @@
     
    
   }
-  .above-header{
+  /* .above-header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(52, 52, 52);
+     background-color: rgb(52, 52, 52);
      
-   }
+   } */
  
  
   
@@ -60,12 +60,12 @@
     }
     
     .search-container {
-    
+      position: fixed;
       flex-grow: 1;
       display: flex;
       justify-content: center;
       margin-left: .5em;
-     
+      z-index: 1000;
     }
     
     .search-form {
