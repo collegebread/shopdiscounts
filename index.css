@@ -26,7 +26,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(52, 52, 52);
      
    }
  
@@ -37,8 +36,12 @@
      color: silver;
        
      }
-     .nav {
+     .main-header{
       width: 100%;
+      height: auto;
+     }
+     .nav {
+      width: auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -61,7 +64,6 @@
     }
     
     .search-container {
-    
       flex-grow: 1;
       display: flex;
       justify-content: center;
@@ -168,7 +170,8 @@
     }
     
     .subnav {
-      width: 100%;
+      width: auto;
+      background-color: white;
       
     }
     
