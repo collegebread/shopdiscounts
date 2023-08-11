@@ -28,7 +28,7 @@
   
   
      .nav {
-     position: fixed;
+ 
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -50,7 +50,6 @@
     }
     
     .search-container {
-      
       flex-grow: 1;
       display: flex;
       justify-content: center;
