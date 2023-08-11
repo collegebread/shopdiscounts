@@ -60,12 +60,12 @@
     }
     
     .search-container {
-      position: fixed;
+    
       flex-grow: 1;
       display: flex;
       justify-content: center;
       margin-left: .5em;
-      z-index: 1000;
+     
     }
     
     .search-form {
