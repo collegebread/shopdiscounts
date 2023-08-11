@@ -105,8 +105,8 @@
       margin-left: 1em;
     }
     .nav-object {
-      width: 100px;
-      height: 100px;
+      width: 75px;
+      height: 75px;
       background-color: rgb(46, 46, 46);
       border-style: solid;
       border-radius: 50px; /* Adjust the border radius as needed */
@@ -545,7 +545,7 @@
   }
   
   .refresh-btn {
-    font-size: 33px;
+    font-size: 24px;
     align-content: center;
     border: none;
     background-color: transparent;
