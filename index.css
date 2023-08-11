@@ -22,24 +22,11 @@
     
    
   }
-  .above-header{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
- 
-   
-     
-   }
+
  
  
   
-   .above-header.description{
-     margin-left: 33px;
-     color: silver;
-       
-     }
+  
      .nav {
      
       display: flex;
