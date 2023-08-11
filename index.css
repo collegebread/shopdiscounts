@@ -110,6 +110,7 @@
       border-radius: 50px; /* Adjust the border radius as needed */
       margin: 0 0.5rem;
       padding: 0.5rem;
+      justify-content: center;
       align-items: center;
       transition: background-color 0.3s ease-in-out;
     }
@@ -122,6 +123,7 @@
       line-height: 14px;
       font-size: 14px;
       color: #333;
+      text-align: center;
       text-decoration: none;
     }
     
@@ -132,20 +134,17 @@
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 23px;
-      text-align: center;
-      align-content: center;
+      
     }
     .fas.fa-share-alt{
       color: rgb(112, 99, 255);
       font-size: 23px;
-      text-align: center;
-      align-content: center;
+     
     }
     .fas.fa-puzzle-piece{
       color: darkgray;
       font-size: 23px;
-      text-align: center;
-      align-content: center;
+     
     }
     
     .nav-menu li a {
