@@ -548,7 +548,7 @@
   }
   
   .refresh-btn {
-    font-size: 24px;
+    font-size: 33px;
     align-content: center;
     border: none;
     background-color: transparent;
@@ -556,9 +556,10 @@
   }
   
   .refresh-btn i {
-    font-size: 24px;
+    font-size: 33px;
     color: #666;
     align-content: center;
+    margin: auto;
   }
   
   .refresh-btn:hover i {
