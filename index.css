@@ -128,12 +128,20 @@
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 23px;
+      text-align: center;
+      align-content: center;
     }
     .fas.fa-share-alt{
       color: rgb(112, 99, 255);
+      font-size: 23px;
+      text-align: center;
+      align-content: center;
     }
     .fas.fa-puzzle-piece{
       color: darkgray;
+      font-size: 23px;
+      text-align: center;
+      align-content: center;
     }
     
     .nav-menu li a {
