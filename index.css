@@ -428,16 +428,12 @@
   }
 
   .ad-card-image{
-   
-    height: auto;
+    width: 100px;
+    height: 100px;
     display: block;
     object-fit: contain;
     align-items: center;
     margin: auto;
-    background-color: #f1f1f1;
- 
-    
-  
   }
   .card-body{
    margin-top: 12px;
