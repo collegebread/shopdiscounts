@@ -557,14 +557,12 @@
   
   .refresh-btn i {
     font-size: 33px;
-    color: #666;
+    color: #333;
     align-content: center;
     margin: auto;
   }
   
-  .refresh-btn:hover i {
-    color: #333;
-  }
+ 
   
   .comment-btn,
   .share-btn {
