@@ -545,13 +545,15 @@
   }
   
   .refresh-btn {
+    font-size: 33px;
+    align-content: center;
     border: none;
     background-color: transparent;
     cursor: pointer;
   }
   
   .refresh-btn i {
-    font-size: 2rem;
+    font-size: 5em;
     color: #666;
   }
   
