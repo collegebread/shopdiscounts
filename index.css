@@ -24,7 +24,8 @@
   }
   .above-header{
     position: fixed;
-    width: auto;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
