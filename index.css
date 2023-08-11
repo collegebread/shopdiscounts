@@ -442,6 +442,9 @@
    
    
   }
+  .card-image{
+    background-color: #f1f1f1;
+  }
 
   .ad-card-image{
     width: 100px;
