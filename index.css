@@ -124,7 +124,6 @@
       margin: 0 12px 12px 0;
       text-align: center;
       align-content: center;
-      line-height: 14px;
       font-size: 14px;
       color: #333;
       text-decoration: none;
@@ -137,17 +136,20 @@
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 33px;
+      margin-bottom: 33px;
       
     }
     .fas.fa-share-alt{
       color: rgb(112, 99, 255);
       font-size: 33px;
+      margin-bottom: 33px;
       
      
     }
     .fas.fa-puzzle-piece{
       color: darkgray;
       font-size: 33px;
+      margin-bottom: 33px;
      
     }
     
