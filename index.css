@@ -135,22 +135,20 @@
     }
     .fas.fa-mobile-alt {
       color: orange;
-      font-size: 33px;
-      margin-bottom: 33px;
-      
+      font-size: 28px; /* Adjust the font size as needed */
+      margin-top: 2px; /* Adjust the margin as needed */
     }
-    .fas.fa-share-alt{
+    
+    .fas.fa-share-alt {
       color: rgb(112, 99, 255);
-      font-size: 33px;
-      margin-bottom: 33px;
-      
-     
+      font-size: 28px; /* Adjust the font size as needed */
+      margin-top: 2px; /* Adjust the margin as needed */
     }
-    .fas.fa-puzzle-piece{
+    
+    .fas.fa-puzzle-piece {
       color: darkgray;
-      font-size: 33px;
-      margin-bottom: 33px;
-     
+      font-size: 28px; /* Adjust the font size as needed */
+      margin-top: 2px; /* Adjust the margin as needed */
     }
     
     .nav-menu li a {
