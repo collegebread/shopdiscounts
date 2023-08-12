@@ -612,60 +612,60 @@
     color: #2d3436;
   }
 
-  /* Styles for the featured section (same as previous example) */
-
-.additional-content {
-  display: flex;
-  justify-content: space-around;
-  margin: 2em auto;
-}
-
-.content-section {
-  flex: 1;
-  background-color: #f5f5f5;
-  border-radius: 10px;
-  padding: 2em;
-  text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-}
-
-.content-section:hover {
-  transform: translateY(-5px);
-}
-
-.section-title {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 0.5em;
-}
-
-.section-description {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 1.5em;
-}
-
-.coupon-list {
-  list-style: none;
-  padding: 0;
-}
-
-.coupon-list li {
-  margin-bottom: 0.5em;
-}
-
-.coupon-list li a {
-  color: #3498db;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease-in-out;
-}
-
-.coupon-list li a:hover {
-  color: #2980b9;
-}
-
+  .interactive-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em auto;
+    padding: 2em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-block {
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .block-title {
+    font-size: 24px;
+    color: #ff9900;
+    margin-bottom: 0.5em;
+  }
+  
+  .block-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 1em;
+  }
+  
+  .deal-list,
+  .category-list {
+    margin-top: 1em;
+  }
+  
+  .deal-link,
+  .category-link {
+    display: block;
+    font-size: 16px;
+    color: #3498db;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .deal-link:hover,
+  .category-link:hover {
+    color: #2980b9;
+  }
+  
+  .separator {
+    width: 1px;
+    height: 80px;
+    background-color: #ddd;
+  }
 
   footer {
     display: flex;
