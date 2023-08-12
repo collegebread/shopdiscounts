@@ -153,14 +153,6 @@
       
 
     }
-    .nav-object a i.fas.fa-puzzle-piece {
-      border-radius: 50%;
-      background-color: #3498db; /* Change the background color as desired */
-      color: #fff; /* Change the text color to contrast with the background */
-      font-size: 23px;
-      padding: 10px; /* Adjust padding as needed */
-      transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    }
     
     
     .nav-menu li a {
