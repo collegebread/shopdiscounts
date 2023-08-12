@@ -135,14 +135,14 @@
     }
     .fas.fa-mobile-alt {
       color: orange;
-      font-size: 23px; /* Adjust the font size as needed */
+      font-size: 33px; /* Adjust the font size as needed */
       margin-top: -5px; /* Adjust the margin as needed */
       margin-left: -5px;
     }
     
     .fas.fa-share-alt {
       color: rgb(112, 99, 255);
-      font-size: 24px; /* Adjust the font size as needed */
+      font-size: 33px; /* Adjust the font size as needed */
       margin-top: -5px; /* Adjust the margin as needed */
       margin-left: -5px;
       
@@ -150,7 +150,7 @@
     
     .fas.fa-puzzle-piece {
       color: darkgray;
-      font-size: 24px; /* Adjust the font size as needed */
+      font-size: 33px; /* Adjust the font size as needed */
       margin-top: -5px; /* Adjust the margin as needed */
       margin-left: -5px;
       
