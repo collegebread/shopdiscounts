@@ -490,6 +490,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 1em 0;
+    text-align: right; /* Align content to the right */
   }
   
   .prev-button,
