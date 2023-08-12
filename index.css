@@ -136,19 +136,20 @@
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 28px; /* Adjust the font size as needed */
-      margin-bottom: 22px; /* Adjust the margin as needed */
+      margin-bottom: 50px; /* Adjust the margin as needed */
     }
     
     .fas.fa-share-alt {
       color: rgb(112, 99, 255);
       font-size: 28px; /* Adjust the font size as needed */
-      margin-bottom: 22px; /* Adjust the margin as needed */
+      margin-bottom: 50px; /* Adjust the margin as needed */
     }
     
     .fas.fa-puzzle-piece {
       color: darkgray;
       font-size: 28px; /* Adjust the font size as needed */
-      margin-bottom: 22px; /* Adjust the margin as needed */
+      margin-bottom: 50px; /* Adjust the margin as needed */
+      
     }
     
     .nav-menu li a {
