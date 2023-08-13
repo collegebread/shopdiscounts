@@ -612,54 +612,64 @@
     color: #2d3436;
   }
 
-  .interactive-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .coupon-stack {
     margin: 4em auto;
     padding: 2em;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
   }
   
-  .content-block {
-    flex: 1;
-    text-align: center;
+  .coupon-stack.show {
+    opacity: 1;
+    transform: translateY(0);
   }
   
-  .block-title {
+  .stack-title {
     font-size: 24px;
     color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .coupon-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .coupon-card {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .coupon-image img {
+    max-width: 100px;
+    border-radius: 10px;
+  }
+  
+  .coupon-content {
+    flex: 1;
+  }
+  
+  .coupon-title {
+    font-size: 18px;
+    color: #3498db;
     margin-bottom: 0.5em;
   }
   
-  .card-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    margin-top: 1em;
+  .coupon-description {
+    font-size: 14px;
+    color: #666;
   }
   
-
-  
-  .card:hover {
-    transform: translateY(-10px);
-  }
-  
-  .card img {
-    max-width: 100px;
-    margin: 0 auto 1em;
-  }
-  
-
-  
-  .separator {
-    width: 2px;
-    height: 100px;
-    background-color: #ccc;
-  }
+  /* Add additional styling as needed */
 
   footer {
     display: flex;
