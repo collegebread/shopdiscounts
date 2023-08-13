@@ -65,3 +65,22 @@ for (var i = 0; i < listItems.length; i++) {
   count++;
 }
 showAllLink.innerHTML = "Show All (" + count + ")";
+window.addEventListener("scroll", revealCouponStack);
+
+function revealCouponStack() {
+  const couponStacks = document.querySelectorAll(".coupon-stack");
+  
+  couponStacks.forEach((stack) => {
+    const stackTop = stack.offsetTop;
+    const stackHeight = stack.clientHeight;
+    const windowHeight = window.innerHeight;
+    const scrollY = window.scrollY;
+    
+    if (scrollY > stackTop - windowHeight + stackHeight / 3) {
+      stack.classList.add("show");
+    }
+  });
+}
+
+// Initial check in case some stacks are already visible on page load
+revealCouponStack();
