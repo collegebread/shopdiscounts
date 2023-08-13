@@ -612,61 +612,84 @@
     color: #2d3436;
   }
 
+  .coupon-stacks-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    max-width: 100%;
+    height: 400px; /* Adjust the height as needed */
+  }
+  
   .coupon-stack {
-    margin: 4em auto;
-    padding: 2em;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-  
-  .coupon-stack.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .stack-title {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 1em;
-  }
-  
-  .coupon-list {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    align-items: flex-start;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
   }
   
+  .coupon-stack:not(.active) {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  /* Coupon Card Styling */
   .coupon-card {
     display: flex;
-    gap: 1em;
-    padding: 1em;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .coupon-image {
+    flex: 0 0 auto;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 8px;
+    overflow: hidden;
   }
   
   .coupon-image img {
-    max-width: 100px;
-    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
   }
   
   .coupon-content {
-    flex: 1;
+    flex: 1 1 auto;
   }
   
   .coupon-title {
     font-size: 18px;
-    color: #3498db;
-    margin-bottom: 0.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
   
   .coupon-description {
     font-size: 14px;
     color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .coupon-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .coupon-button:hover {
+    background-color: #555;
   }
   
   /* Add additional styling as needed */
