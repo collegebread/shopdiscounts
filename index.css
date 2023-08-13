@@ -642,10 +642,19 @@
     margin-top: 1em;
   }
   
+
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
   .card img {
     max-width: 100px;
     margin: 0 auto 1em;
   }
+  
+
+  
   .separator {
     width: 2px;
     height: 100px;
