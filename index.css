@@ -631,6 +631,7 @@
 
   .coupon-row {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     margin-bottom: 2em;
     opacity: 0;
@@ -644,8 +645,7 @@
   }
 
   .coupon-container {
-    display: flex;
-    flex-direction: column;
+    
     width: calc(33.33% - 20px);
     margin: 0 10px;
     background-color: #fff;
