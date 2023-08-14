@@ -612,14 +612,15 @@
     color: #2d3436;
   }
 
-  .card-stack {
+  
+  .coupon-stack {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2em 0;
   }
 
-  .card-row {
+  .coupon-row {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2em;
@@ -628,12 +629,12 @@
     transition: opacity 0.5s ease, transform 0.5s ease;
   }
 
-  .card-stack:hover .card-row {
+  .coupon-stack:hover .coupon-row {
     opacity: 1;
     transform: translateY(0);
   }
 
-  .card-container {
+  .coupon-container {
     width: calc(33.33% - 20px);
     margin: 0 10px;
     background-color: #fff;
@@ -643,7 +644,7 @@
     transition: transform 0.3s ease-in-out;
   }
 
-  .card-container:hover {
+  .coupon-container:hover {
     transform: translateY(-10px);
   }
 
