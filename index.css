@@ -14,8 +14,9 @@
   /* Use consistent positive color patterns throughout */
   
   .body {
-    max-width: 80%;
-    display: grid;
+   max-width: max-content;
+   padding: 0%;
+   margin: auto;
   }
   .wrapper {
     padding: 1em;
