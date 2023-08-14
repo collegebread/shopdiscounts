@@ -492,7 +492,7 @@
   .card-navigation {
    
     bottom: 1em;
-    right: 1em;
+    margin-right: 2em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
