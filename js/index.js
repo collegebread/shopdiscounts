@@ -83,4 +83,4 @@ window.addEventListener("scroll", revealCouponStack);
 // }
 
 // Initial check in case some stacks are already visible on page load
-revealCouponStack();
+// revealCouponStack();
