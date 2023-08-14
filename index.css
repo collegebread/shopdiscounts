@@ -615,9 +615,10 @@
   .interactive-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 4em auto;
     padding: 2em;
-    background-color: #f8f8f8;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -628,46 +629,42 @@
   }
   
   .block-title {
-    font-size: 28px;
+    font-size: 24px;
     color: #333;
     margin-bottom: 0.5em;
   }
   
-  .block-description {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 1em;
-  }
-  
-  .offer-list,
-  .collection-list {
+  .card-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
     margin-top: 1em;
   }
   
-  .offer-link,
-  .collection-link {
-    display: block;
+  .card {
+    width: 220px;
+    padding: 1.5em;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100px;
+    margin: 0 auto 1em;
+  }
+  
+  .card-title {
     font-size: 18px;
-    color: #e74c3c;
-    text-decoration: none;
+    color: #3498db;
     margin-bottom: 0.5em;
-    transition: color 0.3s ease-in-out;
   }
   
-  .offer-link:hover,
-  .collection-link:hover {
-    color: #c0392b;
-  }
-  
-  /* Separator Style */
-  .interactive-content::before,
-  .interactive-content::after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 100px;
-    background-color: #ccc;
-    margin: 0 2em;
+  .card-description {
+    font-size: 14px;
+    color: #666;
   }
   
   .separator {
