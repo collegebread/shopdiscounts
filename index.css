@@ -644,6 +644,8 @@
   }
 
   .coupon-container {
+    display: flex;
+    flex-direction: column;
     width: calc(33.33% - 20px);
     margin: 0 10px;
     background-color: #fff;
@@ -651,59 +653,53 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px; /* Adjust the gap between cards as needed */
-    margin: 2em auto;
-    max-width: 1200px; /* Set a maximum width for the container */
   }
-
+  
   .coupon-container:hover {
     transform: translateY(-10px);
   }
-
+  
   .coupon-image {
     float: left;
     width: 30%;
     padding: 1em;
   }
-
+  
   .coupon-image img {
     width: 100%;
     height: auto;
     border-radius: 10px 0 0 10px;
   }
-
+  
   .coupon-content {
     float: left;
     width: 70%;
     padding: 1em;
   }
-
+  
   .coupon-title {
     font-size: 18px;
     font-weight: bold;
     margin: 0 0 0.5em;
   }
-
+  
   .coupon-source,
   .coupon-expiration {
     font-size: 14px;
     color: #777;
     margin: 0 0 0.5em;
   }
-
+  
   .coupon-description {
     font-size: 14px;
     margin-bottom: 1em;
   }
-
+  
   .coupon-buttons {
     display: flex;
     align-items: center;
   }
-
+  
   .coupon-button {
     display: inline-block;
     margin-right: 10px;
@@ -711,7 +707,7 @@
     font-size: 16px;
     transition: color 0.3s ease;
   }
-
+  
   .coupon-button:hover {
     color: #3498db;
   }
