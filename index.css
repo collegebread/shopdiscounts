@@ -646,8 +646,7 @@
   }
 
   .coupon-container {
-    
-    width: calc(33.33% - 20px);
+    width: calc(55.55% - 20px);
     margin: 0 10px;
     background-color: #fff;
     border-radius: 10px;
@@ -699,6 +698,7 @@
   .coupon-buttons {
     display: flex;
     align-items: center;
+    border: none;
   }
   
   .coupon-button {
