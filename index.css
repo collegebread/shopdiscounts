@@ -147,7 +147,7 @@
       color: orange;
       font-size: 33px; /* Adjust the font size as needed */
       margin-top: -2px; /* Adjust the margin as needed */
-      margin-left: -2px;
+      margin-left: 2px;
     }
     
     .fas.fa-share-alt {
