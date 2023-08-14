@@ -648,7 +648,7 @@
 
   .coupon-container {
     width: calc(80.00% - 20px);
-    height: 33%;
+    height: 100px;
     top: 1.5em;
     margin: 10px 10px;
     background-color: #fff;
