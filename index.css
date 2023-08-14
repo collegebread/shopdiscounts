@@ -190,23 +190,31 @@
     
     .subnav-menu {
       display: flex;
-      color: rgb(72, 72, 72);
-      padding: 2px 0;
+      width: 100%;
       list-style: none;
+      padding: 0;
       margin: 0;
-      font-size: 12px;
+      color: rgb(72, 72, 72);
     }
     
     .subnav-link {
       flex: 1;
-      text-align: center;
+      
       
     }
     
-    .subnav-link a,
-    .subnav-link a:hover {
+    .subnav-link a {
+      display: block;
+      text-align: center;
       text-decoration: none;
-      color: rgb(72, 72, 72);
+      padding: 1em;
+      white-space: nowrap;
+      color: #333;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .subnav-link a:hover {
+      background-color: #f1f1f1;
     }
     
     .subnav-item .inactive {
