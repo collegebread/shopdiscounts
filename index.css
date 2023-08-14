@@ -642,16 +642,6 @@
     margin-top: 1em;
   }
   
-  .card {
-    width: 220px;
-    padding: 1.5em;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transform: translateY(0);
-    transition: transform 0.5s ease;
-  }
   
   .card:hover {
     transform: translateY(-10px);
@@ -662,16 +652,6 @@
     margin: 0 auto 1em;
   }
   
-  .card-title {
-    font-size: 18px;
-    color: #3498db;
-    margin-bottom: 0.5em;
-  }
-  
-  .card-description {
-    font-size: 14px;
-    color: #666;
-  }
   
   .separator {
     width: 2px;
