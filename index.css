@@ -45,13 +45,10 @@
 
      }
      .nav {
-      width: 100%;
       display: flex;
-      justify-content: space-between;
+      /* justify-content: space-between; */
       align-items: center;
       background-color: #f1f1f1;
-      
-      padding: 0 20px; /* Add padding to the navbar */
     }
     
     .nav.brand-container {
