@@ -612,65 +612,99 @@
     color: #2d3436;
   }
 
-  .interactive-content {
+  .card-stack {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    margin: 4em auto;
-    padding: 2em;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    overflow: hidden;
   }
-  
-  .content-block {
+
+  .card-row {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    animation: fadeIn 1s forwards;
+  }
+
+  .coupon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  .coupon-card {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .coupon-image {
+    flex: 0 0 120px;
+    margin-right: 1em;
+  }
+
+  .coupon-image img {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+  }
+
+  .coupon-content {
     flex: 1;
-    text-align: center;
   }
-  
-  .block-title {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 0.5em;
-  }
-  
-  .card-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
-    margin-top: 1em;
-  }
-  
-  .card {
-    width: 220px;
-    padding: 1.5em;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .card img {
-    max-width: 100px;
-    margin: 0 auto 1em;
-  }
-  
-  .card-title {
+
+  .coupon-title {
     font-size: 18px;
-    color: #3498db;
-    margin-bottom: 0.5em;
+    font-weight: bold;
+    margin: 0;
   }
-  
-  .card-description {
+
+  .coupon-source {
     font-size: 14px;
-    color: #666;
+    color: #777;
+    margin: 0;
   }
-  
-  .separator {
-    width: 2px;
-    height: 100px;
-    background-color: #ccc;
+
+  .coupon-expiration {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }
+
+  .coupon-description {
+    margin: 1em 0;
+  }
+
+  .coupon-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .coupon-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5em;
+  }
+
+  @keyframes fadeIn {
+    to {
+      display: flex;
+    }
   }
 
   footer {
