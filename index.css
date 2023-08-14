@@ -48,7 +48,7 @@
      }
      .nav {
       display: flex;
-      height: 100px;
+      height: 200px;
       /* justify-content: space-between; */
       align-items: center;
       background-color: #f1f1f1;
@@ -145,8 +145,8 @@
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 33px; /* Adjust the font size as needed */
-      margin-top: -8px; /* Adjust the margin as needed */
-      margin-left: -4px;
+      margin-top: 4px; /* Adjust the margin as needed */
+      margin-left: 4px;
     }
     
     .fas.fa-share-alt {
