@@ -38,8 +38,11 @@
        
      }
      .main-header{
+      position: fixed;
       width: 100%;
-      height: auto;
+      height: 200px;
+      z-index: 1000;
+
      }
      .nav {
       width: auto;
