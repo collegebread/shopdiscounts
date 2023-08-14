@@ -107,6 +107,7 @@
       margin-left: 1em;
     }
     .nav-object {
+      position: relative;
       width: 50px;
       height: 50px;
       margin-top:33px;
