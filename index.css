@@ -624,7 +624,7 @@
     font-weight: bold; /* Make the text bold */
     text-transform: uppercase; /* Convert the text to uppercase */
     color: #333; /* Set the text color to a dark grey */
-    margin: .5em 0 0 2em; /* Add a bottom margin of 1em */
+    margin: .2em 0 0 2em; /* Add a bottom margin of 1em */
 
   }
 
