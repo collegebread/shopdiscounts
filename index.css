@@ -134,10 +134,14 @@
       color: #333;
       text-decoration: none;
     }
+    .nav-item{
+      margin: auto;
+      top: 12px;
+    }
     
     .nav-link{
-      font-size: 36px;
-      font-weight: bolder;
+      font-size: 48px;
+    
     }
     .fas.fa-mobile-alt {
       color: orange;
