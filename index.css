@@ -493,7 +493,6 @@
   .card-navigation {
    
     bottom: 1em;
-    left: -12px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -501,6 +500,7 @@
   
   .prev-button,
   .next-button {
+    left: -12px;
     background-color: transparent;
     border: none;
     color: black;
