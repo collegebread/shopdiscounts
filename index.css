@@ -492,7 +492,7 @@
   .card-navigation {
    
     bottom: 1em;
-    right: 10em;
+    right: 1em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -615,10 +615,9 @@
   .interactive-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 4em auto;
     padding: 2em;
-    background-color: #fff;
+    background-color: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -629,23 +628,48 @@
   }
   
   .block-title {
-    font-size: 24px;
+    font-size: 28px;
     color: #333;
     margin-bottom: 0.5em;
   }
   
-  .card-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
+  .block-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 1em;
+  }
+  
+  .offer-list,
+  .collection-list {
     margin-top: 1em;
   }
   
-  .card img {
-    max-width: 100px;
-    margin: 0 auto 1em;
+  .offer-link,
+  .collection-link {
+    display: block;
+    font-size: 18px;
+    color: #e74c3c;
+    text-decoration: none;
+    margin-bottom: 0.5em;
+    transition: color 0.3s ease-in-out;
   }
+  
+  .offer-link:hover,
+  .collection-link:hover {
+    color: #c0392b;
+  }
+  
+  /* Separator Style */
+  .interactive-content::before,
+  .interactive-content::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 0 2em;
+  }
+  
   .separator {
     width: 2px;
     height: 100px;
