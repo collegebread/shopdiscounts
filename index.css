@@ -17,9 +17,11 @@
    max-width: max-content;
    padding: 0%;
    margin: auto;
+   overflow: hidden;
   }
   .wrapper {
-    overflow: hidden;
+  width: 100%;
+  height: auto;
     
    
   }
