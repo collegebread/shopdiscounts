@@ -219,8 +219,9 @@
     }
     
     .subnav-link a:hover {
-      background-color: #f1f1f1;
+      background-color: transparent;
     }
+    
     
     .subnav-item .inactive {
       pointer-events: none;
