@@ -50,7 +50,7 @@
       position: fixed;
       display: flex;
       width: 100%;
-      height: auto;
+      height: 180px;
       /* justify-content: space-between; */
       align-items: center;
       background-color: #f1f1f1;
