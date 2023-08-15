@@ -196,10 +196,9 @@
     .subnav-menu {
       display: flex;
       width: 100%;
-      left: 12px;
+      margin: 0 0 12px 12px;
       list-style: none;
       padding: 0;
-      margin: 0;
       justify-content: space-between;
       color: rgb(72, 72, 72);
     }
