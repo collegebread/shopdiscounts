@@ -188,48 +188,7 @@
       top: 1px;
     }
     
-    .subnav {
-      width: auto;
-      height: auto;
-    
-      
-    }
-    
-    .subnav-menu {
-      display: flex;
-      width: 100%;
-      margin: 0 0 80px 60px;
-      list-style: none;
-      padding: 0;
-      font-size: 14px;
-      justify-content: space-between;
-      color: rgb(72, 72, 72);
-    }
-    
-    .subnav-link {
-      flex: 1;
-      
-      
-    }
-    .subnav-link a {
-      display: block;
-      text-align: center;
-      text-decoration: none;
-      padding: 1em;
-      white-space: nowrap;
-      color: #333;
-      transition: background-color 0.3s ease-in-out;
-    }
-    
-    .subnav-link a:hover {
-      background-color: transparent;
-    }
-    
-    
-    .subnav-item .inactive {
-      pointer-events: none;
-      color: black;
-    }
+   
 
  .ad-banner{
   display: flex;
