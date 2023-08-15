@@ -46,47 +46,27 @@
       background-color: white;
 
      }
-     .nav {
-      position: fixed;
-      display: flex;
-      width: 100%;
-      height: auto;
-      /* justify-content: space-between; */
-      align-items: center;
+     .site-header {
       background-color: #f1f1f1;
-      z-index: 1;
+      padding: 20px 0;
     }
     
-    .nav.brand-container {
-     width: auto;
-    }
-    .logo, .logo:hover{
-      margin-left: 1em;
+    .site-branding .logo {
       color: rgb(112, 99, 255);
       font-family: 'MuseoModerno', cursive;
       font-size: 36px;
       text-decoration: none;
-      
     }
     
-    .search-container {
-      flex-grow: 1;
+    .site-search .search-form {
       display: flex;
-      justify-content: center;
-      margin-left: .5em;
-     
-    }
-    
-    .search-form {
-      display: flex;
-      width: 100%;
       max-width: 400px;
       height: 2.5em;
       border-radius: 8px;
       background-color: gainsboro;
     }
     
-    .search-form input {
+    .site-search input[type="text"] {
       flex-grow: 1;
       border: none;
       background-color: transparent;
@@ -94,7 +74,7 @@
       outline: none;
     }
     
-    .search-form button {
+    .site-search button {
       border: none;
       background-color: transparent;
       color: black;
@@ -105,22 +85,18 @@
     .nav-menu {
       display: flex;
       align-items: center;
-      margin: 0 35px 0 0;
       list-style: none;
-      flex-wrap: wrap; /* Allow the nav links to wrap within the container */
     }
     
-    .nav-menu li {
-      margin-left: 1em;
-    }
     .nav-object {
       position: relative;
       width: 50px;
       height: 50px;
-      margin: 10px 10px 0px 0;;
+      margin: 10px;
       background-color: rgb(46, 46, 46);
       border-style: solid;
-      border-radius: 50px; /* Adjust the border radius as needed */
+      border-radius: 50px;
+      display: flex;
       justify-content: center;
       align-items: center;
       transition: 0.3s ease-in-out;
@@ -132,86 +108,29 @@
       height: 24px;
       margin: 0 12px 12px 0;
       text-align: center;
-      align-content: center;
       font-size: 14px;
       color: #333;
       text-decoration: none;
     }
-    .nav-item{
-      width: auto;
+    
+    .nav-item {
       font-size: 18px;
-     
-    }
-    
-    .nav-link{
-      margin: 0 1.5em 0 0;
-    
-    }
-    .fas.fa-mobile-alt {
-      color: orange;
-      font-size: 33px; /* Adjust the font size as needed */
-      margin-top: -2px; /* Adjust the margin as needed */
-      margin-left: 4px;
-    }
-    
-    .fas.fa-share-alt {
-      color: rgb(112, 99, 255);
-      font-size: 33px; /* Adjust the font size as needed */
-      margin-top: -2px; /* Adjust the margin as needed */
-      margin-left: -2px;
-      
-    }
-    
-    .fas.fa-puzzle-piece {
-      color:darkgray;
-      font-size: 33px; /* Adjust the font size as needed */
-      margin-top: -2px; /* Adjust the margin as needed */
-      margin-left: 0px;
-      
-
-    }
-    
-    
-    .nav-menu li a {
-      position: relative; /* Add relative positioning */
-      display: flex;
-      padding: 8px 8px;
-      border-radius: 4px;
-      font-size: 12px;
-      color: rgb(72, 72, 72);
-      text-decoration: none;
-    }
-    
-    .nav-menu li a i {
-      margin-right: 5px;
-      font-size: 24px;
-      position: relative;
-      top: 1px;
-    }
-    
-    .subnav {
-      width: auto;
-      height: auto;
-    
-      
+      margin-right: 1.5em;
     }
     
     .subnav-menu {
       display: flex;
-      width: 100%;
-      margin: 0 0 80px 60px;
       list-style: none;
       padding: 0;
       font-size: 14px;
-      justify-content: space-between;
       color: rgb(72, 72, 72);
+      justify-content: space-between;
     }
     
     .subnav-link {
       flex: 1;
-      
-      
     }
+    
     .subnav-link a {
       display: block;
       text-align: center;
@@ -225,7 +144,6 @@
     .subnav-link a:hover {
       background-color: transparent;
     }
-    
     
     .subnav-item .inactive {
       pointer-events: none;
