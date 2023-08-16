@@ -67,20 +67,20 @@
     color: rgb(72, 72, 72);
   }
 
-  .nav.d-flex {
+  .nav.col-sm-6.d-flex {
     display: flex;
     margin-left: auto;
     align-items: center;
   }
 
-  .d-flex input[type="text"] {
+  .form.form--simple input[type="text"] {
     border: none;
     border-radius: 8px;
     background-color: gainsboro;
     padding: 8px;
   }
 
-  .d-flex button {
+  .form button {
     border: none;
     background-color: transparent;
     color: black;
