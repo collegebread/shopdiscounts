@@ -113,6 +113,15 @@
   .datacache a:hover {
     background-color: transparent;
   }
+  .fas.fa-puzzle-piece{
+    color: darkgray;
+  }
+  .fas.fa-share-alt{
+    color: plum;
+  }
+  .fas.fa-mobile-alt{
+    color: orange;
+  }
 
   .form {
     margin-right: 15px;
