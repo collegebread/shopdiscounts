@@ -43,23 +43,22 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 15px; /* Add equal distance between links */
   }
-
+  
   .webcache {
-    margin-right: 15px;
     font-size: 14px;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 10px 0;
+    display: flex;
+    align-items: center;
   }
-
+  
   .web-src {
     color: #333;
     text-decoration: none;
+    white-space: nowrap; /* Prevent text wrapping */
     transition: color 0.3s ease-in-out;
   }
-
+  
   .web-src:hover {
     color: rgb(72, 72, 72);
   }
