@@ -20,7 +20,7 @@
    margin: auto;
   
   }
-  .container.container-lg {
+  .container-fluid {
   overflow: hidden;
   }
   .nav.nav--navbar {
