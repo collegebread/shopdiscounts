@@ -13,17 +13,17 @@
 
   /* Use consistent positive color patterns throughout */
   
-  #webstack {
+  #wrapper {
    max-width: max-content;
    height: auto;
    padding: 0;
    margin: auto;
   
   }
-  .wrapper {
+  .container.container-lg {
   overflow: hidden;
   }
-  .grid-overflow-4 {
+  .nav.nav--navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,14 +31,14 @@
     padding: 10px 0;
   }
 
-  .charset-1 {
+  .nav.charset-sm--1 {
     color: rgb(112, 99, 255);
     font-family: 'MuseoModerno', cursive;
     font-size: 24px;
     text-decoration: none;
   }
 
-  .block_col-md-5 {
+  .nav.block_col-md--5 {
     display: flex;
     list-style: none;
     padding: 0;
@@ -46,25 +46,28 @@
     gap: 15px; /* Add equal distance between links */
     flex-direction: row; /* Align links horizontally */
   }
+  .nav-category{
+    float: left;
+  }
   
-  .webcache {
+  .nav-item {
     font-size: 14px;
     display: flex;
     align-items: center;
   }
   
-  .web-src {
+  .nav-link {
     color: #333;
     text-decoration: none;
     white-space: nowrap; /* Prevent text wrapping */
     transition: color 0.3s ease-in-out;
   }
   
-  .web-src:hover {
+  .nav-link:hover {
     color: rgb(72, 72, 72);
   }
 
-  .d-flex {
+  .nav.d-flex {
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -85,7 +88,7 @@
     padding: 8px;
   }
 
-  .col-md-3 {
+  .nav.block_col-md--3 {
     display: flex;
     list-style: none;
     padding: 0;
@@ -93,11 +96,11 @@
     justify-content: flex-end;
   }
 
-  .datacache {
+  .nav-icons {
     margin-right: 15px;
   }
 
-  .datacache a {
+  .icon-item a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,21 +122,16 @@
     color: orange;
   }
 
-  .form {
-    margin-right: 15px;
-    font-size: 18px;
-  }
-
-  .form-src {
+  .icon_link {
     color: #333;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
   }
 
-  .form-src:hover {
+  .icon_link:hover {
     color: rgb(72, 72, 72);
   }
- .grid-lg-2{
+ .container.container-x--fluid{
   display: flex;
   flex-direction: row;
   height: 250px;
