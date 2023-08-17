@@ -37,13 +37,6 @@
      color: silver;
        
      }
-     .main-header{
-      position: static;
-      width: 100%;
-      height: 100px;
-      background-color: white;
-
-     }
     /* Nav styles */
 .nav {
   display: flex;
