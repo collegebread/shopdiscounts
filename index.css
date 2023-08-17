@@ -55,7 +55,7 @@
       z-index: 1;
     }
     
-    .nav.block {
+    .nav.block--sm {
      width: auto;
     }
     .nav.charset-sm--1, .nav.charset-sm--1:hover{
@@ -67,7 +67,7 @@
       
     }
     
-    .nav.d-flex{
+    .nav.col-sm-6.d-flex{
       flex-grow: 1;
       display: flex;
       justify-content: center;
