@@ -52,6 +52,7 @@
 
     /* Nav styles */
 .nav {
+  position: fixed;
   width: auto;
   display: flex;
   justify-content: space-between;
