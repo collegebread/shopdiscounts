@@ -32,7 +32,8 @@
 
  .above_header.description{
      margin:auto;
-     font-size: 12px;
+     font-size: 14px;
+     font-weight: bolder;
      align-items: center;
      color: black;  
   }
@@ -52,7 +53,7 @@
 }
 
 .charset-sm--1 {
-  margin: 0 0 0 1.5em;
+  margin: 0 0 0 2.5em;
   font-size: 24px;
   font-weight: bold;
   color: rgb(112, 99, 255);
