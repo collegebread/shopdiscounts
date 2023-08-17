@@ -55,7 +55,7 @@
       z-index: 1;
     }
     
-    .nav_block--sm {
+    .nav.block.col--sm {
      width: auto;
     }
     .nav.charset-sm--1, .nav.charset-sm--1:hover{
@@ -65,6 +65,38 @@
       font-size: 36px;
       text-decoration: none;
       
+    }
+    .nav.block.col-md-6{
+      display: flex;
+      align-items: center;
+      margin: 0 35px 0 0;
+      list-style: none;
+      flex-wrap: wrap; /* Allow the nav links to wrap within the container */
+
+    }
+    .nav_item {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      margin: 10px 10px 0px 0;;
+      background-color: rgb(46, 46, 46);
+      border-style: solid;
+      border-radius: 50px; /* Adjust the border radius as needed */
+      justify-content: center;
+      align-items: center;
+      transition: 0.3s ease-in-out;
+    }
+    
+    .nav_item a {
+      display: block;
+      width: 24px;
+      height: 24px;
+      margin: 0 12px 12px 0;
+      text-align: center;
+      align-content: center;
+      font-size: 14px;
+      color: #333;
+      text-decoration: none;
     }
     
     .nav.col-sm-6.d-flex{
@@ -99,13 +131,7 @@
       margin-right: 1em;
     }
     
-    .nav.block_col-md--6 {
-      display: flex;
-      align-items: center;
-      margin: 0 35px 0 0;
-      list-style: none;
-      flex-wrap: wrap; /* Allow the nav links to wrap within the container */
-    }
+
     
     .nav.block_col-md--3 li {
       margin-left: 1em;
@@ -127,30 +153,7 @@
       position: relative;
       top: 1px;
     }
-    .nav_item {
-      position: relative;
-      width: 50px;
-      height: 50px;
-      margin: 10px 10px 0px 0;;
-      background-color: rgb(46, 46, 46);
-      border-style: solid;
-      border-radius: 50px; /* Adjust the border radius as needed */
-      justify-content: center;
-      align-items: center;
-      transition: 0.3s ease-in-out;
-    }
-    
-    .nav_item a {
-      display: block;
-      width: 24px;
-      height: 24px;
-      margin: 0 12px 12px 0;
-      text-align: center;
-      align-content: center;
-      font-size: 14px;
-      color: #333;
-      text-decoration: none;
-    }
+   
     
     .nav_link{
       margin: 0 1.5em 0 0;
