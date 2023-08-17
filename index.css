@@ -175,6 +175,9 @@
 .icon_link.form--external:hover {
   color: rgb(72, 72, 72);
 }
+.fas.fa-user-plus.fa-lg{
+  margin-bottom: 12px;;
+}
 .dropdown_menu {
   display: none;
   position: absolute;
