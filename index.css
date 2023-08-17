@@ -45,7 +45,9 @@
     border-style: solid;
     border-radius: 12px;
   }
-  .fas.fa-puzzle-piece, .fas.fa-share-alt,.fas.fa-mobile-alt{
+  .fas.fa-puzzle-piece, 
+  .fas.fa-share-alt,
+  .fas.fa-mobile-alt{
     color: #6c5ce7 ;
   }
 
