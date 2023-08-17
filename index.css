@@ -72,7 +72,8 @@
   text-decoration: none;
 }
 
-.nav_block {
+.nav_block.col-md--3 {
+  margin-top: 33px;
   display: flex;
   align-items: center;
 }
