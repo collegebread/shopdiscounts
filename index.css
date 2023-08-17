@@ -44,7 +44,7 @@
       background-color: white;
 
      }
-     .nav {
+     .nav.nav--navbar {
       position: fixed;
       display: flex;
       width: 100%;
@@ -55,7 +55,7 @@
       z-index: 1;
     }
     
-    .nav.block--sm {
+    .nav_block--sm {
      width: auto;
     }
     .nav.charset-sm--1, .nav.charset-sm--1:hover{
