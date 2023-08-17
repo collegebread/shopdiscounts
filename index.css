@@ -13,14 +13,14 @@
 
   /* Use consistent positive color patterns throughout */
   
-  #webstack {
+  #wrapper {
    max-width: max-content;
    height: auto;
    padding: 0;
    margin: auto;
   
   }
-  .wrapper {
+  .grid.overflow-y {
   overflow: hidden;
   }
   .above-header{
@@ -55,10 +55,10 @@
       z-index: 1;
     }
     
-    .nav.brand-container {
+    .nav.block {
      width: auto;
     }
-    .logo, .logo:hover{
+    .nav.charset-sm--1, .nav.charset-sm--1:hover{
       margin-left: 1em;
       color: rgb(112, 99, 255);
       font-family: 'MuseoModerno', cursive;
@@ -67,7 +67,7 @@
       
     }
     
-    .search-container {
+    .nav.d-flex{
       flex-grow: 1;
       display: flex;
       justify-content: center;
