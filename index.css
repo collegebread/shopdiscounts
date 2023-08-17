@@ -90,6 +90,7 @@
 .form {
   display: flex;
   align-items: center;
+  border-radius: 33px;;
 }
 
 .form_input {
