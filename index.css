@@ -24,18 +24,46 @@
   overflow: hidden;
   }
   
-  .above_header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
- }
+  /* Add these styles to your existing CSS stylesheet */
 
- .above_header.description{
-     margin:auto;
-     font-size: 12px;
-     align-items: center;
-     color: black;  
-  }
+.above_header {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.above_header .description {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.above_header .icons-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.above_header .icon_item {
+  margin-right: 15px;
+  font-size: 24px;
+  color: #999;
+}
+
+.above_header .icon_item:last-child {
+  margin-right: 0;
+}
+
+.above_header .icon_item a {
+  text-decoration: none;
+  color: #999;
+  transition: color 0.3s ease-in-out;
+}
+
+.above_header .icon_item a:hover {
+  color: #333;
+}
 
     /* Nav styles */
 .nav {
