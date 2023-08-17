@@ -42,6 +42,8 @@
   }
   .icon_item{
     margin-top: 12px;
+    border-style: solid;
+    border-color: #6c5ce7;
     color: #6c5ce7;
   }
 
