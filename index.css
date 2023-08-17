@@ -46,7 +46,7 @@
     gap: 15px; /* Add equal distance between links */
     flex-direction: row; /* Align links horizontally */
   }
-  .nav-category{
+  .nav-category.list--unstyled{
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -101,7 +101,7 @@
     justify-content: flex-end;
   }
 
-  .nav-icons {
+  .nav-icons.list--unstyled {
     margin-right: 15px;
   }
 
