@@ -64,7 +64,6 @@
 }
 
 .nav_container {
-  position: relative;
   display: flex;
   align-items: center;
 }
@@ -82,7 +81,7 @@
   text-decoration: none;
 }
 
-.nav_block {
+.nav_block.col-md--3 {
   display: flex;
   align-items: center;
 }
