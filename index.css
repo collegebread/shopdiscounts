@@ -108,7 +108,7 @@
     
     }
     
-    .nav.block.d-flex{
+    .nav_block.d-flex{
       flex-grow: 1;
       display: flex;
       justify-content: center;
