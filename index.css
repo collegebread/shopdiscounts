@@ -58,6 +58,7 @@
   align-items: center;
   background-color: #f1f1f1;
   padding: 8px 0;
+  z-index: 5000;
 }
 
 .nav_container {
