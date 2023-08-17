@@ -41,6 +41,7 @@
   }
 
   .nav.block {
+    flex: 2;
     display: flex;
     list-style: none;
     padding: 0; /* Add padding to avoid overlapping */
@@ -75,6 +76,7 @@
   }
 
   .nav.col-sm-6.d-flex {
+    flex: 3;
     display: flex;
     margin-left: auto;
     align-items: center;
