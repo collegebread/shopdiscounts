@@ -31,7 +31,8 @@
  }
 
  .above-header.description{
-     margin-left: 24px;
+     margin:auto;
+     align-items: center;
      color: black;
        
   }
