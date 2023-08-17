@@ -72,7 +72,6 @@
       margin: 0 35px 0 0;
       list-style: none;
       flex-wrap: wrap; /* Allow the nav links to wrap within the container */
-
     }
     .nav_item {
       position: relative;
@@ -97,6 +96,11 @@
       font-size: 14px;
       color: #333;
       text-decoration: none;
+    }
+      
+    .nav_link{
+      margin: 0 1.5em 0 0;
+    
     }
     
     .nav.col-sm-6.d-flex{
@@ -154,11 +158,7 @@
       top: 1px;
     }
    
-    
-    .nav_link{
-      margin: 0 1.5em 0 0;
-    
-    }
+  
     .fas.fa-mobile-alt {
       color: orange;
       font-size: 33px; /* Adjust the font size as needed */
