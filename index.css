@@ -23,7 +23,7 @@
   .container-fluid {
   overflow: hidden;
   }
-  .nav.nav--navbar {
+  .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
