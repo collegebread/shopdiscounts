@@ -182,35 +182,20 @@
     display: none;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeInUp 0.3s ease-in-out;
     z-index: 1000;
   }
-  .dropdown_column {
-    float: left;
-    width: 50%;
+  .dropdown_categories {
     padding: 20px;
-    box-sizing: border-box;
+    display: flex;
   }
-  .dropdown_heading {
-    font-size: 16px;
-    margin-bottom: 10px;
+  .dropdown_column {
+    width: 50%;
   }
-  .dropdown_links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  .divider {
+    margin: 10px 0;
+    border-top: 1px solid #ccc;
   }
-  .dropdown_links li {
-    margin-bottom: 5px;
-  }
-  .dropdown_links a {
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-  }
-  .dropdown_links a:hover {
-    color: rgb(72, 72, 72);
-  }
+  /* Add the rest of your dropdown mega menu styles here */
 
   /* Animation keyframes */
   @keyframes fadeInUp {
@@ -222,6 +207,12 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  /* Apply animation on hover */
+  .nav_link:hover + .dropdown_menu {
+    display: block;
+    animation: fadeInUp 0.3s ease-in-out;
   }
  .ad-banner{
   display: flex;
