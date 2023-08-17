@@ -44,7 +44,9 @@
     margin-top: 12px;
     border-style: solid;
     border-radius: 12px;
-    color: #6c5ce7;
+  }
+  .fas.fa-puzzle-piece{
+    color: #6c5ce7 ;
   }
 
     /* Nav styles */
