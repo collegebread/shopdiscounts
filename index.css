@@ -27,15 +27,12 @@
   .above-header{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-     
+    justify-content: center; 
  }
- 
- 
-  
+
  .above-header.description{
-     margin-left: 33px;
-     color: silver;
+     margin-left: 24px;
+     color: black;
        
   }
     /* Nav styles */
