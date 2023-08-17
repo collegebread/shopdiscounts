@@ -55,7 +55,7 @@
       z-index: 1;
     }
     
-    .nav.block.col--sm {
+    .nav.block_col-lg{
      width: auto;
     }
     .nav.charset-sm--1, .nav.charset-sm--1:hover{
