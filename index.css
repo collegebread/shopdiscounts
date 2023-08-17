@@ -27,7 +27,8 @@
   .above_header{
     display: flex;
     flex-direction: row;
-    justify-content: center; 
+    justify-content: center;
+    align-content: center;
  }
 
  .above_header.description{
