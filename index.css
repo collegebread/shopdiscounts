@@ -99,7 +99,7 @@
       margin-right: 1em;
     }
     
-    .nav-menu {
+    .nav.block_col-md--6 {
       display: flex;
       align-items: center;
       margin: 0 35px 0 0;
@@ -107,10 +107,10 @@
       flex-wrap: wrap; /* Allow the nav links to wrap within the container */
     }
     
-    .nav-menu li {
+    .nav_category.list--unstyled li {
       margin-left: 1em;
     }
-    .nav-object {
+    .nav_item {
       position: relative;
       width: 50px;
       height: 50px;
@@ -123,7 +123,7 @@
       transition: 0.3s ease-in-out;
     }
     
-    .nav-object a {
+    .nav_item a {
       display: block;
       width: 24px;
       height: 24px;
@@ -134,13 +134,8 @@
       color: #333;
       text-decoration: none;
     }
-    .nav-item{
-      width: auto;
-      font-size: 18px;
-     
-    }
     
-    .nav-link{
+    .nav_link{
       margin: 0 1.5em 0 0;
     
     }
