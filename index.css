@@ -96,19 +96,33 @@
 }
 
 .form_input {
+  overflow: hidden;
+  width: 200px; /* Adjust the width as needed */
   padding: 8px;
   border: 1px solid #ddd;
   border-radius: 5px;
   margin-right: 10px;
+  
 }
 
 .form_submit {
-  background-color: #333;
-  color: #fff;
   border: none;
-  border-radius: 5px;
-  padding: 8px 15px;
+  background-color: transparent;
+  padding: 8px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.form_submit i {
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.form_submit:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form_submit:hover i {
+  color: rgb(72, 72, 72);
 }
 
 .nav_icons {
