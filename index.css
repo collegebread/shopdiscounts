@@ -43,7 +43,7 @@
   .icon_item{
     margin-top: 12px;
     border-style: solid;
-    border-color: #6c5ce7;
+    border-radius: 12px;
     color: #6c5ce7;
   }
 
@@ -76,7 +76,7 @@
 }
 
 .nav_block.col-md--3 {
-  margin-top: 33px;
+  margin-top: 24px;
   display: flex;
   align-items: center;
 }
