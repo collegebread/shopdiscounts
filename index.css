@@ -38,7 +38,7 @@
     text-decoration: none;
   }
 
-  .nav.block_col-md--5 {
+  .nav.block {
     display: flex;
     list-style: none;
     padding: 0; /* Add padding to avoid overlapping */
