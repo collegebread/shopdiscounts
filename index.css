@@ -49,11 +49,13 @@
 
     /* Nav styles */
 .nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #f1f1f1;
   padding: 15px 0;
+  z-index: 1000;
 }
 
 .nav_container {
