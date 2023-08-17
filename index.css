@@ -107,7 +107,7 @@
       flex-wrap: wrap; /* Allow the nav links to wrap within the container */
     }
     
-    .nav_category.list--unstyled li {
+    .nav.block_col-md--3 li {
       margin-left: 1em;
     }
          
