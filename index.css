@@ -111,6 +111,7 @@
   display: flex;
   align-items: center;
   border-radius: 33px;;
+  border: transparent;
 }
 
 .form_input {
