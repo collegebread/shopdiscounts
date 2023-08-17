@@ -37,8 +37,13 @@
      align-items: center;
      color: black;  
   }
+  .above_header.icons-sm{
+    width: auto;
+    border-radius: 33px;
+    background-color: #333;
+    
+  }
   .icon_item{
-    background-color: #f1f1f1;
     color: #6c5ce7;
   }
 
