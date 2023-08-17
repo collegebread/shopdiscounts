@@ -77,8 +77,7 @@
     
     .search-form {
       display: flex;
-      width: 100%;
-      max-width: 400px;
+      width: 100px;
       height: 2.5em;
       border-radius: 8px;
       background-color: gainsboro;
