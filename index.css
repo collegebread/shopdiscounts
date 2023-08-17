@@ -63,6 +63,7 @@
 .nav_container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .charset-sm--1 {
