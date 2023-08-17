@@ -171,7 +171,58 @@
 .fas.fa-user-plus.fa-lg{
   margin-bottom: 23px;
 }
+  /* Dropdown mega menu styles */
+  .nav_item.dropdown .nav_link {
+    position: relative;
+  }
+  .dropdown_menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  .dropdown_column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .dropdown_heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .dropdown_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .dropdown_links li {
+    margin-bottom: 5px;
+  }
+  .dropdown_links a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  .dropdown_links a:hover {
+    color: rgb(72, 72, 72);
+  }
 
+  /* Animation keyframes */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
  .ad-banner{
   display: flex;
   flex-direction: row;
