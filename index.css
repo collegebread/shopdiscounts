@@ -60,6 +60,9 @@
   font-family: 'MuseoModerno', cursive;
   text-decoration: none;
 }
+.charset-sm--1:hover{
+  text-decoration: none;
+}
 
 .nav_block {
   display: flex;
