@@ -185,7 +185,7 @@
     
    
     
-    .subnav {
+    /* .subnav {
       width: auto;
       height: auto;
     
@@ -226,7 +226,7 @@
     .subnav-item .inactive {
       pointer-events: none;
       color: black;
-    }
+    } */
    
 
  .ad-banner{
