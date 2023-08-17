@@ -156,7 +156,7 @@
   margin-right: 15px;
 }
 
-.icon_link {
+.icon-item .icon_link {
   margin-bottom: 23px;
   color: #333;
   transition: color 0.3s ease-in-out;
