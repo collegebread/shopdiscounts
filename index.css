@@ -706,8 +706,6 @@
 
   .coming-soon-container {
     width: calc(80.00% - 20px);
-    height: 100px;
-    top: 1.5em;
     margin: 10px 10px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
