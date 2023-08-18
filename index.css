@@ -50,7 +50,7 @@
     color: #6c5ce7 ;
   }
 
-  .nav {
+  .nav.nav--navbar {
     position: fixed;
     width: 100%;
     display: flex;
