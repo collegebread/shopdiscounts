@@ -705,6 +705,7 @@
   }
 
   .coming-soon-container {
+    width: 300px;
     position: relative;
     background-color: #02B7DD; /* Main Blue Color */
     color: #FFFFFF; /* White Text Color */
@@ -714,8 +715,7 @@
   
   .subscribe-container {
     margin: 0 auto;
-    max-width: 300px;
-    border-radius: 88px;
+    max-width: 500px;
     text-align: center;
   }
   
