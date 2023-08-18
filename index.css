@@ -58,6 +58,7 @@
     align-items: center;
     padding: 8px 0;
     z-index: 5000;
+    background-color: #f1f1f1;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
   
@@ -74,7 +75,7 @@
     max-width: 1200px; /* Adjust as needed */
     margin: 0 auto;
     padding: 0 8px;
-    background-color: #f1f1f1;
+   
    
   }
   
