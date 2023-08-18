@@ -286,7 +286,7 @@
   /* Apply animation on hover */
   .nav_link:hover + .dropdown_menu {
     display: block;
-    animation: fadeInUp 0.3s ease-in-out;
+    animation: fadeInUp 0.8s ease-in-out;
   }
 
   .language_dropdown {
