@@ -92,7 +92,7 @@
     color: rgb(112, 99, 255);
   }
   
-  .nav_block.col-md--3 {
+  .nav_block.col-md--4 {
     margin: 20px 0 0 auto;
     display: flex;
     align-items: center;
@@ -159,6 +159,10 @@
   
   .form_submit:hover i {
     color: rgb(72, 72, 72);
+  }
+  .nav_block.col-sm--3{
+    width: auto;
+    background-color: turquoise;
   }
   
   .nav_icons {
