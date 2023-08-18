@@ -47,7 +47,7 @@
   .fas.fa-puzzle-piece, 
   .fas.fa-share-alt,
   .fas.fa-mobile-alt{
-    color: #6c5ce7 ;
+    color: #443A84; /* Dark Purple */ ;
   }
 
   .nav.nav--navbar {
@@ -83,7 +83,7 @@
     margin: 12px 0 0 24px;
     font-size: 24px;
     font-weight: bold;
-    color: rgb(112, 99, 255);
+    color: #443A84; /* Dark Purple */;
     font-family: 'MuseoModerno', cursive;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
