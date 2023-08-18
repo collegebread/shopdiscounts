@@ -94,6 +94,7 @@
   }
   
   .nav_block.col-md--4 {
+    left: 50px;
     margin: 0 0 0 54px;
     display: flex;
     align-items: center;
