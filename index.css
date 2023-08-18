@@ -104,6 +104,7 @@
     display: flex;
     align-items: center;
     margin-top: 8px;
+    background-color: skyblue;
   }
   
   .nav_item {
