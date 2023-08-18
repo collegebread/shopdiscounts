@@ -869,6 +869,7 @@
   }
 
   .blog-coming-soon {
+    position: relative;
     background-color: #1c3449;
     padding: 40px;
     text-align: center;
@@ -885,8 +886,12 @@
   }
   
   .subscribe-box {
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
+    text-align: center;
   }
   
   .subscribe-box h2 {
