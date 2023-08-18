@@ -98,14 +98,14 @@
     margin: 0 0 0 54px;
     display: flex;
     align-items: center;
-    background-color:lightpink;
+ 
   }
   
   .nav_category {
     display: flex;
     align-items: center;
     margin: 8px 0 0 33px;
-    background-color: skyblue;
+ 
   }
   
   .nav_item {
@@ -166,7 +166,6 @@
   }
   .nav_block.col-sm--3{
     width: auto;
-    background-color: turquoise;
   }
   
   .nav_icons {
