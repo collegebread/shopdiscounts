@@ -741,6 +741,7 @@
   
   .subscribe-form button {
     padding: 10px 20px;
+    margin-top: 12px;
     background-color: #E97DB1; /* Light Pink */
     border: none;
     border-radius: 5px;
