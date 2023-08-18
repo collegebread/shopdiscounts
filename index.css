@@ -867,6 +867,60 @@
   .coupon-button:hover {
     color: #3498db;
   }
+
+  .blog-coming-soon {
+    background-color: #1c3449;
+    padding: 40px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .subscribe-box {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .subscribe-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .subscribe-form button {
+    padding: 10px 20px;
+    background-color: #f0ad4e;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #ee7b23;
+  }
   footer {
     display: flex;
     flex-wrap: wrap;
