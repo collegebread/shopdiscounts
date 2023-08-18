@@ -722,6 +722,7 @@
   
   .subscribe-container h2 {
     font-size: 28px;
+    font-family: 'MuseoModerno', cursive;
     font-weight: bolder;
     margin-bottom: 10px;
     color: #443A84; /* Dark Purple */
