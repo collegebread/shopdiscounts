@@ -704,65 +704,102 @@
     color: #3498db;
   }
   .promotion-container {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 50px;
-    position: relative;
-  }
-  .promotion-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  .promotion-title {
-   font-size: 18px;
-   margin-bottom: 20px;
-   font-family: 'Montserrat', sans-serif;; /* Use your preferred modern font here */
-   font-weight: lighter;
-   color: #443A84; /* Adjust the color to match your color palette */
-  }
-  .promotion-description {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;; /* Use your preferred modern font here */
-    margin-bottom: 70px;
-    color: #aaaaaa;
-  }
-  .promotion-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promotion-content {
+    flex: 1;
+  }
+  
+  .promotion-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .promotion-description {
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .promo-icons {
+    display: flex;
+  }
+  
+  .promo-icon {
+    text-align: center;
+    margin-right: 30px;
+  }
+  
+  .promo-icon i {
+    font-size: 40px;
+    color: #02B7DD;
+    margin-bottom: 10px;
+  }
+  
+  .promo-icon-text {
+    font-size: 14px;
+  }
+  
+  .cta-buttons {
     margin-top: 20px;
   }
   
-  .promotion-icon {
-    font-size: 32px;
-    color: #02B7DD;
-    margin: 0 20px;
+  .cta-button {
+    background-color: #443A84;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
   }
-  .app-image {
-    max-width: 100%;
-    animation: floatAnimation 3s infinite;
+  
+  .cta-button:hover {
+    background-color: #02B7DD;
   }
-  @keyframes floatAnimation {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
+  
+  .subscribe-form {
+    margin-top: 20px;
   }
-  .booking-image {
-    max-width: 100%;
-    animation: bounceAnimation 3s infinite;
+  
+  .subscribe-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
   }
-  @keyframes bounceAnimation {
-    0%, 100% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
+  
+  .subscribe-form button {
+    background-color: #02B7DD;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
   }
-
+  
+  .subscribe-form button:hover {
+    background-color: #443A84;
+  }
+  
+  .promotion-images {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .app-icon, .booking-icon {
+    font-size: 80px;
+    color: #443A84;
+    margin-right: 20px;
+  }
   .coming-soon-container {
     width: calc(80.00% - 20px);
     margin: 10px 0px 0 120px;
