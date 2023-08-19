@@ -703,6 +703,56 @@
   .coupon-button:hover {
     color: #3498db;
   }
+  /* Slideshow Container Styles */
+.slideshow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFCC00;
+  padding: 20px;
+}
+
+.slide {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+/* Slide Icon Styles */
+.icon {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+/* Slide Title Styles */
+.slide-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Slide Text Styles */
+.slide-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Book Now Button Styles */
+.book-now-button {
+  background-color: #FFCC00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.book-now-button:hover {
+  background-color: #FFAA00;
+}
+
   
 
   .coming-soon-container {
