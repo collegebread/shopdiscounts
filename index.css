@@ -705,7 +705,6 @@
   }
   .promotion-container {
     background-color: #ffffff;
-    color: #f1f1f1;
     text-align: center;
     padding: 50px;
     position: relative;
@@ -725,6 +724,7 @@
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;; /* Use your preferred modern font here */
     margin-bottom: 70px;
+    color: #aaaaaa;
   }
   .promotion-icons {
     display: flex;
