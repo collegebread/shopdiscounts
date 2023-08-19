@@ -719,6 +719,7 @@
   .promotion-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+    font-weight: lighter;
     text-align: center;
     margin-bottom: 20px;
   }
