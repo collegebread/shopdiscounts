@@ -705,7 +705,7 @@
   }
   .promotion-container {
     background-color: #f1f1f1;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 50px;
     position: relative;
@@ -806,7 +806,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #0000;
+    background-color: #000000;
     padding: 45px;
     z-index: 10000;
   }
