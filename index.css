@@ -740,6 +740,9 @@
     text-align: center;
     padding: 20px;
     background-color: #f1f1f1;
+    color: #443A84;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
     border-radius: 5px;
     flex: 1;
     margin: 0 10px;
