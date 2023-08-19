@@ -726,6 +726,18 @@
     font-family: 'Montserrat', sans-serif;; /* Use your preferred modern font here */
     margin-bottom: 70px;
   }
+  .promotion-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .promotion-icon {
+    font-size: 32px;
+    color: #02B7DD;
+    margin: 0 20px;
+  }
   .app-image {
     max-width: 100%;
     animation: floatAnimation 3s infinite;
