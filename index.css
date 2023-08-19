@@ -703,107 +703,68 @@
   .coupon-button:hover {
     color: #3498db;
   }
-  .promotion-content {
-    color: #555;
-    padding: 0 20px;
-  }
-  
-  .promo-icons {
+  .slideshow {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
   }
   
-  .promo-icon {
+  .slide {
     text-align: center;
-    flex: 1;
     padding: 20px;
     border-radius: 10px;
-    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.7;
   }
   
-  .promo-icon i {
+  .slide.active {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  
+  .slide i {
     font-size: 40px;
     color: #02B7DD;
     margin-bottom: 10px;
   }
   
-  .promo-icon-text {
+  .slide-text {
     font-size: 14px;
+    color: #555;
   }
   
-  .promo-icon:hover {
-    background-color: #02B7DD;
-    color: white;
+  /* Slide Show Animation */
+  
+  @keyframes slide {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    20% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    40%, 60% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    80% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
   }
   
-  .promo-icon:hover i {
-    color: white;
+  .slideshow .slide {
+    animation: slide 8s infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: calc(var(--i) * 2s);
   }
   
-  .cta-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-  
-  .cta-button {
-    background-color: #443A84;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .cta-button:hover {
-    background-color: #02B7DD;
-  }
-  
-  .subscribe-form {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .subscribe-form input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-  }
-  
-  .subscribe-form button {
-    background-color: #02B7DD;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .subscribe-form button:hover {
-    background-color: #443A84;
-  }
-  
-  /* Animations and Transitions */
-  
-  .promotion-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .promotion-container:hover {
-    transform: translateY(-5px);
-  }
   footer {
     display: flex;
     flex-wrap: wrap;
