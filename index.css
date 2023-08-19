@@ -724,6 +724,8 @@
   }
   
   .promotion-description {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     color: #555;
     margin-bottom: 30px;
   }
