@@ -703,6 +703,50 @@
   .coupon-button:hover {
     color: #3498db;
   }
+  .promotion-container {
+    background-color: #02B7DD;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+  }
+  .promotion-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .promotion-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .promotion-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .app-image {
+    max-width: 100%;
+    animation: floatAnimation 3s infinite;
+  }
+  @keyframes floatAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  .booking-image {
+    max-width: 100%;
+    animation: bounceAnimation 3s infinite;
+  }
+  @keyframes bounceAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
 
   .coming-soon-container {
     width: calc(80.00% - 20px);
