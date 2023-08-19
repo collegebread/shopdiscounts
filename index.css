@@ -716,7 +716,10 @@
   }
   .promotion-title {
     font-size: 24px;
-    margin-bottom: 20px;
+   margin-bottom: 20px;
+   font-family: 'Helvetica Neue', sans-serif; /* Use your preferred modern font here */
+   font-weight: bold;
+   color: #443A84; /* Adjust the color to match your color palette */
   }
   .promotion-description {
     font-size: 18px;
