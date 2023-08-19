@@ -703,65 +703,7 @@
   .coupon-button:hover {
     color: #3498db;
   }
-  .promotion-container {
-    background-color: #ffffff;
-    color: #f1f1f1;
-    text-align: center;
-    padding: 50px;
-    position: relative;
-  }
-  .promotion-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  .promotion-title {
-   font-size: 18px;
-   margin-bottom: 20px;
-   font-family: 'Montserrat', sans-serif;; /* Use your preferred modern font here */
-   font-weight: lighter;
-   color: #443A84; /* Adjust the color to match your color palette */
-  }
-  .promotion-description {
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;; /* Use your preferred modern font here */
-    margin-bottom: 70px;
-  }
-  .promotion-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.promotion-icon {
-  font-size: 32px;
-  color: #02B7DD;
-  margin: 0 20px;
-}
-  .app-image {
-    max-width: 100%;
-    animation: floatAnimation 3s infinite;
-  }
-  @keyframes floatAnimation {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-  .booking-image {
-    max-width: 100%;
-    animation: bounceAnimation 3s infinite;
-  }
-  @keyframes bounceAnimation {
-    0%, 100% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-  }
+  
 
   .coming-soon-container {
     width: calc(80.00% - 20px);
@@ -821,7 +763,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: #333;
     padding: 45px;
     z-index: 10000;
   }
