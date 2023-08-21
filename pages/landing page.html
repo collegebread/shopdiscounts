@@ -12,7 +12,32 @@
    <!--displays only 5 block items -->
 <body id="wrapper">
   <div class="sidebar sidebar--primary">
-    <!-- Content for the primary sidebar goes here -->
+    <header class="sidebar-header">Show Results For:</header>
+    <div class="sidebar-container">
+      <h4 class="container-title">Stores</h4>
+      <ul class="container-list">
+        <li><label><input type="checkbox"> Store 1</label></li>
+        <li><label><input type="checkbox"> Store 2</label></li>
+        <!-- Add more placeholder links as needed -->
+      </ul>
+    </div>
+    <div class="sidebar-container">
+      <h4 class="container-title">Brands</h4>
+      <ul class="container-list">
+        <li><label><input type="checkbox"> Brand 1</label></li>
+        <li><label><input type="checkbox"> Brand 2</label></li>
+        <!-- Add more placeholder links as needed -->
+      </ul>
+    </div>
+    <div class="sidebar-container">
+      <h4 class="container-title">Price</h4>
+      <div class="price-range">
+        <input type="text" placeholder="Min">
+        <span class="range-dash">-</span>
+        <input type="text" placeholder="Max">
+        <button class="go-button">Go</button>
+      </div>
+    </div>
   </div>
   <section class="grid overflow-y">
      <!-- Above header -->
