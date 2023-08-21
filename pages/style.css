@@ -22,9 +22,9 @@
   }
   
   .sidebar.sidebar.sidebar--primary {
-    width: 100px;
+    width: 90px;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 8px;
   }
   
   .sidebar-header {
