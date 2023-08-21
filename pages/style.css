@@ -437,6 +437,16 @@
   border: 1px solid #ccc;
   border-radius: 3px;
 }
+/* Add this style for the dollar sign */
+.dollar-sign {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+/* Adjust the input font size */
+.price-input {
+  font-size: 14px;
+}
 
 .range-dash {
   margin: 0 10px;
