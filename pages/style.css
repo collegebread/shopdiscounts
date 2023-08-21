@@ -489,6 +489,9 @@
       align-items: center;
      
     }
+    .sort_container{
+      width:100px;
+    }
 
   .card-container {
     display: inline-block;
