@@ -448,6 +448,10 @@
   background-color: #f1f1f1;
   
 }
+.sidebar.sidebar--primary{
+  flex: 1;
+  
+}
   /* Style the table */
   table {
     width: 100%;
