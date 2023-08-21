@@ -219,6 +219,11 @@
   overflow-y: auto;
   border-radius: 5px;
   padding: 10px;
+
+    /* Add transition to make the menu open and close smoothly */
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(10px);
 }
 
 .dropdown_menu.active {
