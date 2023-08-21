@@ -387,40 +387,40 @@
   
 }
 .sidebar.sidebar.sidebar--primary {
-  width: 90px;
+  width: 100px;
   background-color: #ffffff;
   padding: 8px;
 }
 
-.sidebar-header {
+.sidebar_header {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.sidebar-container {
+.sidebar_container {
   margin-bottom: 20px;
 }
 
-.container-title {
+.sidebar_container.container--title {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.container-list {
+.sidebar_container.container--list {
   list-style: none;
   padding: 0;
 }
 
-.container-list label {
+.sidebar_container.container--list label {
   display: block;
   padding: 5px;
   border-radius: 3px;
   cursor: pointer;
 }
 
-.container-list input[type="checkbox"] {
+.siderbar_container.container--list input[type="checkbox"] {
   margin-right: 10px;
 }
 
