@@ -398,17 +398,17 @@
   margin-bottom: 20px;
 }
 
-.sidebar_container {
+.sidebar_col-md {
   margin-bottom: 20px;
 }
 
-.sidebar_container.container--title {
+.sidebar_label.label--title {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.sidebar_container.container--list {
+.sidebar_list.list--styled {
   list-style: none;
   padding: 0;
 }
