@@ -273,7 +273,7 @@
   /* Add the rest of your dropdown mega menu styles here */
 
   /* Animation keyframes */
-  @keyframes fadeIn {
+  @keyframes fadeInUp {
     from {
       opacity: 0;
       transform: translateY(10px);
