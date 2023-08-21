@@ -21,9 +21,9 @@
   
   }
   
-  .sidebar {
+  .sidebar.sidebar.sidebar--primary {
     width: 100px;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 20px;
   }
   
