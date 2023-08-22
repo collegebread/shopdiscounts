@@ -522,8 +522,8 @@
 }
 
 .stack_dropdown {
-  width:auto ; /* Adjust the width as needed */
-  margin-left: 5em; /* Move the dropdown more to the left */
+  width:70% ; /* Adjust the width as needed */
+  margin:0 0 0 2.5em; /* Move the dropdown more to the left */
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
