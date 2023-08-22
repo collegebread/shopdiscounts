@@ -429,6 +429,7 @@
   margin-right: 8px;
   appearance: none;
   border: 1px solid #aaa;
+  border-radius: 14px;
   width: 14px;
   height: 14px;
   transition: border-color 0.3s;
