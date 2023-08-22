@@ -377,7 +377,7 @@
 
 
 
-.wp-block-column{
+.grid.wds-grid--static{
   display: flex;
   flex-direction: row;
   background-color: #f1f1f1;
