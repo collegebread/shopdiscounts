@@ -481,34 +481,39 @@
     }
 
    
-    .card-stack{
+    .stack_container.card-stack{
       flex: 2;
       margin:1em 0 0 2em;
       align-items: center;
      
     }
 /* Modern and minimalist styling for stack container */
-.stack_container {
-  position: relative;
-  left: 100px;
-  display: inline-block;
+.stack_data.card-stack {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+.stack_label {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.stack_sort {
+  display: flex;
+  align-items: center;
 }
 
 .stack_dropdown {
-  position: relative;
-  width: 100%;
-  padding: 10px;
+  padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: white;
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
   appearance: none;
   -webkit-appearance: none;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%23000000' height='16' width='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M12.06 6.38L8 10.44 3.94 6.38a.5.5 0 00-.7.71l4 4a.5.5 0 00.7 0l4-4a.5.5 0 00-.7-.71z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 10px center;
-  background-size: 10px;
   cursor: pointer;
 }
 
@@ -516,15 +521,6 @@
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
-}
-
-.stack_label {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 15px;
-  font-size: 14px;
-  color: #999;
 }
 
 /* Hide option values */
