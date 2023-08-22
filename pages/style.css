@@ -406,20 +406,27 @@
   padding: 0;
 }
 
-.sidebar_container.container--list label {
+.sidebar_col-md label {
   display: block;
   padding: 5px;
   border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
   cursor: pointer;
 }
-.sidebar_list.list--styled{
-  margin: 0 0 0 12px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-}
 
-.siderbar_container.container--list input[type="checkbox"] {
-  margin-right: 10px;
+
+  .sidebar_list input[type="checkbox"] {
+    margin-right: 8px;
+    appearance: none;
+    border: 1px solid #aaa;
+    width: 16px;
+    height: 16px;
+    transition: border-color 0.3s;
+  }
+
+.sidebar_list input[type="checkbox"]:checked {
+  border-color: #333;
 }
 
 .price-range {
