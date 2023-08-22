@@ -503,7 +503,6 @@
     }
 /* Modern and minimalist styling for stack container */
 .stack_data.card-stack {
-  width: 180px;
   display: inline-flex;
   align-items: center;
   margin-left:90px;
@@ -521,7 +520,7 @@
   align-items: center;
 }
 .stack_sort.sort-card-stack{
-  width: 100px;
+  width: 300px;
 }
 
 .stack_dropdown {
