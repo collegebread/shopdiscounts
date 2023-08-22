@@ -492,6 +492,9 @@
     .sort_container{
       width:100px;
     }
+    .form.form_results{
+      width: 90px;
+    }
 
   .card-container {
     display: inline-block;
