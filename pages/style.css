@@ -518,12 +518,13 @@
 .stack_sort {
   display: flex;
   align-items: center;
-  left: 50px;
+ 
 }
 
 .stack_dropdown {
+  left: 2.5em;
   width:250px ; /* Adjust the width as needed */
-  margin:0 0 0 2.5em; /* Move the dropdown more to the left */
+  margin-left:100px; /* Move the dropdown more to the left */
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
