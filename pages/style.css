@@ -425,7 +425,7 @@
 }
 
 
-.sidebar_list input[type="checkbox"] {
+/* .sidebar_list input[type="checkbox"] {
   margin-right: 8px;
   appearance: none;
   border: 1px solid #aaa;
@@ -433,7 +433,7 @@
   width: 14px;
   height: 14px;
   transition: border-color 0.3s;
-}
+} */
 
 
 
