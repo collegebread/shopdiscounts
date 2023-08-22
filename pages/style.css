@@ -519,6 +519,7 @@
 .stack_sort {
   display: flex;
   align-items: center;
+  left: 50px;
 }
 
 .stack_dropdown {
