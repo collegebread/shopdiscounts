@@ -434,9 +434,7 @@
   transition: border-color 0.3s;
 }
 
-.sidebar_list input[type="checkbox"]:checked {
-  border-color: #333;
-}
+
 
 .price-range {
   
