@@ -392,29 +392,22 @@
 }
 
 .sidebar_col-md {
-  padding: 20px;
-  border: 1px solid #ddd;
-  background-color: #f5f5f5;
+  margin-bottom: 20px;
 }
 
-.sidebar_label {
-  font-size: 18px;
+.sidebar_label.label--title {
+  font-size: 16px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.sidebar_list {
+.sidebar_list.list--styled {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
-.sidebar_list li {
-  margin-bottom: 6px;
-}
-
-.sidebar_list label {
-  display: flex;
-  align-items: center;
+.sidebar_col-md label {
+  display: block;
   padding: 5px;
   border-radius: 3px;
   font-family: 'Poppins', sans-serif;
@@ -422,14 +415,15 @@
   cursor: pointer;
 }
 
-.sidebar_list input[type="checkbox"] {
-  margin-right: 8px;
-  appearance: none;
-  border: 1px solid #aaa;
-  width: 14px;
-  height: 14px;
-  transition: border-color 0.3s;
-}
+
+  .sidebar_list input[type="checkbox"] {
+    margin-right: 8px;
+    appearance: none;
+    border: 1px solid #aaa;
+    width: 14px;
+    height: 14px;
+    transition: border-color 0.3s;
+  }
 
 .sidebar_list input[type="checkbox"]:checked {
   border-color: #333;
@@ -502,7 +496,6 @@
     }
 /* Modern and minimalist styling for stack container */
 .stack_data.card-stack {
-  width: 120px;
   display: inline-flex;
   align-items: center;
   margin-left:90px;
