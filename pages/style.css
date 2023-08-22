@@ -491,7 +491,8 @@
     }
 /* Modern and minimalist styling for sort dropdown */
 .sort-dropdown {
-  width: 120px;
+  position: relative;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -504,12 +505,32 @@
   background-repeat: no-repeat;
   background-position: right 10px center;
   background-size: 10px;
+  cursor: pointer;
 }
 
 .sort-dropdown:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.sort-dropdown-label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Hide option values */
+.sort-dropdown option {
+  display: none;
+}
+
+/* Show option values on dropdown open */
+.sort-dropdown:focus option {
+  display: block;
 }
 
   .card-container {
