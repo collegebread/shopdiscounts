@@ -142,12 +142,20 @@
             </div>
        <!-- Add organized interactive coupon cards for the body here -->
        <div class="card-stack">
-        <div class="sort_container">
+        <div class="sidebar_col-md">
+          <h4 class="sidebar_label label--title">Sort By</h4>
+          <select class="sort-dropdown">
+            <option value="default">Default</option>
+            <option value="price-low">Price Low to High</option>
+            <option value="price-high">Price High to Low</option>
+            <option value="newest">Newest Coupons</option>
+          </select>
+        <!-- <div class="sort_container">
           <form class="form form_results " aria-label="form results">
             <input type="button" onclick="alert('Hello World!')" value="Sort" class="form_data">
             <button type="submit" class="form_sort form form_data"><i class="fas fa-chevron-down"></i></button>
           </form>
-        </div>
+        </div> -->
          <h3 class="card-row-title" id="card-row-title-1">Fashion Deals & More</h3>
          <div class="card-row">
            <!-- <button class="scroll-left" tabindex="0" aria-label="Scroll left"><i class="fas fa-arrow-left"></i></button> -->

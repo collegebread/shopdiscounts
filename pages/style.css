@@ -489,13 +489,28 @@
       align-items: center;
      
     }
-    .sort_container{
-      width:100px;
-    }
-    .form.form_results{
-      width: 90px;
-      margin: 0 0 0 20px;
-    }
+/* Modern and minimalist styling for sort dropdown */
+.sort-dropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 16px;
+  color: #333;
+  appearance: none; /* Remove default appearance */
+  -webkit-appearance: none; /* Remove default appearance for Safari */
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%23000000' height='16' width='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M12.06 6.38L8 10.44 3.94 6.38a.5.5 0 00-.7.71l4 4a.5.5 0 00.7 0l4-4a.5.5 0 00-.7-.71z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
+}
+
+.sort-dropdown:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
 
   .card-container {
     display: inline-block;
