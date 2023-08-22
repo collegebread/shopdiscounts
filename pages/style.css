@@ -492,7 +492,7 @@
 /* Modern and minimalist styling for sort dropdown */
 .sort-dropdown {
   position: relative;
-  width: 100%;
+  width: 50%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
