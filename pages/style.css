@@ -503,7 +503,7 @@
      
     }
 /* Modern and minimalist styling for stack container */
-.stack_data.card-stack {
+.stack_data.card-data {
   display: inline-flex;
   align-items: center;
 }
