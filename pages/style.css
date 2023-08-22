@@ -512,6 +512,9 @@
   display: flex;
   align-items: center;
 }
+.stack_sort.sort-card-stack{
+  width: 100px;
+}
 
 .stack_dropdown {
   padding: 8px;
