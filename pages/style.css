@@ -487,18 +487,23 @@
       align-items: center;
      
     }
-/* Modern and minimalist styling for sort dropdown */
-.sort-dropdown {
+/* Modern and minimalist styling for stack container */
+.stack_container {
   position: relative;
-  width: 50%;
+  display: inline-block;
+}
+
+.stack_dropdown {
+  position: relative;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: white;
   font-size: 16px;
   color: #333;
-  appearance: none; /* Remove default appearance */
-  -webkit-appearance: none; /* Remove default appearance for Safari */
+  appearance: none;
+  -webkit-appearance: none;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg fill='%23000000' height='16' width='16' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M12.06 6.38L8 10.44 3.94 6.38a.5.5 0 00-.7.71l4 4a.5.5 0 00.7 0l4-4a.5.5 0 00-.7-.71z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 10px center;
@@ -506,13 +511,13 @@
   cursor: pointer;
 }
 
-.sort-dropdown:focus {
+.stack_dropdown:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
 
-.sort-dropdown-label {
+.stack_label {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -522,12 +527,12 @@
 }
 
 /* Hide option values */
-.sort-dropdown option {
+.stack_dropdown option {
   display: none;
 }
 
 /* Show option values on dropdown open */
-.sort-dropdown:focus option {
+.stack_dropdown:focus option {
   display: block;
 }
 
