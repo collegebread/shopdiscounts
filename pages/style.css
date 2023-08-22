@@ -357,26 +357,23 @@
       transform: translateY(0);
     }
   }
- .ad-banner{
+ .banner.container-fluid{
   display: flex;
   flex-direction: row;
   height: 250px;
- 
-
-   /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127));  */
-   background-color: rgb(112, 99, 255);
-  
-   justify-content: center;
+  /* background: linear-gradient(to right, rgb(68, 189, 157), rgb(20, 198, 127));  */
+  background-color: rgb(112, 99, 255);
+  justify-content: center;
   align-items: center;
   z-index: 0;
  }
- .banner-title{
+ .banner_block.d-flex{
+  margin: auto;
+ }
+ .banner_label.label--title{
   color: skyblue;
  }
- .content-cache00{
- 
-   margin-right: 1em;
- }
+
 
 
 
