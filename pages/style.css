@@ -412,7 +412,7 @@
   border-radius: 3px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  cursor: pointer; /* Make the label clickable with finger cursor */
+  cursor: pointer;
 }
 
 .sidebar_col-md label {
@@ -425,14 +425,14 @@
 }
 
 
-  .sidebar_list input[type="checkbox"] {
-    margin-right: 8px;
-    appearance: none;
-    border: 1px solid #aaa;
-    width: 14px;
-    height: 14px;
-    transition: border-color 0.3s;
-  }
+.sidebar_list input[type="checkbox"] {
+  margin-right: 8px;
+  appearance: none;
+  border: 1px solid #aaa;
+  width: 14px;
+  height: 14px;
+  transition: border-color 0.3s;
+}
 
 .sidebar_list input[type="checkbox"]:checked {
   border-color: #333;
