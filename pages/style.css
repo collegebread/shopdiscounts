@@ -490,6 +490,7 @@
 /* Modern and minimalist styling for stack container */
 .stack_container {
   position: relative;
+  left: 100px;
   display: inline-block;
 }
 
