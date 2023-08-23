@@ -496,14 +496,14 @@
     }
 
    
-    .stack_container.card-stack{
+    .stack.stack_cards{
       flex: 2;
       margin:1em 0 0 2em;
       align-items: center;
      
     }
 /* Modern and minimalist styling for stack container */
-.stack_data.card-stack {
+.stack_container {
   display: inline-flex;
   align-items: center;
 }
@@ -515,11 +515,14 @@
   color: #999;
 }
 
-.stack_sort {
+.stack_card-col.card--selector {
   display: flex;
   align-items: center;
  
 }
+
+
+
 
 .stack_dropdown {
   left: 3.5em;
