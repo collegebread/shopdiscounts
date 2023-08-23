@@ -509,7 +509,7 @@
 }
 
 
-.stack_container h4 {
+.stack_card-col.card--selector h4 {
   margin-right: 10px;
   font-size: 14px;
   color: #999;
