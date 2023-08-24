@@ -504,6 +504,7 @@
     }
 /* Modern and minimalist styling for stack container */
 .stack_container {
+  max-width: fit-content;
   display: inline-flex;
   align-items: center;
 }
