@@ -509,7 +509,7 @@
 }
 
 .stack_card-col.card--selector {
-  position: absolute;
+  position: relative;
   margin-left: 280px;
   display: flex;
   align-items: center;
