@@ -506,6 +506,7 @@
 .stack_container {
   display: inline-flex;
   align-items: center;
+  background-color: black;
 }
 
 .stack_card-col.card--selector {
@@ -513,6 +514,7 @@
   margin-left: 280px;
   display: flex;
   align-items: center;
+  background-color: red;
  
 }
 
