@@ -504,24 +504,24 @@
     }
 /* Modern and minimalist styling for stack container */
 .stack_container {
-  position: relative;
-  max-width: fit-content;
   display: inline-flex;
   align-items: center;
 }
 
-
-.stack_card-col.card--selector h4 {
-  margin-left: 280px;
-  font-size: 14px;
-  color: #999;
-}
-
 .stack_card-col.card--selector {
+  position: absolute;
+  margin-left: 280px;
   display: flex;
   align-items: center;
  
 }
+
+.stack_card-col.card--selector h4 {
+ 
+  font-size: 14px;
+  color: #999;
+}
+
 
 
 
