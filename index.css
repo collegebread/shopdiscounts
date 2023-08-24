@@ -608,7 +608,6 @@
   .coupon-row-title{
     font-size: 1.5em; /* Set the font size to 1.5 times the default size */
     font-weight: bold; /* Make the text bold */
-    text-transform: uppercase; /* Convert the text to uppercase */
     color: #333; /* Set the text color to a dark grey */
     margin: 0em 0 1em 4.5em; /* Add a bottom margin of 1em */
 
