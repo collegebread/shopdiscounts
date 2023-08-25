@@ -513,7 +513,8 @@
 
 
 .stack_results h4 {
-  margin-left:244px;
+  white-space: nowrap;
+  margin-left:24px;
   font-size: 14px;
   color: #999;
 }
