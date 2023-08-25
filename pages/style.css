@@ -504,7 +504,7 @@
     }
 /* Modern and minimalist styling for stack container */
 .stack_results {
-  position: absolute;
+  position: relative;
   margin-left: 180px;
   display: inline-flex;
   align-items: center;
