@@ -498,13 +498,11 @@
    
     .stack_container.col-lg{
       flex: 2;
-      margin:auto;
       align-items: center;
      
     }
 /* Modern and minimalist styling for stack container */
 .stack_results {
-  position: relative;
   margin-left: 180px;
   display: inline-flex;
   align-items: center;
