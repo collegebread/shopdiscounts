@@ -505,7 +505,7 @@
     }
 /* Modern and minimalist styling for stack container */
 .stack_results {
-  margin-left: 180px;
+  margin:10px 0 0 180px;
   display: inline-flex;
   align-items: center;
   background-color: black;
