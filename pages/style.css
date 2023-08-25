@@ -505,7 +505,7 @@
 /* Modern and minimalist styling for stack container */
 .stack_results {
   position: relative;
-  margin-left: 8em;
+  margin-left: 90px;
   display: inline-flex;
   align-items: center;
   background-color: black;
