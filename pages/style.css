@@ -497,8 +497,9 @@
 
    
     .stack_container.col-lg{
-      width: 100%;
+      position: relative;
       flex: 2;
+      margin:auto;
       align-items: center;
      
     }
