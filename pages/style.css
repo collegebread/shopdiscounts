@@ -515,14 +515,14 @@
 
 .stack_results label {
   white-space: nowrap;
-  margin-left:300px;
+  margin-left:380px;
   font-size: 14px;
   color: #999;
 }
 
 .stack_dropdown.dropdown--styled {
   width:200px ; /* Adjust the width as needed */
-  margin-left:380px; /* Move the dropdown more to the left */
+  margin-left:80px; /* Move the dropdown more to the left */
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
