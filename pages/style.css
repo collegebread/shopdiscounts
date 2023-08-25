@@ -512,7 +512,7 @@
 
 
 .stack_results h4 {
- 
+  margin: 0 0 0 33px;
   font-size: 14px;
   color: #999;
 }
@@ -520,7 +520,7 @@
 .stack_dropdown.dropdown--values {
   left: .5em;
   width:190px ; /* Adjust the width as needed */
-  margin-left:80px; /* Move the dropdown more to the left */
+  margin:auto; /* Move the dropdown more to the left */
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
