@@ -519,7 +519,7 @@
 }
 
 .stack_dropdown.dropdown--values {
-  left: .5em;
+  left: 1.5em;
   width:190px ; /* Adjust the width as needed */
   margin:auto; /* Move the dropdown more to the left */
   padding: 8px;
