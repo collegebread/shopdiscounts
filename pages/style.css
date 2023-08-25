@@ -496,37 +496,25 @@
     }
 
    
-    .stack.stack_cards{
+    .stack_container.col-lg{
       flex: 2;
       margin:1em 0 0 2em;
       align-items: center;
      
     }
 /* Modern and minimalist styling for stack container */
-.stack_container {
+.stack_results {
   display: inline-flex;
   align-items: center;
   background-color: black;
 }
 
-.stack_card-col-sm {
-  position: relative;
-  margin-left: 280px;
-  display: flex;
-  align-items: center;
-  background-color: red;
- 
-}
 
-.stack_card-col-sm h4 {
+.stack_results h4 {
  
   font-size: 14px;
   color: #999;
 }
-
-
-
-
 
 .stack_dropdown.dropdown--values {
   left: .5em;
