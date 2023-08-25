@@ -390,9 +390,18 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
+/* Add transitions for smoother appearance */
 
 .sidebar_col-md {
   margin-bottom: 20px;
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  opacity: 0;
+  max-height: 0;
+}
+
+.sidebar_col-md.active {
+  opacity: 1;
+  max-height: 500px; /* Adjust this value according to your content */
 }
 
 .sidebar_label.label-header {
