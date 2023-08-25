@@ -528,7 +528,7 @@
 
 
 
-.stack_dropdown {
+.stack_dropdown.dropdown--values {
   left: .5em;
   width:250px ; /* Adjust the width as needed */
   margin-left:300px; /* Move the dropdown more to the left */
