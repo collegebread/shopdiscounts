@@ -461,7 +461,10 @@
   padding: 5px 10px;
   cursor: pointer;
 }
-
+.sidebar_label.label-header {
+  position: relative;
+  cursor: pointer;
+}
 .dropdown-arrow::before {
   content: '\25BC';
   position: absolute;
