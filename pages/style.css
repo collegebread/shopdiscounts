@@ -370,10 +370,10 @@
  .banner_block.d-flex{
   margin: auto;
  }
- .banner_label.label--title{
+ .banner_label.label--static{
   color: skyblue;
  }
-.grid.wds-grid--static{
+.grid.wds-grid--flex{
   display: flex;
   flex-direction: row;
   background-color: #f1f1f1;
@@ -474,7 +474,7 @@
   position: relative;
   cursor: pointer;
 }
-.dropdown-arrow::before {
+.sidebar_toggler.dropdown-arrow::before {
   content: '\25BC';
   position: absolute;
   top: 50%;
@@ -486,7 +486,7 @@
   display: none;
 }
 
-.sidebar_label.label-header.active .dropdown-arrow::before {
+.sidebar_label.label-header.active .sidebar_toggler.dropdown-arrow::before {
   transform: translateY(-50%) rotate(180deg);
 }
 
