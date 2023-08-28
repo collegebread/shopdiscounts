@@ -474,7 +474,7 @@
   position: relative;
   cursor: pointer;
 }
-.sidebar_toggler.dropdown-arrow::before {
+/* .sidebar_toggler.dropdown-arrow::before {
   content: '\25BC';
   position: absolute;
   top: 50%;
@@ -493,7 +493,7 @@
 .sidebar_label.label-header.active + ul {
   display: block;
   margin-top: 10px;
-}
+} */
 
   /* Style the table */
   table {
