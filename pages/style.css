@@ -381,7 +381,7 @@
 }
 .sidebar.sidebar.sidebar--primary {
   width: 210px;
-  background-color: #ffffff;
+  background-color: #e1e1e1;
   padding: 8px;
 }
 
@@ -392,61 +392,108 @@
 }
 /* Add transitions for smoother appearance */
 
-/* Modern and minimalist styling for sidebar_col-md */
 .sidebar_col-md {
   margin-bottom: 20px;
-  padding: 15px;
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  opacity: 0;
+  max-height: 0;
 }
 
-.sidebar_label {
-  font-size: 18px;
+/* .sidebar_col-md.active {
+  opacity: 1;
+  max-height: 500px; Adjust this value according to your content */
+/* } */
+
+.sidebar_label.label-header {
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Style for price range inputs */
-.price-range,
-.discount-range {
+.sidebar_list.list--styled {
+  list-style: none;
+  padding: 0;
+}
+.sidebar_list label {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar_col-md label {
+  display: block;
+  padding: 5px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.price-range {
+  
   display: flex;
   align-items: center;
 }
 
-.dollar-sign,
-.percentage-sign {
-  font-size: 18px;
+.price-range input[type="text"] {
+  flex: 1;
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+/* Add this style for the dollar sign */
+.dollar-sign {
+  font-size: 14px;
   margin-right: 5px;
 }
 
-.price-input,
-.discount-input {
-  padding: 10px;
-  width: 60px;
-  text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-right: 5px;
+/* Adjust the input font size */
+.price-input {
+  font-size: 14px;
 }
 
 .range-dash {
   margin: 0 10px;
+  font-weight: bold;
 }
 
 .go-button {
-  background-color: #007bff;
-  color: white;
+  background-color:rgb(0, 83, 216);
+  color: #fff;
   border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
+  border-radius: 3px;
+  padding: 5px 10px;
   cursor: pointer;
-  transition: background-color 0.3s;
+}
+/* .sidebar_label.label-header {
+  position: relative;
+  cursor: pointer;
+} */
+/* .sidebar_toggler.dropdown-arrow::before {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
-.go-button:hover {
-  background-color: #0056b3;
+.sidebar_col-md ul {
+  display: none;
 }
+
+.sidebar_label.label-header.active .sidebar_toggler.dropdown-arrow::before {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.sidebar_label.label-header.active + ul {
+  display: block;
+  margin-top: 10px;
+} */
 
   /* Style the table */
   table {
