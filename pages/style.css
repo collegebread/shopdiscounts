@@ -399,10 +399,10 @@
   max-height: 0;
 }
 
-.sidebar_col-md.active {
+/* .sidebar_col-md.active {
   opacity: 1;
-  max-height: 500px; /* Adjust this value according to your content */
-}
+  max-height: 500px; Adjust this value according to your content */
+/* } */
 
 .sidebar_label.label-header {
   font-size: 16px;
