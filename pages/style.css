@@ -498,19 +498,8 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.sidebar_col-md.active .sidebar_toggler.dropdown-arrow {
+.sidebar_col-md.active .dropdown-arrow {
   transform: rotate(180deg);
-}
-/* Add transitions for smoother appearance */
-.sidebar_col-md {
-  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
-  opacity: 0;
-  max-height: 0;
-}
-
-
-.sidebar_label.label-header.active .dropdown-arrow::before {
-  transform: translateY(-50%) rotate(180deg);
 }
   /* Style the table */
   table {
