@@ -381,7 +381,7 @@
 }
 .sidebar.sidebar.sidebar--primary {
   width: 210px;
-  background-color: #e1e1e1;
+  background-color: #ffffff;
   padding: 8px;
 }
 
@@ -394,9 +394,10 @@
 
 .sidebar_col-md {
   margin-bottom: 20px;
-  transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
-  opacity: 0;
-  max-height: 0;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* .sidebar_col-md.active {
