@@ -508,10 +508,6 @@
   max-height: 0;
 }
 
-.sidebar_col-md.active {
-  opacity: 1;
-  max-height: 500px; /* Adjust this value according to your content */
-}
 
 .sidebar_label.label-header.active .dropdown-arrow::before {
   transform: translateY(-50%) rotate(180deg);
