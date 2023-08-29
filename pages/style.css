@@ -441,7 +441,7 @@
 
 .price-range input[type="text"] {
   flex: 1;
-  width: 50px;
+  width: 40px;
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -466,7 +466,7 @@
   background-color:rgb(0, 83, 216);
   color: #fff;
   border: none;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 5px 10px;
   cursor: pointer;
 }
