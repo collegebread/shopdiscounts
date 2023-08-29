@@ -7,7 +7,7 @@ window.addEventListener("scroll", function() {
     }
   });
   $(document).ready(function () {
-    $('.sidebar_toggler').click(function () {
+    $('.dropdown-arrow sidebar--toggler').click(function () {
       $(this).closest('.sidebar_col-md').toggleClass('active');
     });
   });

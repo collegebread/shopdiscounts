@@ -488,7 +488,7 @@
   cursor: pointer;
 }
 
-.sidebar_toggler {
+.dropdown-arrow.sidebar--toggler {
   width: 0;
   height: 0;
   border-style: solid;
