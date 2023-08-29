@@ -399,10 +399,10 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* .sidebar_col-md.active {
+ .sidebar_col-md.active {
   opacity: 1;
-  max-height: 500px; Adjust this value according to your content */
-/* } */
+  max-height: 500px; /*Adjust this value according to your content */
+ }
 
 .sidebar_label.label-header {
   font-size: 16px;
@@ -470,11 +470,11 @@
   padding: 5px 10px;
   cursor: pointer;
 }
-/* .sidebar_label.label-header {
+ .sidebar_label.label-header {
   position: relative;
   cursor: pointer;
-} */
-/* .sidebar_toggler.dropdown-arrow::before {
+} 
+ .sidebar_toggler.dropdown-arrow::before {
   content: '\25BC';
   position: absolute;
   top: 50%;
@@ -493,7 +493,7 @@
 .sidebar_label.label-header.active + ul {
   display: block;
   margin-top: 10px;
-} */
+} 
 
   /* Style the table */
   table {
