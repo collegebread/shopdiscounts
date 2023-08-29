@@ -6,3 +6,8 @@ window.addEventListener("scroll", function() {
       nav.classList.remove("scrolled");
     }
   });
+  $(document).ready(function () {
+    $('.sidebar_toggler').click(function () {
+      $(this).closest('.sidebar_col-md').toggleClass('active');
+    });
+  });
