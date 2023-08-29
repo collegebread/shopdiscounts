@@ -513,20 +513,9 @@
   max-height: 500px; /* Adjust this value according to your content */
 }
 
-
 .sidebar_label.label-header.active .dropdown-arrow::before {
   transform: translateY(-50%) rotate(180deg);
 }
-.sidebar_label.label-header.active + ul {
-  display: block;
-  margin-top: 10px;
-}
-
-
-
-
-
-
   /* Style the table */
   table {
     width: 100%;
