@@ -481,6 +481,26 @@
   right: 0;
   transform: translateY(-50%);
 }
+.sidebar_label.label-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dropdown-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: #666 transparent transparent transparent;
+  margin-left: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar_col-md.active .dropdown-arrow {
+  transform: rotate(180deg);
+}
 
 
 
