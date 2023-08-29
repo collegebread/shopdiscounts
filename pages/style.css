@@ -488,7 +488,7 @@
   cursor: pointer;
 }
 
-.dropdown-arrow {
+.sidebar_toggler.dropdown-arrow {
   width: 0;
   height: 0;
   border-style: solid;
@@ -498,7 +498,7 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.sidebar_col-md.active .dropdown-arrow {
+.sidebar_col-md.active .sidebar_toggler.dropdown-arrow {
   transform: rotate(180deg);
 }
 
