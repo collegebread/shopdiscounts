@@ -208,7 +208,14 @@
   /* Dropdown mega menu styles */
   .nav_item.dropdown .nav_link {
     position: relative;
+    z-index: 3000;
   }
+  /* Apply animation on hover */
+.nav_link:hover + .dropdown_menu,
+.dropdown_menu:hover {
+  /* Existing styles ... */
+  z-index: 2001; /* Ensure the dropdown is above the banner */
+}
  /* Dropdown menu styles */
 .dropdown_menu {
   display: none;
