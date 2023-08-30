@@ -65,7 +65,7 @@ for (var i = 0; i < listItems.length; i++) {
   count++;
 }
 showAllLink.innerHTML = "Show All (" + count + ")";
-window.addEventListener("scroll", revealCouponStack);
+// window.addEventListener("scroll", revealCouponStack);
 
 // function revealCouponStack() {
 //   const couponStacks = document.querySelectorAll(".coupon-stack");
