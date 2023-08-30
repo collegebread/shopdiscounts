@@ -57,7 +57,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
-    z-index: 0;
+    z-index: 1000; /* Higher z-index to keep navigation above the banner */
     background-color: #f1f1f1;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
@@ -213,7 +213,7 @@
   left: 0;
   background-color: #fff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  z-index: 2000; /* Higher z-index to keep dropdown above the banner */
   min-width: 200px;
   max-height: 400px;
   overflow-y: auto;
@@ -359,6 +359,7 @@
     }
   }
   .banner.container-fluid{
+    position: relative; /* Ensure the banner doesn't cover the navigation */
     display: flex;
     flex-direction: row;
     height: 250px;
@@ -366,8 +367,9 @@
     background-color: rgb(112, 99, 255);
     justify-content: center;
     align-items: center;
-    z-index: -1;
-   }
+    z-index: -1; /* Lower z-index to keep banner behind navigation */
+}
+   
    .banner_block.d-flex{
     margin: auto;
    }
