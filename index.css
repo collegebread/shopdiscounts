@@ -96,6 +96,7 @@
   }
   
   .nav_block.col-md--4 {
+    position: relative;
     left: 50px;
     margin: 0 0 0 54px;
     display: flex;
@@ -105,7 +106,6 @@
   }
   
   .nav_category {
-    position: relative;
     display: flex;
     align-items: center;
     margin: 8px 0 0 24px;
