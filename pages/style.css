@@ -58,7 +58,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
-    z-index: 5000;
+    z-index: 0;
     background-color: #f1f1f1;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
