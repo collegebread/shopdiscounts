@@ -51,7 +51,7 @@
   }
 
   .nav.nav--navbar {
-    position: static;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -103,6 +103,7 @@
   }
   
   .nav_category {
+    position: relative;
     display: flex;
     align-items: center;
     margin: 8px 0 0 24px;
@@ -208,12 +209,12 @@
  /* Dropdown menu styles */
 .dropdown_menu {
   display: none;
-  position: relative;
+  position: absolute;
   top: 100%;
   left: 0;
   background-color: #fff;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1001; /* Higher z-index to keep dropdown above the banner */
+  z-index: 2000; /* Higher z-index to keep dropdown above the banner */
   min-width: 200px;
   max-height: 400px;
   overflow-y: auto;
@@ -367,7 +368,7 @@
     background-color: rgb(112, 99, 255);
     justify-content: center;
     align-items: center;
-    z-index: 0; 
+    z-index: -1; /* Lower z-index to keep banner behind navigation */
 }
    
    .banner_block.d-flex{
