@@ -22,7 +22,6 @@
   }
   .grid.overflow-y {
   overflow: hidden;
-
   }
   
   .above_header{
@@ -58,7 +57,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
-    z-index: 1001; /* Higher z-index to keep navigation above the banner */
+    z-index: 1000; /* Higher z-index to keep navigation above the banner */
     background-color: #f1f1f1;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
@@ -96,7 +95,6 @@
   }
   
   .nav_block.col-md--4 {
-    position: relative;
     left: 50px;
     margin: 0 0 0 54px;
     display: flex;
@@ -106,9 +104,11 @@
   }
   
   .nav_category {
+    position: relative;
     display: flex;
     align-items: center;
     margin: 8px 0 0 24px;
+    z-index: 1001;
  
  
   }
@@ -207,18 +207,12 @@
   }
   /* Dropdown mega menu styles */
   .nav_item.dropdown .nav_link {
-    position: absolute;
-    z-index: 3000;
+    position: relative;
   }
-  /* Apply animation on hover */
-.nav_link:hover + .dropdown_menu,
-.dropdown_menu:hover {
-  /* Existing styles ... */
-  z-index: 2001; /* Ensure the dropdown is above the banner */
-}
  /* Dropdown menu styles */
 .dropdown_menu {
   display: none;
+  position: absolute;
   top: 100%;
   left: 0;
   background-color: #fff;
@@ -382,6 +376,7 @@
    
    .banner_block.d-flex{
     margin: auto;
+    z-index: -1;
    }
    .banner_label.label--title{
     color: skyblue;
