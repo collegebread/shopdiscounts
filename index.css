@@ -891,85 +891,29 @@
   }
 
 
-  @media only screen and (max-width: 768px) {
-    /* Adjustments for Tablets and Mobile Devices */
-  
-    /* Header */
-    .above_header {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    /* Navigation */
-    .nav_container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 0;
-    }
-    .nav_category {
-      display: none;
-      flex-direction: column;
-      align-items: flex-start;
-      width: 100%;
-      position: absolute;
-      top: 4rem;
-      left: 0;
-      background-color: #333;
-    }
-  
-    .nav_items.active .nav_category {
-      display: block;
-    }
-  
-    .form, .nav_icons {
-      display: block;
-      margin: 1rem 0;
-    }
-  
-  
-    .nav_block {
-      margin: 0;
-    }
-  
-    /* Language Dropdown */
-    .language_dropdown {
-      margin: 12px 0;
-    }
-  
-    /* Promotion Container */
-    .promotion-container {
-      flex-direction: column;
-      padding: 20px;
-    }
-  
-    /* Promo Icons */
-    .promo-icons {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
-  
-    .promo-card {
-      margin: 10px 0;
-    }
-  
-    /* Coupon Stack */
-    .coupon-stack {
-      padding: 20px;
-    }
-  
-    .coupon-row-title {
-      margin: 0;
-    }
-  
-    /* Coming Soon Container */
-    .coming-soon-container {
-      margin: 10px 0;
-    }
-  
-    /* Footer */
-    footer {
-      padding: 20px;
-    }
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .nav_block.col-md--4,
+  .nav_block.col-sm--3 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav_block.col-md--4,
+  .nav_block.col-sm--3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .nav_block.col-md--4,
+  .nav_block.col-sm--3 {
+    flex: 0 0 auto;
+    max-width: none;
+  }
+}
