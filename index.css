@@ -618,9 +618,9 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 2em;
-    opacity: 0;
+    /* opacity: 0;
     transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease; */
   }
 
   .coupon-stack:hover .coupon-row {
@@ -636,13 +636,13 @@
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    /* overflow: hidden;
+    transition: transform 0.3s ease-in-out; */
   }
   
-  .coupon-container:hover {
+  /* .coupon-container:hover {
     transform: translateY(-10px);
-  }
+  } */
   
   .coupon-image {
     float: left;
