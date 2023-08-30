@@ -376,6 +376,7 @@
    
    .banner_block.d-flex{
     margin: auto;
+    z-index: -1;
    }
    .banner_label.label--title{
     color: skyblue;
