@@ -362,10 +362,7 @@
       transform: translateY(0);
     }
   }
-  .grid.wds-grid--static{
-    position: relative; /* Ensure the banner doesn't cover the navigation */
-    z-index: -1;
-  }
+  
   .banner.container-fluid{
     display: flex;
     flex-direction: row;
@@ -379,7 +376,6 @@
    
    .banner_block.d-flex{
     margin: auto;
-    z-index: -1;
    }
    .banner_label.label--title{
     color: skyblue;
