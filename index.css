@@ -362,8 +362,11 @@
       transform: translateY(0);
     }
   }
-  .banner.container-fluid{
+  .grid.wds-grid--static{
     position: relative; /* Ensure the banner doesn't cover the navigation */
+    z-index: -1;
+  }
+  .banner.container-fluid{
     display: flex;
     flex-direction: row;
     height: 250px;
