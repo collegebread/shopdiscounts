@@ -207,7 +207,7 @@
   }
   /* Dropdown mega menu styles */
   .nav_item.dropdown .nav_link {
-    position: relative;
+    position: absolute;
     z-index: 3000;
   }
   /* Apply animation on hover */
