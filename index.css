@@ -57,7 +57,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
-    z-index: 1000; /* Higher z-index to keep navigation above the banner */
+    z-index: 1001; /* Higher z-index to keep navigation above the banner */
     background-color: #f1f1f1;
     transition: background-color 0.3s, box-shadow 0.3s;
   }
@@ -75,7 +75,7 @@
     max-width: 1200px; /* Adjust as needed */
     margin: 0 auto;
     padding: 0 8px;
-    z-index: 1001;
+    
    
    
   }
