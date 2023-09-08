@@ -210,7 +210,7 @@
  /* Dropdown menu styles */
 .dropdown_menu {
   display: none;
-  /* position: relative; */
+  position: relative;
   top: 100%;
   left: 0;
   background-color: #fff;
