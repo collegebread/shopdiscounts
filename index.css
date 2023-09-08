@@ -208,7 +208,7 @@
     position: relative;
   }
  /* Dropdown menu styles */
-/* .dropdown_menu {
+.dropdown_menu {
   display: none;
   position: relative;
   top: 100%;
@@ -246,7 +246,7 @@
   color: #333;
   text-decoration: none;
   transition: color 0.3s, background-color 0.3s;
-} */
+}
 
 .dropdown_links a:hover {
   color: #484848;
@@ -287,10 +287,10 @@
   }
 
   /* Apply animation on hover */
-  .nav_link:hover {
+  /* .nav_link:hover {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
-  }
+  } */
 
   .language_dropdown {
     position: relative;
