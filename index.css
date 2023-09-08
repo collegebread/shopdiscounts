@@ -222,11 +222,11 @@
   padding: 10px;
 }
 
-/* .dropdown_menu.active {
+.dropdown_menu.active {
   display: block;
   
   
-} */
+}
 
 .dropdown_column {
   margin-right: 15px;
