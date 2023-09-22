@@ -284,10 +284,10 @@
   }
 
   /* Apply animation on hover */
-  /* .nav_link:hover + .dropdown_menu {
+  .nav_link:hover + .dropdown_menu {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
-  } */
+  } 
 
   .language_dropdown {
     position: relative;
