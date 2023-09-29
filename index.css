@@ -61,10 +61,10 @@
     transition: background-color 0.3s, box-shadow 0.3s;
   }
   
-  .nav.scrolled {
+  /* .nav.scrolled {
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+  } */
   
   .nav_container.container--expand {
     display: flex;
